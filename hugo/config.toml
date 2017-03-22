@@ -1,0 +1,48 @@
+baseurl = "https://jmp0xf.com"
+languageCode = "zh-cn"
+title = "NUMB3RS"
+theme = "Hucore"
+copyright = "&copy; JMP0XF 2017"
+disqusShortname = "jmp0xf"
+googleAnalytics = "trackingcode"
+hasCJKLanguage = true
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+
+[params]
+description = ""
+keywords = []
+author = "jmp0xf"
+displayauthor = false
+sharingicons = false
+math = true
+highlight_enabled = false
+highlight_languages = []
+highlight_style = "github"
+highlight_version = "9.10.0"
+
+[[params.social]]
+url = "https://github.com/jmp0xf"
+fa_icon = "fa-github"
+
+# [[params.social]]
+# url = "https://gitlab.com/mgjohansen"
+# fa_icon = "fa-gitlab"
+
+# [[params.social]]
+# url = "https://twitter.com/mgjohansen"
+# fa_icon = "fa-twitter"
+
+# [[params.social]]
+# url = "https://linkedin.com/in/mgjohansen"
+# fa_icon = "fa-linkedin-square"
+
+[[params.social]]
+url = "/index.xml"
+fa_icon = "fa-rss"
+
+# [[params.socialshare]]
+# url = "https://linkedin.com/in/mgjohansen"
+# fa_icon = "fa-linkedin-square"
