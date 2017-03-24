@@ -4,8 +4,13 @@
   <div class="container">
     {{ range sort .Paginator.Pages }}
     <article>
+      {{ if isset .Params "external_link" }}
+      <h1 class="title"><a href="{{ .Params.external_link }}" target="_blank">{{ .Title }}</a>{{ if .Draft }} ::Draft{{ end }}</h1>
+      <h2 class="subtitle is-5">{{ .Date.Format "Jan 2, 2006" }} {{ .Params.author }}</h2>
+      {{ else }}
       <h1 class="title"><a href="{{ .Permalink }}">{{ .Title }}</a>{{ if .Draft }} ::Draft{{ end }}</h1>
-      <h2 class="subtitle is-5">{{ .Date.Format "January 2, 2006" }}</h2>
+      <h2 class="subtitle is-5">{{ .Date.Format "Jan 2, 2006" }}</h2>
+      {{ end }}
       {{ if .Params.tags }}
         {{ partial "tags" .Params.tags }}
       {{ end }}

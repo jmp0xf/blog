@@ -22,6 +22,7 @@ highlight_enabled = false
 highlight_languages = []
 highlight_style = "github"
 highlight_version = "9.10.0"
+external_link = ""
 
 [[params.social]]
 url = "https://github.com/jmp0xf"
