@@ -4,14 +4,18 @@
 <section class="section">
   <div class="container">
     <h1 class="title">{{ .Title }}</h1>
-    <h2 class="subtitle is-5">{{ .Date.Format "January 2, 2006" }} {{ if (ne ($.Param "displayauthor") false) }}by {{ .Params.author | default .Site.Params.author }}{{ end }}</h2>
+    {{ if isset .Params "external_link" }}
+    <h2 class="subtitle is-5">{{ .Date.Format "Jan 2, 2006" }} {{ .Params.author | default .Site.Params.author }}</h2>
+    {{ else }}
+    <h2 class="subtitle is-5">{{ .Date.Format "Jan 2, 2006" }} {{ if (ne ($.Param "displayauthor") false) }}by {{ .Params.author | default .Site.Params.author }}{{ end }}</h2>
+    {{ end }}
     {{ if .Params.tags }}
       {{ partial "tags" . }}
     {{ end }}
     <div class="content">
       {{ .Content }}
     </div>
-    {{ if (ne ($.Param "creativecommons") false) }}
+    {{ if and (ne ($.Param "creativecommons") false) (not (isset .Params "external_link")) }}
     {{ partial "creativecommons.html" . }}
     {{ end }}
     {{ if (ne ($.Param "sharingicons") false) }}
