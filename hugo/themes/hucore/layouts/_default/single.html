@@ -11,6 +11,9 @@
     <div class="content">
       {{ .Content }}
     </div>
+    {{ if (ne ($.Param "creativecommons") false) }}
+    {{ partial "creativecommons.html" . }}
+    {{ end }}
     {{ if (ne ($.Param "sharingicons") false) }}
     {{ partial "sharing.html" . }}
     {{ end }}
