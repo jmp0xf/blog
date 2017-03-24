@@ -4,7 +4,7 @@ title = "NUMB3RS"
 theme = "Hucore"
 copyright = "&copy; JMP0XF 2017"
 disqusShortname = "jmp0xf"
-googleAnalytics = "trackingcode"
+googleAnalytics = "UA-96139490-1"
 hasCJKLanguage = true
 
 [taxonomies]
