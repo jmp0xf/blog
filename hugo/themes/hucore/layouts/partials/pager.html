@@ -8,14 +8,14 @@
             <span class="icon is-small is-marginless">
               <i class="fa fa-angle-left"></i>
             </span>
-            Newer
+            上页
           </a>
           {{ else }}
           <a class="button is-disabled">
             <span class="icon is-small is-marginless">
               <i class="fa fa-angle-left"></i>
             </span>
-            Newer
+            上页
           </a>
           {{ end }}
         </div>
@@ -24,14 +24,14 @@
         <div class="level-item">
           {{ if .Paginator.HasNext }}
           <a class="button" href="{{ .Paginator.Next.URL }}">
-            Older
+            下页
             <span class="icon is-small is-marginless">
               <i class="fa fa-angle-right"></i>
             </span>
           </a>
           {{ else }}
           <a class="button is-disabled">
-            Older
+            下页
             <span class="icon is-small is-marginless">
               <i class="fa fa-angle-right"></i>
             </span>
