@@ -2,7 +2,7 @@
 {{ partial "nav" . }}
 <section class="section">
   <div class="container">
-    {{ range sort .Paginator.Pages }}
+    {{ range sort .Paginator.Pages.Reverse }}
     <article>
       {{ if isset .Params "external_link" }}
       <h1 class="title"><a href="{{ .Params.external_link }}" target="_blank">{{ .Title }}</a>{{ if .Draft }} ::Draft{{ end }}</h1>

@@ -6,7 +6,7 @@
     <h1 class="title">{{ .Title }}</h1>
     <h2 class="subtitle is-5">{{ .Date.Format "January 2, 2006" }} {{ if (ne ($.Param "displayauthor") false) }}by {{ .Params.author | default .Site.Params.author }}{{ end }}</h2>
     {{ if .Params.tags }}
-      {{ partial "tags" .Params.tags }}
+      {{ partial "tags" . }}
     {{ end }}
     <div class="content">
       {{ .Content }}

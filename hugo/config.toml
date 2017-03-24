@@ -9,7 +9,7 @@ hasCJKLanguage = true
 
 [taxonomies]
 tag = "tags"
-category = "categories"
+topic = "topics"
 
 [params]
 description = ""

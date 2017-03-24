@@ -2,6 +2,7 @@
 date = "2013-05-10T21:41:00+08:00"
 title = "[译]如何选择机器学习算法"
 tags = [ "机器学习" ]
+topics = []
 +++
 
 译自[Choosing a Machine Learning Classifier](http://blog.echen.me/2011/04/27/choosing-a-machine-learning-classifier/)
