@@ -18,7 +18,7 @@
         {{ .Summary | plainify | safeHTML }}
         {{ if .Truncated }}
         {{ if isset .Params "external_link" }}
-        ...<a class="button is-link" href="{{ .Params.external_link }}" style="height:28px">
+        ...<a class="button is-link" href="{{ .Params.external_link }}" style="height:28px" target="_blank">
           更多
           <span class="icon is-small">
             <i class="fa fa-angle-double-right"></i>
