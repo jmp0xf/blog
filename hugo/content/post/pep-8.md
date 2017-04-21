@@ -7,7 +7,7 @@ draft = true
 highlight_enabled = true
 highlight_languages = ["python"]
 math = false
-tags = []
+tags = ["python"]
 title = "PEP 8 -- Style Guide for Python Code"
 topics = []
 
