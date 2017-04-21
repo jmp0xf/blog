@@ -1,7 +1,7 @@
 +++
 author = ""
 creativecommons = true
-date = "2017-04-19T22:56:45+08:00"
+date = "2016-01-01T22:56:45+08:00"
 description = ""
 draft = false
 highlight_enabled = true
@@ -608,7 +608,7 @@ if i & (i-1) == 0:        # true iff i is a power of 2
 * 极其短小
 * 简单明了
 
-关于函数的各方面应在特定的小节中进行描述记录，每节应该以一个标题行开始，标题行以冒号结尾。 除标题行外，小节的其他内容应缩进两空格。
+关于函数的各方面应在特定的小节中进行描述记录，每节应该以一个标题行开始，标题行以冒号结尾。 除标题行外，小节的其他内容应缩进两空格。若该函数为装饰器，则文档中应明确说明[^Function_and_Method_Decorators]。
 
 * `Args:`
     
@@ -821,6 +821,8 @@ KT_contra = TypeVar('KT_contra', contravariant=True)
 [^comments]: [Comments - PEP 8](https://www.python.org/dev/peps/pep-0008/#comments)
 
 [^comments-google]: [Comments - Google Python Style Guide](https://google.github.io/styleguide/pyguide.html?showone=Comments#Comments)
+
+[^Function_and_Method_Decorators]: [Function and Method Decorators - Google Python Style Guide](https://google.github.io/styleguide/pyguide.html?showone=Function_and_Method_Decorators#Function_and_Method_Decorators)
 
 [^block-comments]: [Block Comments - PEP 8](https://www.python.org/dev/peps/pep-0008/#block-comments)
 
