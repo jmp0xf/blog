@@ -12,33 +12,6 @@ topics = []
 
 +++
 
-* [模块](#模块)
-* [导入](#导入-imports)
-* [全局变量](#全局变量-global-variables)
-* [列表推导/生成器表达式](#列表推导-生成器表达式-list-comprehensions)
-* [函数和方法](#函数和方法)
-    * [允许使用嵌套/本地/内部函数](#允许使用嵌套-本地-内部函数-nested-local-inner-classes-and-functions)
-    * [Lambda函数](#lambda函数-lambda-functions)
-    * [函数或方法参数默认值](#函数或方法参数默认值-default-argument-values)
-    * [返回语句一致性](#返回语句一致性-programming-recommendations)
-    * [装饰器](#装饰器-function-and-method-decorators)
-* [类](#类)
-    * [允许使用嵌套/本地/内部类](#允许使用嵌套-本地-内部类-nested-local-inner-classes-and-functions)
-    * [属性](#属性-designing-for-inheritance)
-    * [类型比较](#类型比较-programming-recommendations)
-    * [排序](#排序-programming-recommendations)
-* [异常](#异常-programming-recommendations)
-* [布尔判断](#布尔判断)
-* [条件表达式](#条件表达式-conditional-expressions)
-* [文件和sockets](#文件和sockets-files-and-sockets)
-* [字符串](#字符串-strings)
-* [其他](#其他)
-    * [不要编写仅适用于特定Python实现的代码](#不要编写仅适用于特定python实现的代码-programming-recommendations)
-    * [不要依赖内建类型的原子性](#不要依赖内建类型的原子性-threading)
-    * [避免使用威力过大的特性](#避免使用威力过大的特性-power-features)
-
----
-
 ## 模块
 将相关的类和顶级函数放在同一个模块里[^Naming]。
 

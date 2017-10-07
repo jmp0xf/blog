@@ -13,46 +13,6 @@ topics = []
 
 +++
 
-* [一致性](#一致性-a-foolish-consistency-is-the-hobgoblin-of-little-minds)
-* [布局](#布局-code-lay-out)
-    * [语句](#语句-other-recommendations)
-    * [缩进](#缩进-indentation)
-    * [行宽](#行宽-maximum-line-length)
-    * [分号](#分号-semicolons)
-    * [圆括号](#圆括号-parentheses)
-    * [拖尾逗号(trailing comma)](#拖尾逗号-trailing-comma-when-to-use-trailing-commas)
-    * [空行](#空行-blank-lines)
-    * [空格](#空格-whitespace-in-expressions-and-statements)
-    * [Shebang](#shebang-shebang-line)
-    * [编码](#编码-source-file-encoding)
-    * [导入](#导入-imports)
-    * [模块级元数据](#模块级元数据-module-level-dunder-names)
-* [字符串](#字符串-string-quotes)
-* [注释](#注释-comments)
-    * [使用注释块还是行内注释](#使用注释块还是行内注释-comments-google)
-    * [注释块](#注释块-block-comments)
-    * [行内注释](#行内注释-inline-comments)
-    * [TODO注释](#todo注释-todo-comments)
-    * [文档字符串](#文档字符串-documentation-strings)
-        * [函数和方法以及生成器](#函数和方法以及生成器-comments-google)
-        * [类](#类-comments-google)
-* [命名](#命名-naming-conventions)
-    * [覆盖原则](#覆盖原则-overriding-principle)
-    * [应该避免的名称](#应该避免的名称-names-to-avoid)
-    * [惯例](#惯例-descriptive-naming-styles)
-    * [模块名和包名](#模块名和包名-package-and-module-names)
-    * [类名](#类名-class-names)
-    * [Type variable names](#type-variable-names-type-variable-names)
-    * [异常名](#异常名-exception-names)
-    * [全局变量名](#全局变量名-global-variable-names)
-    * [函数名](#函数名-function-names)
-    * [函数和方法的参数](#函数和方法的参数-function-and-method-arguments)
-    * [方法名和实例变量](#方法名和实例变量-method-names-and-instance-variables)
-    * [常量](#常量-constants)
-    * [总结](#总结-naming)
-
----
-
 ## 一致性[^a-foolish-consistency-is-the-hobgoblin-of-little-minds]
 一致性很重要，但盲目追求一致更加愚不可及。
 
