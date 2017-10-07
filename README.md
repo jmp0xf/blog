@@ -1,6 +1,6 @@
 ## Prerequisites
-* [Go](https://golang.org) 1.8
-* [Hugo](https://gohugo.io) 0.20
+* [Go](https://golang.org) 1.9
+* [Hugo](https://gohugo.io) 0.30
 
 ## Running
 ```bash
