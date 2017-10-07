@@ -95,7 +95,7 @@ $=E\left[\left(f(\mathbf{x}_i)-E\left[\hat{f}(\mathbf{x}_i)\right]\right)^2\righ
 
 
 
-下面来自[《The Elements of Statistical Learning》](http://statweb.stanford.edu/~tibs/ElemStatLearn/printings/ESLII_print10.pdf) P38 Figure 2.11 的图则阐释了模型复杂度与偏差、方差、误差之间的关系：
+下面来自[《The Elements of Statistical Learning》](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12.pdf) P38 Figure 2.11 的图则阐释了模型复杂度与偏差、方差、误差之间的关系：
 
 ![《The Elements of Statistical Learning》 Figure 2.11](/img/bias-variance_decomposition.png)
 
