@@ -45,7 +45,7 @@ copyright = "JMP0XF"            # default: author.name ↓        # 默认为下
   since = "2017"            # Site creation time          # 站点建立时间
 
   # site info (option)                                    # 站点信息（可选）
-  logoTitle = "NUMB3RS - JMP0XF"        # default: the title value    # 默认值: 上面设置的title值
+  logoTitle = "JMP0XF"        # default: the title value    # 默认值: 上面设置的title值
   keywords = ["jmp0xf", "python","machine learning"]
   description = "jmp0xf's blog"
 
