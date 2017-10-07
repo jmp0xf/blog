@@ -1,3 +1,0 @@
-# The Web framework for perfectionists with deadlines.
-# https://docs.djangoproject.com/en/1.11/
-django==1.11rc1
