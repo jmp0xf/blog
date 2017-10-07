@@ -1,8 +1,0 @@
-<div class="tags">
-    {{ range .Params.topics }}
-        <a class="button is-link" href="{{ "/topics/" | relURL }}{{ . | urlize }}">{{ . }}</a>
-    {{ end }}
-    {{ range .Params.tags }}
-        <a class="button is-link" href="{{ "/tags/" | relURL }}{{ . | urlize }}">{{ . }}</a>
-    {{ end }}
-</div>
