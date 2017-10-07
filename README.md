@@ -4,5 +4,5 @@
 
 ## Running
 ```bash
-hugo server --theme=hucore --watch
+hugo server --theme=hugo-theme-even --watch
 ```
