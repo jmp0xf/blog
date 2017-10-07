@@ -39,16 +39,17 @@ The game of craps, played with two dice, is one of America's fastest and most po
 
 The rules are these. Only totals for the two dice count. The player throws the dice and wins at once if the total for the first throw is 7 or 11, loses at once if it is 2, 3, or 12. Any other throw is called his "point."(The throws have catchy names: for example, a total of 2 is Snake eyes, of 8, Eighter from Decatur, of 12, Boxcars. When an even point is made by throwing a pair, it is made "the hard way.") If the first throw is a point, the player throws the dice repeatedly until he either wins by throwing his point again or loses by throwing 7. What is the player's chance to win?
 
-> |          | 1    | 2    | 3    | 4    | 5    | 6    |
-> |   ----   | ---- | ---- | ---- | ---- | ---- | ---- |
-> | **1**    | 2    | 3    | 4    | 5    | 6    | 7    |
-> | **2**    | 3    | 4    | 5    | 6    | 7    | 8    |
-> | **3**    | 4    | 5    | 6    | 7    | 8    | 9    |
-> | **4**    | 5    | 6    | 7    | 8    | 9    | 10   |
-> | **5**    | 6    | 7    | 8    | 9    | 10   | 11   |
-> | **6**    | 7    | 8    | 9    | 10   | 11   | 12   |
->
->
+
+   | 1 | 2 | 3 | 4| 5 | 6
+  ---|---|---|---|---|---|---
+**1**| 2 | 3 | 4 | 5 | 6 | 7
+**2**| 3 | 4 | 5 | 6 | 7 | 8
+**3**| 4 | 5 | 6 | 7 | 8 | 9
+**4**| 5 | 6 | 7 | 8 | 9 | 10
+**5**| 6 | 7 | 8 | 9 | 10| 11
+**6**| 7 | 8 | 9 | 10| 11| 12
+
+
 > 技巧在于求"point"获胜概率时, 可以直接根据样本空间进行运算, 而无需进行无穷级数的计算
 >
 > 比如, 若4为"point", 则有3种方式获胜, 6种方式落败, 则获胜概率为`$3/(3+6)=1/3$`
