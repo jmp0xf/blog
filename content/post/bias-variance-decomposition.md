@@ -8,7 +8,7 @@ highlight_languages = []
 math = true
 tags = ["机器学习"]
 title = "偏差-方差分解 Bias-Variance Decomposition"
-
+toc = false
 +++
 
 设希望估计的真实函数为

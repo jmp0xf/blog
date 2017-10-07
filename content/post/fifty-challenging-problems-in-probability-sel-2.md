@@ -11,16 +11,7 @@ title = "五十六道概率题 (Fifty Challenging Problems in Probability) 精�
 
 +++
 
-* [投票箱](#22-投票箱-the-ballot-box) The Ballot Box
-
-* [猜币游戏中的平局](#23-猜币游戏中的平局-ties-in-matching-pennies) Ties in Matching Pennies
-
-* [补充问题](#补充问题)
-
-* [变种问题](#变种问题)
-
-
-##### 22. 投票箱 The Ballot Box
+## 22. 投票箱 The Ballot Box
 
 In an election, two candidates, Albert and Benjamin, have in a ballot box $a$ and $b$ votes respectively, $a \geqslant b$, for example, 3 and 2. If ballots are randomly drawn and tallied, what is the chance that at least once after the first tally the candidates have the same number of tallies?
 
@@ -72,7 +63,7 @@ In an election, two candidates, Albert and Benjamin, have in a ballot box $a$ an
 > * Howard D. Grossman. Fun with lattice-points. Duke Mathematical Journal, 14:305–313, 1950.
 
 
-##### 23. 猜币游戏中的平局 Ties in Matching Pennies
+## 23. 猜币游戏中的平局 Ties in Matching Pennies
 
 Players A and B match pennies $N$ times. They keep a tally of their gains and losses. After the first toss, what is the chance that at no time during the game will they be even?
 
@@ -140,7 +131,7 @@ Players A and B match pennies $N$ times. They keep a tally of their gains and lo
 >
 
 
-##### 补充问题
+## 补充问题
 Suppose A and B are candidates for office and there are $2n$ voters, $n$ voting for A and $n$ for B. In how many ways can the ballots be counted so that B is never ahead of ?
 
 这个问题的答案是卡特兰数(Catalan Number), 解答可参考[TAOCP](http://www-cs-faculty.stanford.edu/~uno/taocp.html) Vol.1的Answers To Excercises Section 2.2.1
@@ -158,7 +149,7 @@ Suppose A and B are candidates for office and there are $2n$ voters, $n$ voting 
 > $\displaystyle{\frac{1}{\binom{a+b}{b}} \left[ \binom{a+b}{b}-\binom{a+b}{b-1} \right] =\frac{a+1-b}{a+1}}$
 
 
-##### 变种问题
+## 变种问题
 
 * 12个高矮不同的人，排成两排，每排必须是从矮到高排列，而且第二排比对应的第一排的人高，问排列方式有多少种？
 

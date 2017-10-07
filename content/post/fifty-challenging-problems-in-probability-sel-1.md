@@ -11,22 +11,7 @@ title = "五十六道概率题 (Fifty Challenging Problems in Probability) 精�
 
 +++
 
-* [不到黄河心不死](#4-不到黄河心不死-trials-until-first-success) Trials until First Success
-
-* [双骰](#9-双骰-craps) Craps
-
-* [集券](#14-集券-collecting-coupons) Collecting Coupons
-
-* [剧院排座](#15-剧院排座-the-theater-row) The Theater Row
-
-* [双生骑士](#17-双生骑士-twin-knights) Twin Knights
-
-* [三角决斗](#20-三角决斗-the-three-cornered-duel) The Three-Cornered Duel
-
-* [是否放回取样？](#21-是否放回取样-should-you-sample-with-or-without-replacement) Should You Sample with or without Replacement?
-
-
-##### 4. 不到黄河心不死 Trials until First Success
+## 4. 不到黄河心不死 Trials until First Success
 
 On the average, how many times must a die be thrown until one gets a 6?
 
@@ -48,7 +33,7 @@ On the average, how many times must a die be thrown until one gets a 6?
 
 
 
-##### 9. 双骰 Craps
+## 9. 双骰 Craps
 
 The game of craps, played with two dice, is one of America's fastest and most popular gambling games. Calculating the odds associated with it is an instructive exercise.
 
@@ -81,7 +66,7 @@ The rules are these. Only totals for the two dice count. The player throws the d
 
 
 
-##### 14. 集券 Collecting Coupons
+## 14. 集券 Collecting Coupons
 
 Coupons in cereal boxes are numbered 1 to 5, and a set of one of each is required for a prize. With one coupon per box, how many boxes on the average are required to make a complete set?
 
@@ -94,7 +79,7 @@ Coupons in cereal boxes are numbered 1 to 5, and a set of one of each is require
 
 
 
-##### 15. 剧院排座 The Theater Row
+## 15. 剧院排座 The Theater Row
 
 Eight eligible bachelors and seven beautiful models happen randomly to have purchased single seats in the same 15-seat row of a theater. On the average, how many pairs of adjacent seats are ticketed for marriageable couples?
 
@@ -119,7 +104,7 @@ Eight eligible bachelors and seven beautiful models happen randomly to have purc
 
 
 
-##### 17. 双生骑士 Twin Knights
+## 17. 双生骑士 Twin Knights
 
 (a) Suppose King Arthur holds a jousting tournament where the jousts are in pairs as in a tennis tournament. See Problem 16 for tournament ladder. The 8 knights in the tournament are evenly matched, and they include the twin knights Balin and Balan.(According to Arthurian legend, they were so evenly matched that on another occasion they slew each other.) What is the chance that the twins meet in a match during the tournament?
 
@@ -144,7 +129,7 @@ Eight eligible bachelors and seven beautiful models happen randomly to have purc
 
 
 
-##### 20. 三角决斗 The Three-Cornered Duel
+## 20. 三角决斗 The Three-Cornered Duel
 
 A, B, and C are to fight a three-cornered pistol duel. All know that A's chance of hitting his target is 0.3, C's is 0.5, and B never misses. They are to fire at their choice of target in succession in the order A, B, C, cyclically (but a hit man loses further turns and is no longer shot at) until only one man is left unhit. What should A's strategy be?
 
@@ -194,7 +179,7 @@ A, B, and C are to fight a three-cornered pistol duel. All know that A's chance 
 
 
 
-##### 21. 是否放回取样？ Should You Sample with or without Replacement?
+## 21. 是否放回取样？ Should You Sample with or without Replacement?
 
 Two urns contain red and black balls, all alike except for color. Urn A has 2 reds and 1 black, and Urn B has 101 reds and 100 blacks. An urn is chosen at random, and you win a prize if you correctly name the urn on the basis of the evidence of two balls drawn from it. After the first ball is drawn and its color reported, you can decide whether or not the ball shall be replaced before the second drawing. How do you order the second drawing, and how do you decide on the urn?
 
