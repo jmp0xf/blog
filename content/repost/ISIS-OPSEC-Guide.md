@@ -1,14 +1,13 @@
 +++
 author = "ISIS"
-creativecommons = false
 date = "2015-09-14T00:00:00+08:00"
 description = ""
 highlight_enabled = false
 highlight_languages = []
-math = false
-tags = ["安全"]
+mathjax = false
+tags = ["匿名", "隐私"]
 title = "ISIS OPSEC Guide"
-topics = []
+categories = ["安全"]
 external_link = "https://www.wired.com/wp-content/uploads/2015/11/ISIS-OPSEC-Guide.pdf"
 +++
 

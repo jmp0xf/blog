@@ -1,12 +1,11 @@
 +++
 author = ""
-topics = []
 date = "2013-05-14T22:40:46+08:00"
 description = ""
 highlight_enabled = false
 highlight_languages = []
-math = true
-tags = ["机器学习"]
+tags = ["偏差方差分解"]
+categories = ["机器学习"]
 title = "偏差-方差分解 Bias-Variance Decomposition"
 toc = false
 +++

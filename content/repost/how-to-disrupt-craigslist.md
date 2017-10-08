@@ -1,14 +1,13 @@
 +++
 author = "Sangeet Paul Choudary"
-creativecommons = false
 date = "2013-05-26T00:00:00+08:00"
 description = ""
 highlight_enabled = false
 highlight_languages = []
-math = false
-tags = ["商业"]
+mathjax = false
+tags = ["craigslist", "平台"]
 title = "How to Disrupt Craigslist"
-topics = []
+categories = ["创业"]
 external_link = "http://platformed.info/how-to-disrupt-craigslist/"
 +++
 

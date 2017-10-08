@@ -1,14 +1,13 @@
 +++
 author = "Jay Kreps"
-creativecommons = false
 date = "2013-12-06T00:00:00+08:00"
 description = ""
 highlight_enabled = false
 highlight_languages = []
-math = false
-tags = ["日志", "分布式"]
+mathjax = false
+tags = ["日志"]
 title = "The Log: What every software engineer should know about real-time data's unifying abstraction"
-topics = []
+categories = ["分布式"]
 external_link = "https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying"
 +++
 

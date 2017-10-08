@@ -1,9 +1,8 @@
 +++
 date = "2013-05-13T09:43:45+08:00"
-math = true
-tags = ["笔试题"]
+tags = ["搜狗", "校招"]
 title = "搜狗2013年校园招聘研发类笔试试题 V.Research类"
-topics = []
+categories = ["试题"]
 toc = false
 +++
 

@@ -1,12 +1,11 @@
 +++
 author = ""
-topics = ["五十六道概率题 (Fifty Challenging Problems in Probability) 精选"]
+categories = ["概率", "试题"]
 date = "2013-05-28T22:24:00+08:00"
 description = ""
 highlight_enabled = false
 highlight_languages = []
-math = true
-tags = ["概率", "笔试题"]
+tags = ["五十六道概率题 (Fifty Challenging Problems in Probability) "]
 title = "五十六道概率题 (Fifty Challenging Problems in Probability) 精选(一)"
 
 +++

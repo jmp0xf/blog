@@ -1,14 +1,13 @@
 +++
 author = "Sangeet Paul Choudary"
-creativecommons = false
 date = "2016-05-04T00:00:00+08:00"
 description = ""
 highlight_enabled = false
 highlight_languages = []
-math = false
-tags = ["商业"]
+mathjax = false
+tags = ["平台"]
 title = "The Platform Stack"
-topics = []
+categories = ["商业"]
 external_link = "https://artplusmarketing.com/the-platform-stack-c83f9c96e6"
 +++
 

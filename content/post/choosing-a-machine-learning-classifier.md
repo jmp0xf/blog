@@ -1,8 +1,8 @@
 +++
 date = "2013-05-10T21:41:00+08:00"
 title = "[译]如何选择机器学习算法"
-tags = [ "机器学习" ]
-topics = []
+tags = [ "选型" ]
+categories = ["机器学习"]
 toc = false
 mathjax = false
 +++

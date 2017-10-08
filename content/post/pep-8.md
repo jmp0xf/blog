@@ -1,15 +1,14 @@
 +++
 author = ""
-creativecommons = true
 date = "2013-08-01T00:00:00+08:00"
 description = ""
 draft = true
 highlight_enabled = true
 highlight_languages = ["python"]
-math = false
-tags = ["python"]
+mathjax = false
+tags = ["风格规范"]
 title = "PEP 8 -- Style Guide for Python Code"
-topics = []
+categories = ["Python"]
 
 +++
 

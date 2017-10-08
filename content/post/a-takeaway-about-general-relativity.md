@@ -1,14 +1,13 @@
 +++
 author = ""
-creativecommons = true
 date = "2010-02-16T02:57:04+08:00"
 description = ""
 highlight_enabled = false
 highlight_languages = []
-math = false
-tags = ["相对论"]
+mathjax = false
+tags = ["相对论", "非欧几何"]
 title = "弯曲空间游动 - 广义相对论快餐"
-topics = []
+categories = ["物理"]
 toc = false
 +++
 

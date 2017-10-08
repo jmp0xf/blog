@@ -1,14 +1,13 @@
 +++
 author = "Jithamithra T"
-creativecommons = true
 date = "2015-03-09T00:00:00+08:00"
 description = ""
 highlight_enabled = false
 highlight_languages = []
 math = false
-tags = ["创业"]
+tags = ["平台", "先有鸡还是先有蛋"]
 title = "How Uber solved its chicken and egg problem (and you can too!)"
-topics = []
+categories = ["创业"]
 external_link = "http://jitha.me/how-uber-solved-its-chicken-and-egg-problem/"
 +++
 

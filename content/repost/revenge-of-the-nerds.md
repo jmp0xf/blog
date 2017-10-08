@@ -1,15 +1,14 @@
 +++
 author = "Paul Graham"
-creativecommons = false
 date = "2002-05-01T00:00:00+08:00"
 description = ""
 highlight_enabled = true
 highlight_languages = ["lisp", "perl", "smalltalk", "javascript", "python", "java", "scheme"]
 highlight_style = "monokai-sublime"
-math = false
-tags = ["函数式编程"]
+mathjax = false
+tags = ["Lisp"]
 title = "Revenge of the Nerds"
-topics = []
+categories = ["函数式编程"]
 external_link = "http://www.paulgraham.com/icad.html"
 +++
 

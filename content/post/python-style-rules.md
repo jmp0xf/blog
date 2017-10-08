@@ -1,15 +1,14 @@
 +++
 author = ""
-creativecommons = true
 date = "2016-01-01T22:56:45+08:00"
 description = ""
 draft = false
 highlight_enabled = true
 highlight_languages = ["python"]
-math = false
-tags = ["python"]
+mathjax = false
+tags = ["风格规范"]
 title = "Python风格规范"
-topics = []
+categories = ["Python"]
 
 +++
 
