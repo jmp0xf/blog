@@ -14,7 +14,7 @@ title = "五十六道概率题 (Fifty Challenging Problems in Probability) 精�
 
 On the average, how many times must a die be thrown until one gets a 6?
 
-> 解一:
+> 解一：
 >
 > $m=p+2qp+3q^2p+\cdots+nq^{n-1}p+\cdots$
 >
@@ -23,7 +23,7 @@ On the average, how many times must a die be thrown until one gets a 6?
 > $m-qm=p+pq+pq^2+\cdots+pq^n+\cdots$$=1$
 >
 >
-> 解二:
+> 解二：
 >
 > $m=p+q(m+1)$
 >
@@ -49,13 +49,13 @@ The rules are these. Only totals for the two dice count. The player throws the d
 **6**| 7 | 8 | 9 | 10| 11| 12
 
 
-> 技巧在于求"point"获胜概率时, 可以直接根据样本空间进行运算, 而无需进行无穷级数的计算
+> 技巧在于求 “point” 获胜概率时，可以直接根据样本空间进行运算，而无需进行无穷级数的计算
 >
-> 比如, 若4为"point", 则有3种方式获胜, 6种方式落败, 则获胜概率为`$3/(3+6)=1/3$`
+> 比如，若 4 为 “point”，则有 3 种方式获胜，6 种方式落败，则获胜概率为 `$3/(3+6)=1/3$`
 >
 > 若用无穷级数
 >
-> 设$P$为掷出"point"的概率, $Q$为掷出7的概率, $R$为需要重掷的概率, 则
+> 设$P$为掷出 “point” 的概率，$Q$ 为掷出7的概率，$R$ 为需要重掷的概率，则
 >
 > $P+PR+PR^2+\cdots$$=P/(1-R)$$=P/(P+Q)$
 >
@@ -70,9 +70,9 @@ The rules are these. Only totals for the two dice count. The player throws the d
 
 Coupons in cereal boxes are numbered 1 to 5, and a set of one of each is required for a prize. With one coupon per box, how many boxes on the average are required to make a complete set?
 
-> 运用[第4题](#trials-until-first-success)的结论
+> 运用[第 4 题](#trials-until-first-success)的结论
 >
-> 开到第二张新优惠券的期望次数为5/4, 开到第三张新优惠券的期望次数为5/3, 依次类推
+> 开到第二张新优惠券的期望次数为 5/4，开到第三张新优惠券的期望次数为 5/3，依次类推
 >
 > -----
 > Answer: <font color="#f5f7fa">11.42</font>
@@ -83,7 +83,7 @@ Coupons in cereal boxes are numbered 1 to 5, and a set of one of each is require
 
 Eight eligible bachelors and seven beautiful models happen randomly to have purchased single seats in the same 15-seat row of a theater. On the average, how many pairs of adjacent seats are ticketed for marriageable couples?
 
-> 无节操的话 14个无误
+> 无节操的话 14 个无误
 >
 > ![贱](/img/mean_face.jpg)
 >
@@ -114,13 +114,13 @@ Eight eligible bachelors and seven beautiful models happen randomly to have purc
 
 > 用归纳法
 >
-> $N=2$时, $P(N=2^1)=1$
+> $N=2$ 时，$P(N=2^1)=1$
 >
-> $N=4$时, `$P(N=2^2)=1/2$`
+> $N=4$ 时，`$P(N=2^2)=1/2$`
 >
-> $N=8$时, `$P(N=2^3)=1/4$`
+> $N=8$ 时，`$P(N=2^3)=1/4$`
 >
-> $N=2^n$时,
+> $N=2^n$ 时，
 >
 > $P(N=2^n)=\dfrac{2^{n-1}-1}{2^n-1}P(N=2^{n-1})$$+\dfrac{2^n-2^{n-1}}{2^n-1}\times 0.5^{2n-2}$
 >
@@ -133,15 +133,15 @@ Eight eligible bachelors and seven beautiful models happen randomly to have purc
 
 A, B, and C are to fight a three-cornered pistol duel. All know that A's chance of hitting his target is 0.3, C's is 0.5, and B never misses. They are to fire at their choice of target in succession in the order A, B, C, cyclically (but a hit man loses further turns and is no longer shot at) until only one man is left unhit. What should A's strategy be?
 
-> 首先, A 不能先射击 C, 因为 C 要是被击中, A 也无处可逃.
+> 首先，A 不能先射击 C，因为 C 要是被击中，A 也无处可逃。
 >
 > 下面分析先射击 B 的情况
 >
-> 0.3的可能是击中
+> 0.3 的可能是击中
 >
 > 　　此时生还概率为 $0.5\times 0.3+0.5^2\times0.7\times0.3$$+0.5^3\times0.7^2\times0.3+\cdots$$=\dfrac{3}{13}$
 >
-> 0.7的可能是未击中, 那么B会先干掉C, 然后A只有一发机会干掉B
+> 0.7 的可能是未击中，那么 B 会先干掉 C，然后 A 只有一发机会干掉B
 >
 > 　　此时生还概率为 $0.3$
 >
@@ -155,27 +155,27 @@ A, B, and C are to fight a three-cornered pistol duel. All know that A's chance 
 > -----
 > 补充思考
 >
-> 但是上面的射击顺序似乎有些不公平, 倘若 C 是神枪手而 B 是半吊子, 情况又如何呢?
+> 但是上面的射击顺序似乎有些不公平，倘若 C 是神枪手而 B 是半吊子，情况又如何呢？
 >
 > 同样 A 不能先射 B
 >
 > 分析先射 C 的情况
 >
-> 0.3的可能击中
+> 0.3 的可能击中
 >
 > 　　此时生还概率为 $0.5\times 0.3+0.5^2\times0.7\times0.3$$+0.5^3\times0.7^2\times0.3+\cdots$$=\dfrac{3}{13}$
 >
-> 0.7的可能未击中, 之后 B 必然选择射击 C, 于是
+> 0.7 的可能未击中，之后 B 必然选择射击 C，于是
 >
-> 　　0.5的可能击中神枪手
+> 　　0.5 的可能击中神枪手
 >
 > 　　　　此时生还概率为 $0.3+0.7\times0.5\times0.3$$+0.7^2\times0.5^2\times0.3+\cdots$$=\dfrac{6}{13}$
 >
-> 　　0.5的可能未击中神枪手, 神枪手还是会先干掉半吊子, A 只有一次机会干掉神枪手
+> 　　0.5 的可能未击中神枪手，神枪手还是会先干掉半吊子，A 只有一次机会干掉神枪手
 >
 > 　　　　此时生还概率为 $0.3$
 >
-> 同样注意到 $\dfrac{3}{13}<0.5\times(\dfrac{6}{13}+0.3)$, 因此 A 的策略不变
+> 同样注意到 $\dfrac{3}{13}<0.5\times(\dfrac{6}{13}+0.3)$，因此 A 的策略不变
 
 
 
@@ -183,7 +183,7 @@ A, B, and C are to fight a three-cornered pistol duel. All know that A's chance 
 
 Two urns contain red and black balls, all alike except for color. Urn A has 2 reds and 1 black, and Urn B has 101 reds and 100 blacks. An urn is chosen at random, and you win a prize if you correctly name the urn on the basis of the evidence of two balls drawn from it. After the first ball is drawn and its color reported, you can decide whether or not the ball shall be replaced before the second drawing. How do you order the second drawing, and how do you decide on the urn?
 
-> 若第一次抽到红球, 之后黑红的抽中率会相等
+> 若第一次抽到红球，之后黑红的抽中率会相等
 >
 > -----
 > Answer: <font color="#f5f7fa">2 reds, black then red->A; otherwise B</font>

@@ -36,16 +36,16 @@ do_one(); do_two(); do_three()
 ```
 
 ### 缩进[^indentation]
-使用4个空格[^tabs-or-spaces]进行缩进
+使用 4 个空格[^tabs-or-spaces]进行缩进
 
 ### 行宽[^maximum-line-length]
-* 每行不超过80个字符
-    * 如果团队达成一致，上限可提高到100个字符
-* 文档字符串和注释每行不超过72个字符
-* 尽量不使用反斜杠`\`连接行[^Line_length]
+* 每行不超过 80 个字符
+    * 如果团队达成一致，上限可提高到 100 个字符
+* 文档字符串和注释每行不超过 72 个字符
+* 尽量不使用反斜杠 `\` 连接行[^Line_length]
 
 * 用括号进行隐式行连接[^indentation]
-    * 垂直对齐换行元素，或者使用4空格的悬挂缩进(第一行无参数)：
+    * 垂直对齐换行元素，或者使用 4 空格的悬挂缩进（第一行无参数）：
 
         正例：
         ```
@@ -78,7 +78,7 @@ do_one(); do_two(); do_three()
             print(var_one)
         ```
 
-    * 行连接时可不使用4空格缩进
+    * 行连接时可不使用 4 空格缩进
     
         可选:
         ```
@@ -88,7 +88,7 @@ do_one(); do_two(); do_three()
           var_three, var_four)
         ```
     
-    * `if`语句换行包括但不限于以下三种风格：
+    * `if` 语句换行包括但不限于以下三种风格：
         ```
         # No extra indentation.
         if (this_is_one_thing and
@@ -164,13 +164,13 @@ do_one(); do_two(); do_three()
     
     * 更多技巧参考 [Splitting tricky lines](https://github.com/Khan/style-guides/blob/master/style/python.md)
 
-* 若无法使用隐式行连接，使用反斜杠`\`显式换行。比如：
+* 若无法使用隐式行连接，使用反斜杠 `\` 显式换行。比如：
     ```
     with open('/path/to/some/file/you/want/to/read') as file_1, \
          open('/path/to/some/file/being/written', 'w') as file_2:
         file_2.write(file_1.read())
     ```
-    可以的话，每行与上行`.`或`=`进行对齐，或进行4空格缩进[^general-layout]：
+    可以的话，每行与上行 `.` 或 `=` 进行对齐，或进行 4 空格缩进[^general-layout]：
 
     ```
     MyModel.query.filter(MyModel.scalar > 120) \
@@ -180,7 +180,7 @@ do_one(); do_two(); do_three()
 
     * 以下情况不换行：
         * 导入语句过长
-        * 注释中URL过长[^Line_length]
+        * 注释中 URL 过长[^Line_length]
     
             正例：
             ```
@@ -225,7 +225,7 @@ if not(x):
 return (foo)
 ```
 
-### 拖尾逗号(trailing comma)[^when-to-use-trailing-commas]
+### 拖尾逗号（trailing comma）[^when-to-use-trailing-commas]
 * 创建单元素元组时必须使用拖尾逗号，同时推荐使用圆括号包裹。
 
     正例：
@@ -257,7 +257,7 @@ return (foo)
 ### 空行[^blank-lines]
 * 顶级函数和类定义之间空两行
 * 方法定义之间空一行
-* `class`行和第一个方法定义之间空一行[^Blank_Lines]
+* `class` 行和第一个方法定义之间空一行[^Blank_Lines]
 
 * 有节制地使用更多空行对相关函数进行分组。
 * 有节制地使用空行对函数中的代码进行逻辑分段。
@@ -274,7 +274,7 @@ return (foo)
     ```
     spam( ham[ 1 ], { eggs: 2 } )
     ```
-* 右括号和拖尾逗号(trailing comma)之间无空格
+* 右括号和拖尾逗号（trailing comma）之间无空格
 
     正例：
     ```
@@ -327,7 +327,7 @@ return (foo)
     
     dct ['key'] = lst [index]
     ```
-* 勿用行间空格垂直对齐多行标记（如`:` `#` `=`等）
+* 勿用行间空格垂直对齐多行标记（如 `:` `#` `=` 等）
 
     正例：
     ```
@@ -351,8 +351,8 @@ return (foo)
      "long_name": 2,
      }
     ```    
-* 避免随意使用拖尾空格(trailing whitespace)，其令人难以察觉，容易造成困惑：比如说反斜杠后加上拖尾空格和换行符后将失去连接下一行的功能。
-* 用于指定关键字参数或默认参数值的`=`两边无空格
+* 避免随意使用拖尾空格（trailing whitespace），其令人难以察觉，容易造成困惑：比如说反斜杠后加上拖尾空格和换行符后将失去连接下一行的功能。
+* 用于指定关键字参数或默认参数值的 `=` 两边无空格
 
     正例：
     ```
@@ -366,7 +366,7 @@ return (foo)
         return magic(r = real, i = imag)
     ``` 
 
-    * 当函数默认值与函数注解(Function annotations)一起使用时，`=`两边有空格。
+    * 当函数默认值与函数注解（Function annotations）一起使用时，`=` 两边有空格。
 
         正例：
         ```
@@ -398,7 +398,7 @@ return (foo)
     hypot2 = x * x + y * y
     c = (a + b) * (a - b)
     ```
-*   函数注解(Function annotations)遵循一般冒号样式规则，同时用于注解返回值的`->`两边有空格。
+*   函数注解（Function annotations）遵循一般冒号样式规则，同时用于注解返回值的 `->` 两边有空格。
 
     正例：
     ```
@@ -411,13 +411,13 @@ return (foo)
     def munge(input:AnyStr): ...
     def munge()->PosInt: ...
     ```    
-* 注释中每行以一个`#`和一个空格开始。
+* 注释中每行以一个 `#` 和一个空格开始。
 * 注释块中每句间隔两个空格。
 * 行内注释与语句至少间隔两个空格。
 
 
 ### Shebang[^Shebang_Line]
-根据 [PEP-394](http://www.python.org/dev/peps/pep-0394/)，程序的main文件应该以 `#!/usr/bin/python2` 或 `#!/usr/bin/python3` 开始。
+根据 [PEP-394](http://www.python.org/dev/peps/pep-0394/)，程序的 main 文件应该以 `#!/usr/bin/python2` 或 `#!/usr/bin/python3` 开始。
 
 ### 编码[^source-file-encoding]
 模块文件的头部包含UTF-8编码声明
@@ -457,9 +457,9 @@ return (foo)
 
 ### 模块级元数据[^module-level-dunder-names]
 
-* 诸如`__all__`、`__author__`、`__version__`等元数据应置于文档字符串之后以及除`from __future__ import`以外的所有导入之前。
+* 诸如 `__all__`、`__author__`、`__version__` 等元数据应置于文档字符串之后以及除 `from __future__ import` 以外的所有导入之前。
 
-* Python要求`from __future__ import`导入必须放置在除文档字符串以外的所有代码之前。
+* Python要求 `from __future__ import` 导入必须放置在除文档字符串以外的所有代码之前。
 
 比如：
 ```
@@ -480,11 +480,11 @@ import sys
 
 ## 字符串[^string-quotes]
 
-* 在同一文件中，保持使用字符串引号的一致性。使用单引号`'`或双引号`"`引用字符串，并在同一文件中沿用。在字符串内可以使用另外一种引号，以避免在字符串中使用`\`。
+* 在同一文件中，保持使用字符串引号的一致性。使用单引号 `'` 或双引号 `"` 引用字符串，并在同一文件中沿用。在字符串内可以使用另外一种引号，以避免在字符串中使用 `\`。
 
-* 文档字符串必须使用三重双引号`"""`([PEP-257](https://www.python.org/dev/peps/pep-0257/))。
+* 文档字符串必须使用三重双引号 `"""`（[PEP-257](https://www.python.org/dev/peps/pep-0257/)）。
 
-* 多行字符串使用三重双引号`"""`而非三重单引号`'''`。当且仅当项目中使用单引号`'`来引用字符串时，才可能会使用三重`'''`为非文档字符串的多行字符串进行引用。不过要注意，通常用隐式行连接更清晰，因为多行字符串与代码其他部分的缩进方式不一致。
+* 多行字符串使用三重双引号 `"""` 而非三重单引号 `'''`。当且仅当项目中使用单引号 `'` 来引用字符串时，才可能会使用三重 `'''` 为非文档字符串的多行字符串进行引用。不过要注意，通常用隐式行连接更清晰，因为多行字符串与代码其他部分的缩进方式不一致。
 
 ## 注释[^comments]
 * 注释应该由完整的句子构成
@@ -492,8 +492,8 @@ import sys
 * 短注释末尾句号可以省略
 * 注释句间间隔两空格
 * 除非极其确信，否则使用英语进行注释
-* 英文写作请参照《[风格的要素](https://book.douban.com/subject/1451400/)》
-* 绝不要描述代码。永远假设阅读代码的人比你更懂Python，他只是不知道你的代码要做什么。
+* 英文写作请参照[《风格的要素》](https://book.douban.com/subject/1451400/)
+* 绝不要描述代码。永远假设阅读代码的人比你更懂 Python，他只是不知道你的代码要做什么。
 
 ### 使用注释块还是行内注释[^comments-google]
 * 对于复杂的操作，应在其操作开始前写上若干行注释
@@ -510,7 +510,7 @@ if i & (i-1) == 0:        # true iff i is a power of 2
 
 ### 注释块[^block-comments]
 * 注释块通常应用于紧随其后的一些（或全部）代码，且缩进层次与这些代码相同。
-* 注释块中每行以`#`和一个空格开始（除非其为注释内缩进文本）。
+* 注释块中每行以 `#` 和一个空格开始（除非其为注释内缩进文本）。
 
 * 注释块通常由一个或多个由完整句子构成的段落组成，每句应以句号结束。
 * 注释块内使用空注释行分割段落
@@ -519,7 +519,7 @@ if i & (i-1) == 0:        # true iff i is a power of 2
 * 行内注释是和语句在同一行的注释
 * 有节制地使用行内注释
 * 行内注释应和语句至少间隔两个空格
-* 行内注释应以`#`和一个空格开始
+* 行内注释应以 `#` 和一个空格开始
 
 * 若语意明确，则行内注释是不必要的，不要这样做：
     ```
@@ -533,19 +533,19 @@ if i & (i-1) == 0:        # true iff i is a power of 2
 
 
 ### TODO注释[^TODO_Comments]
-* TODO注释开头为全大写"TODO"字符串，紧跟着是用括号括起来的你的名字、Email地址或其它标识符。 随后是一个可选的冒号。接着必须有一行注释，解释要做什么。
+* TODO 注释开头为全大写 “TODO” 字符串，紧跟着是用括号括起来的你的名字、Email 地址或其它标识符。 随后是一个可选的冒号。接着必须有一行注释，解释要做什么。
     例如：
 
     ```
     # TODO(kl@gmail.com): Use a "*" here for string repetition.
     # TODO(Zeke) Change this to use relations.
     ```
-* 如果你的TODO是“将来做某事”的形式，那么请确保其包含了一个指定的日期（“2009年11月解决”）或者一个特定的事件（“等到所有的客户端都可以处理XML请求就移除这些代码”）。
+* 如果你的 TODO 是 “将来做某事” 的形式，那么请确保其包含了一个指定的日期（“2009年11月解决”）或者一个特定的事件（“等到所有的客户端都可以处理 XML 请求就移除这些代码”）。
 
 
 ### 文档字符串[^documentation-strings]
 * 遵循 [PEP-257](http://www.python.org/dev/peps/pep-0257/)
-* 为所有公共模块、函数、类和方法编写文档字符串。文档字符串对非公开方法不是必需的，但应该有一个描述该方法作用的注释，此注释应在`def`行后。
+* 为所有公共模块、函数、类和方法编写文档字符串。文档字符串对非公开方法不是必需的，但应该有一个描述该方法作用的注释，此注释应在 `def` 行后。
 
 * 多行文档字符串应这样组织：
     * 首先是一行以句号、问号或惊叹号结尾的概述。 
@@ -558,7 +558,7 @@ if i & (i-1) == 0:        # true iff i is a power of 2
     Optional plotz says to frobnicate the bizbaz first.
     """
     ```
-* 单行文档字符串结尾`"""`可在同一行。
+* 单行文档字符串结尾 `"""` 可在同一行。
 
 #### 函数和方法以及生成器[^comments-google]
 文档字符串是必需的，除非：
@@ -571,11 +571,11 @@ if i & (i-1) == 0:        # true iff i is a power of 2
 
 * `Args:`
     
-    列出每个参数的名字，并在名字后使用一个冒号和一个空格分隔对该参数的描述。如果描述太长超过行宽上限，使用2或4空格悬挂缩进（与文件其他部分保持一致）。描述应该包括所需的类型和含义。如果一个函数接受`*foo`（可变长度参数列表）或者`**bar` (任意关键字参数), 应该详细列出`*foo`和`**bar`
+    列出每个参数的名字，并在名字后使用一个冒号和一个空格分隔对该参数的描述。如果描述太长超过行宽上限，使用2或4空格悬挂缩进（与文件其他部分保持一致）。描述应该包括所需的类型和含义。如果一个函数接受 `*foo`（可变长度参数列表）或者 `**bar` (任意关键字参数), 应该详细列出 `*foo` 和 `**bar`
 
 * `Returns:` 或 `Yields:`（用于生成器)
     
-    描述返回值的类型和语义。若函数返回`None`，此部分可省略。
+    描述返回值的类型和语义。若函数返回 `None`，此部分可省略。
 
 * `Raises:`
     
@@ -640,7 +640,7 @@ class SampleClass(object):
         """Performs operation blah."""
 ```
 
-如果使用注释编写类属性的文档，在`#`符号后添加一个冒号`:`[^comments-pocoo]:
+如果使用注释编写类属性的文档，在 `#` 符号后添加一个冒号 `:`[^comments-pocoo]:
 ```
 class User(object):
     #: the name of the user as unicode string
@@ -658,19 +658,19 @@ class User(object):
 ### 应该避免的名称[^names-to-avoid]
 * 单字符名称
     * 除了计数器和迭代器
-    * 永远不要用单字符"l"、"O"或"I"
-* 带连字符`-`的包/模块名[^Naming]
+    * 永远不要用单字符 “l”、“O” 或 “I”
+* 带连字符 `-` 的包/模块名[^Naming]
 
-* 双下划线开头并结尾的名称（Python保留，例如`__init__`）[^Naming]
+* 双下划线开头并结尾的名称（Python 保留，例如 `__init__`）[^Naming]
 
 ### 惯例[^descriptive-naming-styles]
-* `_single_leading_underscore`：单下划线开头表示模块变量或函数是受保护的（`import * from`时不会包含）。
+* `_single_leading_underscore`：单下划线开头表示模块变量或函数是受保护的（`import * from` 时不会包含）。
 
-* `single_trailing_underscore_`：单下划线结尾用于避免与Python关键词冲突。
+* `single_trailing_underscore_`：单下划线结尾用于避免与 Python 关键词冲突。
 
 * `__double_leading_underscore`：双下划线开头的实例变量或方法表示类内私有， 无法直接访问此方式命名的属性。
 
-* `__double_leading_and_trailing_underscore__`：双下划线开头且双下划线结尾表示存在于用户控制的(user-controlled)命名空间的特殊(magic) 对象或属性。比如`__init__`、`__import__`和 `__file__`等。永远不要创建此命名，仅根据文档进行使用。
+* `__double_leading_and_trailing_underscore__`：双下划线开头且双下划线结尾表示存在于用户控制的（user-controlled）命名空间的特殊（magic）对象或属性。比如 `__init__`、`__import__` 和 `__file__`等。永远不要创建此命名，仅根据文档进行使用。
 
 
 ### 模块名和包名[^package-and-module-names]
@@ -678,7 +678,7 @@ class User(object):
 * 不鼓励包名使用下划线
 
 ### 类名[^class-names]
-类名为首字母大写单词串(CapWords)
+类名为首字母大写单词串（CapWords）
 
 ### Type variable names[^type-variable-names]
 
@@ -692,7 +692,7 @@ KT_contra = TypeVar('KT_contra', contravariant=True)
 
 ### 异常名[^exception-names]
 * 与类命名约定一致
-* 如果异常为Error，使用后缀"Error"
+* 如果异常为 Error，使用后缀 “Error”
 
 ### 全局变量名[^global-variable-names]
 * 与函数命名约定一致
@@ -703,17 +703,17 @@ KT_contra = TypeVar('KT_contra', contravariant=True)
 
 #### 函数和方法的参数[^function-and-method-arguments]
 
-* 类方法：`cls`为第一个参数
+* 类方法：`cls` 为第一个参数
 
-* 实例方法：`self`为第一个参数
+* 实例方法：`self` 为第一个参数
 
-* `property`函数中使用匿名函数时，匿名函数的第一个参数可用`x`替代，例如：`display_name = property(lambda x: x.real_name or x.username)`[^naming-conventions]。
+* `property` 函数中使用匿名函数时，匿名函数的第一个参数可用 `x` 替代，例如：`display_name = property(lambda x: x.real_name or x.username)`[^naming-conventions]。
 
 ### 方法名和实例变量[^method-names-and-instance-variables]
 * 全小写命名，可包含下划线
-* 如果类`Foo`有一个属性名为 `__a`，不能以`Foo.__a`直接访问该属性 (可通过`Foo._Foo__a`访问)。 通常，双前导下划线应该只用来避免与可被继承的类中的属性发生命名冲突。
+* 如果类 `Foo` 有一个属性名为 `__a`，不能以 `Foo.__a` 直接访问该属性 (可通过 `Foo._Foo__a` 访问)。 通常，双前导下划线应该只用来避免与可被继承的类中的属性发生命名冲突。
 
-* 预编译的正则表达式命名方式为`name_re`[^naming-conventions-pocoo]。
+* 预编译的正则表达式命名方式为 `name_re`[^naming-conventions-pocoo]。
 
 ### 常量[^constants]
 全大写命名，可包含下划线

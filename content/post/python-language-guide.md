@@ -49,16 +49,16 @@ categories = ["Python"]
     from foo.bar.YourClass import YourClass
     ```
 
-    如果导致了本地命名冲突，那么这样导入：
+    如果导致了本地命名冲突，则这样导入：
 
     ```
     import MyClass
     import foo.bar.YourClass
     ```
 
-    即使用`MyClass.MyClass`和`foo.bar.YourClass.YourClass`
+    即使用 `MyClass.MyClass` 和 `foo.bar.YourClass.YourClass`
 
-* 避免通配符导入`from <module> import *`
+* 避免通配符导入 `from <module> import *`
 
 ## 全局变量[^Global_variables]
 * 避免使用全局变量
@@ -73,9 +73,9 @@ categories = ["Python"]
 
 * 简单情况下使用，复杂情况下还是使用循环。
 
-* 每个部分应单独置于一行：映射表达式、`for`语句、过滤器表达式。
+* 每个部分应单独置于一行：映射表达式、`for` 语句、过滤器表达式。
 
-* 禁止多重`for`语句或过滤器表达式。
+* 禁止多重 `for` 语句或过滤器表达式。
 
 
 正例：
@@ -120,8 +120,8 @@ return ((x, y, z)
 ### 允许使用嵌套/本地/内部函数[^Nested_Local_Inner_Classes_and_Functions]
 方法和函数内部可再次定义函数。
 
-### Lambda函数[^Lambda_Functions]
-* 适用于单行函数，如果代码超过60至80个字符，最好还是定义成常规（嵌套）函数。
+### Lambda 函数[^Lambda_Functions]
+* 适用于单行函数，如果代码超过 60 至 80个 字符，最好还是定义成常规（嵌套）函数。
 
 * 对于常见操作符，使用 `operator` 模块中的函数而非Lambda函数。比如乘法操作符，使用 `operator.mul` 而非 `lambda x, y: x * y`。
 
@@ -185,7 +185,7 @@ def bar(x):
 * 缺点：嵌套类或局部类的实例不能序列化。
 
 ### 属性[^designing-for-inheritance]
-* 对于简单的公有数据，直接使用属性实现，不要使用繁琐的访问器/更改器()方法。当需要添加更多功能时，用`@property`装饰器来保持接口一致。但是注意：
+* 对于简单的公有数据，直接使用属性实现，不要使用繁琐的访问器/更改器（accessor/mutator）方法。当需要添加更多功能时，用 `@property` 装饰器来保持接口一致。但是注意：
 
     1. 装饰器只适用于新式类。
     2. 避免让属性访问产生副作用，然而缓存是允许的。
@@ -240,10 +240,10 @@ def bar(x):
              return self.side * 4
         ```
 
-* 如果访问内部逻辑更复杂，或访问开销很显著，则应使用类似`get_foo()`和`set_foo()` 这样的方法[^Access_Control]。
+* 如果访问内部逻辑更复杂，或访问开销很显著，则应使用类似 `get_foo()` 和 `set_foo()` 这样的方法[^Access_Control]。
 
 ### 类型比较[^programming-recommendations]
-对象的类型比较应始终使用`isinstance()`而非直接比较类型。
+对象的类型比较应始终使用 `isinstance()` 而非直接比较类型。
 
 正例：
 ```
@@ -255,7 +255,7 @@ if type(obj) is type(1):
 ```
 
 ### 排序[^programming-recommendations]
-When implementing ordering operations with rich comparisons, it is best to implement all six operations ( `__eq__` , `__ne__` , `__lt__` , `__le__` , `__gt__` , `__ge__` ) rather than relying on other code to only exercise a particular comparison.
+When implementing ordering operations with rich comparisons, it is best to implement all six operations ( `__eq__`, `__ne__`, `__lt__`, `__le__`, `__gt__`, `__ge__` ) rather than relying on other code to only exercise a particular comparison.
 
 To minimize the effort involved, the `functools.total_ordering()` decorator provides a tool to generate missing comparison methods.
 
@@ -264,18 +264,18 @@ To minimize the effort involved, the `functools.total_ordering()` decorator prov
 ## 异常[^programming-recommendations]
 * 这样触发异常：`raise MyException("Error message")` 或 `raise MyException`。
 
-* 模块或包应定义自己的特定域的异常基类，此基类应从内建的`Exception`类继承，而不是`BaseException`。模块的异常基类应命名为"Error"[^Exceptions]。
+* 模块或包应定义自己的特定域的异常基类，此基类应从内建的 `Exception` 类继承，而不是 `BaseException`。模块的异常基类应命名为 “Error”[^Exceptions]。
  
     ```
     class Error(Exception):
     pass
     ```
 
-* 尽量减少`try/except`块中的代码量。
+* 尽量减少 `try/except` 块中的代码量。
  
 * 不要使用 `except:` 捕获所有异常，也避免捕获 `Exception` 或 `StandardError`，除非打算重新抛出异常，或者当前已在线程最外层（需要打印错误消息）。
 
-* 当捕获异常到一个变量时，使用`as`而非逗号。
+* 当捕获异常到一个变量时，使用 `as` 而非逗号。
 
     例如：
     ```
@@ -290,11 +290,11 @@ To minimize the effort involved, the `functools.total_ordering()` decorator prov
 
 ## 布尔判断
 
-* 不要用`==`或者`!=`来比较单件(singletons)，比如`None`，应该使用`is`或`is not`[^programming-recommendations]。
+* 不要用 `==` 或者 `!=` 来比较单件（singletons），比如 `None`，应该使用 `is` 或 `is not`[^programming-recommendations]。
 
-    * 小心使用`if x`表示语义为`if x is not None`的情况，比如判断一个默认值为`None`的变量或参数是否被设为其它值，该值在布尔语义下可能是`false`。
+    * 小心使用 `if x` 表示语义为 `if x is not None` 的情况，比如判断一个默认值为 `None` 的变量或参数是否被设为其它值，该值在布尔语义下可能是 `false`。
 
-* 不要用`==`将一个布尔量与`true`/`false`比较[^programming-recommendations]。
+* 不要用 `==` 将一个布尔量与 `true`/`false` 比较[^programming-recommendations]。
 
     正例：
     ```
@@ -309,10 +309,10 @@ To minimize the effort involved, the `functools.total_ordering()` decorator prov
     if greeting is True:
     ``` 
 
-    * 如果需要区分`false`和`None`，可使用 `if not x and x is not None:`。
+    * 如果需要区分 `false` 和 `None`，可使用 `if not x and x is not None:`。
 
 
-* 对于序列（字符串、列表、元组），利用空序列是隐式`false`的表达[^programming-recommendations]。
+* 对于序列（字符串、列表、元组），利用空序列是隐式 `false` 的表达[^programming-recommendations]。
 
     正例：
     ```
@@ -325,7 +325,7 @@ To minimize the effort involved, the `functools.total_ordering()` decorator prov
     if not len(seq):
     ```
 
-* 处理整数时, 使用隐式`false`可能会得不偿失（即不小心将`None`当做0来处理），可将已知为整型（且不是`len()`的返回结果）的值与0比较[^True_False_evaluations]。
+* 处理整数时，使用隐式 `false` 可能会得不偿失（即不小心将 `None` 当做 0 来处理），可将已知为整型（且不是 `len()` 的返回结果）的值与 0 比较[^True_False_evaluations]。
 
     正例：
     ```
@@ -350,25 +350,25 @@ To minimize the effort involved, the `functools.total_ordering()` decorator prov
         self.handle_multiple_of_ten()
     ```
 
-* 使用`foo not in bar`而非`not foo in bar`[^expressions-and-statements]
+* 使用 `foo not in bar` 而非 `not foo in bar`[^expressions-and-statements]
 
-* 使用`foo is not bar`而非`not foo is bar`[^programming-recommendations]
+* 使用 `foo is not bar` 而非 `not foo is bar`[^programming-recommendations]
 
 
 ### 条件表达式[^Conditional_Expressions]
 
-适用于单行情况(one-liners)比如`x = 1 if cond else 2`，其他情形使用完整的`if`语句。
+适用于单行情况（one-liners）比如 `x = 1 if cond else 2`，其他情形使用完整的 `if` 语句。
 
 
-## 文件和sockets[^Files_and_Sockets]
+## 文件和 sockets[^Files_and_Sockets]
 
-* 在文件和sockets（或其他类文件对象）使用完毕时，显式的关闭它。将文件对象的生命周期和文件状态绑定在一起，幻想当文件对象析构时，文件和sockets会自动关闭的想法是不现实的，原因如下：
+* 在文件和 sockets（或其他类文件对象）使用完毕时，显式的关闭它。将文件对象的生命周期和文件状态绑定在一起，幻想当文件对象析构时，文件和 sockets 会自动关闭的想法是不现实的，原因如下：
 
-    * 运行环境并不确保确实执行文件析构。不同Python实现采用不同的内存管理技术，比如延时垃圾回收可能会导致对象生命周期被任意无限制延长。
+    * 运行环境并不确保确实执行文件析构。不同 Python 实现采用不同的内存管理技术，比如延时垃圾回收可能会导致对象生命周期被任意无限制延长。
 
     * 对文件的意外引用会导致其持有时间超出预期（比如对于异常的跟踪，包含有全局变量等）。
 
-* 使用`with`语句管理文件。
+* 使用 `with` 语句管理文件。
     * 无论何时获取或释放资源，上下文管理器应该经由函数或方法进行调用[^programming-recommendations]。
 
         正例：
@@ -382,7 +382,7 @@ To minimize the effort involved, the `functools.total_ordering()` decorator prov
             do_stuff_in_transaction(conn)
         ```
 
-    * 对于不支持`with`的类似文件的对象，使用 `contextlib.closing()`：
+    * 对于不支持 `with` 的类似文件的对象，使用 `contextlib.closing()`：
 
         ```
         import contextlib
@@ -393,7 +393,7 @@ To minimize the effort involved, the `functools.total_ordering()` decorator prov
         ```
 
 ## 字符串[^Strings]
-* 不要使用`+`或`+=`循环累积连接字符串，使用`"".join()`方法。
+* 不要使用 `+` 或 `+=` 循环累积连接字符串，使用 `"".join()` 方法。
 
     正例：
     ```
@@ -411,7 +411,7 @@ To minimize the effort involved, the `functools.total_ordering()` decorator prov
     employee_table += '</table>'
     ```
 
-* 使用`%`操作符或者`"".format()`方法格式化字符串。不过也不能完全一概而论，需要在`+`和格式化方式之间好好权衡。
+* 使用 `%` 操作符或者 `"".format()` 方法格式化字符串。不过也不能完全一概而论，需要在 `+` 和格式化方式之间好好权衡。
 
     正例：
     ```
@@ -433,24 +433,24 @@ To minimize the effort involved, the `functools.total_ordering()` decorator prov
 
 ## 其他
 
-### 不要编写仅适用于特定Python实现的代码[^programming-recommendations]
+### 不要编写仅适用于特定 Python 实现的代码[^programming-recommendations]
 
-比如字符串连接语句`a += b`或`a = a + b`的优化甚至在CPython中的支持也不够好，因此使用`''.join()`是更通用的方式。
+比如字符串连接语句 `a += b` 或 `a = a + b` 的优化甚至在 CPython 中的支持也不够好，因此使用 `''.join()` 是更通用的方式。
 
 ### 不要依赖内建类型的原子性[^Threading]
-优先使用`Queue`模块的 `Queue`类型作为线程间的数据通信方式。另外，使用`threading`模块及其锁原语(locking primitives)。正确使用条件变量从而以`threading.Condition` 取代低级锁。
+优先使用 `Queue` 模块的 `Queue` 类型作为线程间的数据通信方式。另外，使用 `threading` 模块及其锁原语（locking primitives）。正确使用条件变量从而以 `threading.Condition` 取代低级锁。
 
 ### 避免使用威力过大的特性[^Power_Features]
 比如：
 
-* 元类(metaclasses)
-* 字节码访问(access to bytecode)
-* 任意编译(on-the-fly compilation)
-* 动态继承(dynamic inheritance)
-* 对象父类重定义(object reparenting)
-* 导入hack(import hacks)
-* 反射(reflection)
-* 系统内修改(modification of system internals)
+* 元类 (metaclasses)
+* 字节码访问 (access to bytecode)
+* 任意编译 (on-the-fly compilation)
+* 动态继承 (dynamic inheritance)
+* 对象父类重定义 (object reparenting)
+* 导入 hack (import hacks)
+* 反射 (reflection)
+* 系统内修改 (modification of system internals)
 * 等等
 
 

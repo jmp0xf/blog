@@ -1,15 +1,15 @@
 +++
 date = "2013-05-10T21:41:00+08:00"
 title = "[译]如何选择机器学习算法"
-tags = [ "选型" ]
+tags = [ "选型", "朴素贝叶斯 Naive Bayes", "逻辑回归 Logistic Regression", "决策树 Decision Tree", "支持向量机 SVM" ]
 categories = ["机器学习"]
 toc = false
 mathjax = false
 +++
 
-译自[Choosing a Machine Learning Classifier](http://blog.echen.me/2011/04/27/choosing-a-machine-learning-classifier/)
+译自 [Choosing a Machine Learning Classifier](http://blog.echen.me/2011/04/27/choosing-a-machine-learning-classifier/)
 
-如何针对某个分类问题决定使用何种机器学习算法？当然，如果你真心在乎准确率，最好的途径就是测试一大堆各式各样的算法（同时确保在每个算法上也测试不同的参数），最后选择在交叉验证中表现最好的。倘若你只是想针对你的问题寻找一个“足够好”的算法，或者一个起步点，这里给出了一些我觉得这些年用着还不错的常规指南。
+如何针对某个分类问题决定使用何种机器学习算法？当然，如果你真心在乎准确率，最好的途径就是测试一大堆各式各样的算法（同时确保在每个算法上也测试不同的参数），最后选择在交叉验证中表现最好的。倘若你只是想针对你的问题寻找一个 “足够好” 的算法，或者一个起步点，这里给出了一些我觉得这些年用着还不错的常规指南。
 
 > How do you know what machine learning algorithm to choose for your classification problem? Of course, if you really care about accuracy, your best bet is to test out a couple different ones (making sure to try different parameters within each algorithm as well), and select the best one by cross-validation. But if you’re simply looking for a “good enough” algorithm for your problem, or a place to start, here are some general guidelines I’ve found to work well over the years.
 
@@ -17,7 +17,7 @@ mathjax = false
 ### 训练集有多大？
 > How large is your training set?
 
-如果是小训练集，高偏差/低方差的分类器（比如朴素贝叶斯）要比低偏差/高方差的分类器（比如k最近邻）具有优势，因为后者容易过拟合。然而随着训练集的增大，低偏差/高方差的分类器将开始具有优势（它们拥有更低的渐近误差），因为高偏差分类器对于提供准确模型不那么给力。
+如果是小训练集，高偏差/低方差的分类器（比如朴素贝叶斯）要比低偏差/高方差的分类器（比如 k最近邻）具有优势，因为后者容易过拟合。然而随着训练集的增大，低偏差/高方差的分类器将开始具有优势（它们拥有更低的渐近误差），因为高偏差分类器对于提供准确模型不那么给力。
 
 > If your training set is small, high bias/low variance classifiers (e.g., Naive Bayes) have an advantage over low bias/high variance classifiers (e.g., kNN), since the latter will overfit. But low bias/high variance classifiers start to win out as your training set grows (they have lower asymptotic error), since high bias classifiers aren’t powerful enough to provide accurate models.
 
@@ -37,7 +37,7 @@ mathjax = false
 
 > Advantages of Logistic Regression: Lots of ways to regularize your model, and you don’t have to worry as much about your features being correlated, like you do in Naive Bayes. You also have a nice probabilistic interpretation, unlike decision trees or SVMs, and you can easily update your model to take in new data (using an online gradient descent method), again unlike decision trees or SVMs. Use it if you want a probabilistic framework (e.g., to easily adjust classification thresholds, to say when you’re unsure, or to get confidence intervals) or if you expect to receive more training data in the future that you want to be able to quickly incorporate into your model.
 
-**决策树**: 易于解释说明（对于某些人来说 —— 我不确定我是否在这其中）。它可以毫无压力地处理特征间的交互关系并且是非参数化的，因此你不必担心异常值或者数据是否线性可分（举个例子，决策树能轻松处理好类别A在某个特征维度x的末端，类别B在中间，然后类别A又出现在特征维度x前端的情况）。它的一个缺点就是不支持在线学习，于是在新样本到来后，决策树需要全部重建。另一个缺点是容易过拟合，但这也就是诸如随机森林（或提升树）之类的集成方法的切入点。另外，随机森林经常是很多分类问题的赢家（通常比支持向量机好上那么一点，我认为），它快速并且可调，同时你无须担心要像支持向量机那样调一大堆参数，所以最近它貌似相当受欢迎。
+**决策树**: 易于解释说明（对于某些人来说 —— 我不确定我是否在这其中）。它可以毫无压力地处理特征间的交互关系并且是非参数化的，因此你不必担心异常值或者数据是否线性可分（举个例子，决策树能轻松处理好类别 A 在某个特征维度 x 的末端，类别 B 在中间，然后类别 A 又出现在特征维度 x 前端的情况）。它的一个缺点就是不支持在线学习，于是在新样本到来后，决策树需要全部重建。另一个缺点是容易过拟合，但这也就是诸如随机森林（或提升树）之类的集成方法的切入点。另外，随机森林经常是很多分类问题的赢家（通常比支持向量机好上那么一点，我认为），它快速并且可调，同时你无须担心要像支持向量机那样调一大堆参数，所以最近它貌似相当受欢迎。
 
 > Advantages of Decision Trees: Easy to interpret and explain (for some people – I’m not sure I fall into this camp). They easily handle feature interactions and they’re non-parametric, so you don’t have to worry about outliers or whether the data is linearly separable (e.g., decision trees easily take care of cases where you have class A at the low end of some feature x, class B in the mid-range of feature x, and A again at the high end). One disadvantage is that they don’t support online learning, so you have to rebuild your tree when new examples come on. Another disadvantage is that they easily overfit, but that’s where ensemble methods like random forests (or boosted trees) come in. Plus, random forests are often the winner for lots of problems in classification (usually slightly ahead of SVMs, I believe), they’re fast and scalable, and you don’t have to worry about tuning a bunch of parameters like you do with SVMs, so they seem to be quite popular these days.
 
@@ -53,6 +53,6 @@ mathjax = false
 
 > Recall, though, that better data often beats better algorithms, and designing good features goes a long way. And if you have a huge dataset, then whichever classification algorithm you use might not matter so much in terms of classification performance (so choose your algorithm based on speed or ease of use instead).
 
-再重申一次我上面说过的话，倘若你真心在乎准确率，你一定得尝试多种多样的分类器，并且通过交叉验证选择最优。要么就从Netflix Prize（和Middle Earth）取点经，用集成方法把它们合而用之，妥妥的。
+再重申一次我上面说过的话，倘若你真心在乎准确率，你一定得尝试多种多样的分类器，并且通过交叉验证选择最优。要么就从 Netflix Prize（和 Middle Earth ）取点经，用集成方法把它们合而用之，妥妥的。
 
 > And to reiterate what I said above, if you really care about accuracy, you should definitely try a bunch of different classifiers and select the best one by cross-validation. Or, to take a lesson from the Netflix Prize (and Middle Earth), just use an ensemble method to choose them all.
