@@ -1,8 +1,13 @@
 ## Prerequisites
-* [Go](https://golang.org) 1.9
-* [Hugo](https://gohugo.io) 0.30
+* [Go](https://golang.org/dl/) 1.9+
+* [Hugo](https://github.com/gohugoio/hugo#choose-how-to-install) 0.30
 
-## Running
+## Running under development
 ```bash
-hugo server --theme=hugo-theme-even --watch
+make run
+```
+
+## Running under deployment
+```bash
+make run-prod
 ```
