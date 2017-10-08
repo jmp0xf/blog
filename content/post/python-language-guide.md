@@ -2,7 +2,7 @@
 author = ""
 date = "2016-01-02T15:20:26+08:00"
 description = ""
-highlight_enabled = true
+highlight = true
 highlight_languages = ["python"]
 mathjax = false
 tags = ["编码指南"]

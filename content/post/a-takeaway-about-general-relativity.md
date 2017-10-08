@@ -2,7 +2,7 @@
 author = ""
 date = "2010-02-16T02:57:04+08:00"
 description = ""
-highlight_enabled = false
+highlight = false
 highlight_languages = []
 mathjax = false
 tags = ["相对论", "非欧几何"]

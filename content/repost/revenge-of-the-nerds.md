@@ -2,7 +2,7 @@
 author = "Paul Graham"
 date = "2002-05-01T00:00:00+08:00"
 description = ""
-highlight_enabled = true
+highlight = true
 highlight_languages = ["lisp", "perl", "smalltalk", "javascript", "python", "java", "scheme"]
 highlight_style = "monokai-sublime"
 mathjax = false

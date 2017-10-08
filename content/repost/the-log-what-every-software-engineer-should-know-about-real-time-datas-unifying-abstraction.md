@@ -2,7 +2,7 @@
 author = "Jay Kreps"
 date = "2013-12-06T00:00:00+08:00"
 description = ""
-highlight_enabled = false
+highlight = false
 highlight_languages = []
 mathjax = false
 tags = ["日志"]

@@ -2,7 +2,7 @@
 author = "Sangeet Paul Choudary"
 date = "2013-05-26T00:00:00+08:00"
 description = ""
-highlight_enabled = false
+highlight = false
 highlight_languages = []
 mathjax = false
 tags = ["craigslist", "平台"]
