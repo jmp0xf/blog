@@ -8,7 +8,9 @@ mathjax = false
 highlight = false
 +++
 
-<embed type="application/x-shockwave-flash" flashvars="isAutoPlay=true" allowfullscreen="true" wmode="transparent" allownetworking="all" allowscriptaccess="sameDomain" src="http://player.youku.com/player.php/partnerid/XMTI5Mg==/sid/XMzM1ODQ1MjY4/v.swf" width="500" height="384">
+<object data="https://player.youku.com/embed/XMzM1ODQ1MjY4==" width="100%" height="384">
+<embed type="application/x-shockwave-flash" flashvars="isAutoPlay=true" allowfullscreen="true" wmode="transparent" allownetworking="all" allowscriptaccess="sameDomain" src="https://player.youku.com/player.php/sid/XMzM1ODQ1MjY4==/v.swf" width="100%" height="384">
+</object>
 
 翻弹 Je Te Veux
 
