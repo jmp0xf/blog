@@ -24,11 +24,11 @@ toc = false
 
 于是有分速度 $V_{\rho}$（指向圆心）和 $V_c$（与圆相切）保持如下关系：
 
-$$\frac{V_{\rho}}{V_c}=\tan\frac{\pi}{N}$$
+$$\frac{V_{\rho}}{V_c}=\tan{\frac{\pi}{N}}$$
 
 于是有微元关系：
 
-$$\frac{\mathrm{d}r}{r\tan(\mathrm{d}\theta)}=\frac{\mathrm{d}r}{r\mathrm{d}\theta}=-\tan\frac{\pi}{N}$$
+$$\frac{\mathrm{d}r}{r\tan(\mathrm{d}\theta)}=\frac{\mathrm{d}r}{r\mathrm{d}\theta}=-\tan{\frac{\pi}{N}}$$
 
 
 > 添加负号是因为当 θ 增大时，r 却是减小的。
