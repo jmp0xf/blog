@@ -5,8 +5,8 @@ date = "2013-05-28T22:24:00+08:00"
 description = ""
 highlight = false
 highlight_languages = []
-tags = ["五十六道概率题 (Fifty Challenging Problems in Probability) "]
-title = "五十六道概率题 (Fifty Challenging Problems in Probability) 精选(一)"
+tags = ["五十六道概率题（Fifty Challenging Problems in Probability）"]
+title = "五十六道概率题（Fifty Challenging Problems in Probability）精选（一）"
 
 +++
 

@@ -6,7 +6,7 @@ highlight = true
 highlight_languages = ["python"]
 mathjax = false
 tags = ["编码指南"]
-title = "Python编码指南"
+title = "Python 编码指南"
 categories = ["Python"]
 
 +++
