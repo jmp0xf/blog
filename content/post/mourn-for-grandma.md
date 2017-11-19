@@ -6,6 +6,7 @@ categories = ["作文"]
 toc = false
 mathjax = false
 highlight = false
+draft = true
 contentCopyright = '禁止分享-禁止演绎'
 +++
 
