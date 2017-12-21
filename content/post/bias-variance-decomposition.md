@@ -90,7 +90,7 @@ $=E\left[\left(f(\mathbf{x}_i)-E\left[\hat{f}(\mathbf{x}_i)\right]\right)^2\righ
 
 　　　　　　　　**偏差（bias）描述的是算法依靠自身能力进行预测的平均准确程度**
 
-　　　　　　　　**方差（variance）则度量了算法在不同训练集上表现出来的差异程度**
+　　　　　　　　**方差（variance）则度量了算法在不同数据集上表现出来的差异程度**
 
 
 
