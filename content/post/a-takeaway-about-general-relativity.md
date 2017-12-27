@@ -11,7 +11,7 @@ categories = ["物理"]
 toc = false
 +++
 
-　　这是在《环球科学》上看到的，原文名为[《弯曲时空历险记》](http://sa.ylib.com/MagArticle.aspx?Unit=featurearticles&id=1439)([Surprises from General Relativity: "Swimming" in Spacetime](https://www.scientificamerican.com/article/surprises-from-general-relativity/))，由 Eduardo Gueron 撰写，原文讲解得有意思得多，但是我这有动图，以下直接说重点。
+　　这是在《环球科学》上看到的，原文名为[《弯曲时空历险记》](http://sa.ylib.com/MagArticle.aspx?Unit=featurearticles&id=1439)([*Surprises from General Relativity: "Swimming" in Spacetime*](https://www.scientificamerican.com/article/surprises-from-general-relativity/))，由 Eduardo Gueron 撰写，原文讲解得有意思得多，但是我这有动图，以下直接说重点。
 
 　　在牛顿力学中，有动量守恒定律（深层次的根源是空间平移对称性），即系统不受或所受外力为 0 时,系统总动量保持不变。因此在上中学时我们知道，假如一个物体静止悬浮在真空中，不受外力或外力为 0，且不往外抛洒质量时，这物体是断然无法动弹的。
 

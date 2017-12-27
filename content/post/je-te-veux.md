@@ -12,6 +12,6 @@ highlight = false
 <embed type="application/x-shockwave-flash" flashvars="isAutoPlay=true" allowfullscreen="true" wmode="transparent" allownetworking="all" allowscriptaccess="sameDomain" src="https://player.youku.com/player.php/sid/XMzM1ODQ1MjY4==/v.swf" width="100%" height="384">
 </object>
 
-翻弹 Je Te Veux
+翻弹 *Je Te Veux*
 
 Marcel Dadi（1951 - 1996）的一首非常温柔的曲子
