@@ -70,7 +70,7 @@ The rules are these. Only totals for the two dice count. The player throws the d
 
 Coupons in cereal boxes are numbered 1 to 5, and a set of one of each is required for a prize. With one coupon per box, how many boxes on the average are required to make a complete set?
 
-> 运用[第 4 题](#trials-until-first-success)的结论
+> 运用[第 4 题](#4-不到黄河心不死-trials-until-first-success)的结论
 >
 > 开到第二张新优惠券的期望次数为 5/4，开到第三张新优惠券的期望次数为 5/3，依次类推
 >
