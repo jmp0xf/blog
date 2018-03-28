@@ -316,7 +316,7 @@ categories = ["套路"]
 这和计算机安全防御的原则是一样的，只需要保证骗棍对你行骗的成本大于他的收益即可，因此核心思路就两点：
 
 * 提高骗棍的行骗成本
-* 降低骗棍的收益
+* 降低骗棍的期望收益
 
 [^Why We Lie]: [Why We Lie: The Science Behind Our Deceptive Ways](https://www.nationalgeographic.com/magazine/2017/06/lying-hoax-false-fibs-science/)
 [^Confidence trick]: [Confidence trick - Wikipedia](https://en.wikipedia.org/wiki/Confidence_trick)
