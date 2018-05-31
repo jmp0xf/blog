@@ -101,7 +101,7 @@ A.ML=MSE  B.ML>MSE  C.ML<MSE
 >
 > `$P(H)_{MLE}=\arg\max\limits_{\hat{\theta}} \hat{\theta}(1-\hat{\theta})^{99} $`
 >
-> 令 $\dfrac{d }{d \hat{\theta}}(1-\hat{\theta})^{99}=(\hat{\theta}-1)^{98}(1-100\hat{\theta})=0$
+> 令 $\dfrac{d }{d \hat{\theta}}\hat{\theta}(1-\hat{\theta})^{99}=(1-\hat{\theta})^{98}(1-100\hat{\theta})=0$
 >
 > 则 $P(H)_{MLE}=\frac{1}{100}$
 >
