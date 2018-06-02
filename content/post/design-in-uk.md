@@ -4,7 +4,6 @@ title = "英国的设计"
 tags = [ "英国" ]
 categories = ["杂文", "设计"]
 toc = false
-mathjax = false
 highlight = false
 +++
 虽为发达国家，英国的设计还是有很多蛋疼的地方。

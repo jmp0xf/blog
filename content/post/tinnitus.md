@@ -4,7 +4,6 @@ title = "耳鸣"
 tags = [ ]
 categories = ["杂文"]
 toc = false
-mathjax = false
 highlight = false
 +++
 

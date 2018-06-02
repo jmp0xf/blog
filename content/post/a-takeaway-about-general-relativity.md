@@ -4,7 +4,6 @@ date = "2010-02-16T02:57:04+08:00"
 description = ""
 highlight = false
 highlight_languages = []
-mathjax = false
 tags = ["相对论", "非欧几何"]
 title = "弯曲空间游动 - 广义相对论快餐"
 categories = ["物理"]

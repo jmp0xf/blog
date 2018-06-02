@@ -3,7 +3,6 @@ author = ""
 date = "2018-05-31T23:32:08+08:00"
 description = ""
 highlight = false
-mathjax = false
 tags = ["肉"]
 title = "科学吃肉笔记"
 categories = ["烹饪"]

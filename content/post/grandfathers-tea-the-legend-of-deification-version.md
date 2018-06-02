@@ -4,7 +4,6 @@ title = "爷爷泡的茶（封神版）"
 tags = [ "黑历史" ]
 categories = ["作文"]
 toc = false
-mathjax = false
 highlight = false
 +++
 

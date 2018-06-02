@@ -7,7 +7,8 @@ highlight = false
 highlight_languages = []
 tags = ["五十六道概率题（Fifty Challenging Problems in Probability）"]
 title = "五十六道概率题（Fifty Challenging Problems in Probability）精选（二）"
-
+math = true
+markup = "mmark"
 +++
 
 ## 22. 投票箱 The Ballot Box
@@ -94,39 +95,39 @@ Players A and B match pennies $N$ times. They keep a tally of their gains and lo
 > $m\geqslant n$，出现平局的概率为 $\dfrac{2(N-m)}{N}$
 >
 > 于是总的平局概率为
-> `$P(tie)$``$=\displaystyle{\dfrac{1}{2^{N-1}}\left(\sum^{n-1}_{m=0}\dfrac{m}{N}\binom{N}{m}+\sum^{N}_{m=n}\dfrac{N-m}{N}\binom{N}{m}\right)}$`
+> $$P(tie)=\displaystyle{\dfrac{1}{2^{N-1}}\left(\sum^{n-1}_{m=0}\dfrac{m}{N}\binom{N}{m}+\sum^{N}_{m=n}\dfrac{N-m}{N}\binom{N}{m}\right)}$$
 >
 > 又
 >
-> $\displaystyle{\dfrac{m}{N}\binom{N}{m}}$$=\dfrac{m}{N}\times\dfrac{N!}{m!(N-M)!}$$=\dfrac{(N-1)!}{(m-1)!(N-m)!}$$\displaystyle{=\binom{N-1}{m-1}}$
->
-> $\displaystyle{\dfrac{N-m}{N}\binom{N}{m}}$$=\dfrac{N-m}{N}\times\dfrac{N!}{m!(N-M)!}$$=\dfrac{(N-1)!}{m!(N-m-1)!}$$\displaystyle{=\binom{N-1}{m}}$
->
+> $$\begin{aligned}
+&\displaystyle{\dfrac{m}{N}\binom{N}{m}}=\dfrac{m}{N}\times\dfrac{N!}{m!(N-M)!}=\dfrac{(N-1)!}{(m-1)!(N-m)!}\displaystyle{=\binom{N-1}{m-1}} \\
+&\displaystyle{\dfrac{N-m}{N}\binom{N}{m}}=\dfrac{N-m}{N}\times\dfrac{N!}{m!(N-M)!}=\dfrac{(N-1)!}{m!(N-m-1)!}\displaystyle{=\binom{N-1}{m}}
+\end{aligned}$$
 >
 > 那么总的平局概率可写为
 >
-> `$P(tie)$``$=\displaystyle{\dfrac{1}{2^{N-1}}\left(\sum^{n-2}_{m=0}\binom{N-1}{m}+\sum^{N-1}_{m=n}\dfrac{N-m}{N}\binom{N-1}{m}\right)}$`
->
->
+> $$P(tie)=\displaystyle{\dfrac{1}{2^{N-1}}\left(\sum^{n-2}_{m=0}\binom{N-1}{m}+\sum^{N-1}_{m=n}\dfrac{N-m}{N}\binom{N-1}{m}\right)}$$
 >
 > 根据二项式定理有
 >
-> $P(tie)=\displaystyle{\dfrac{1}{2^{N-1}}\left(\sum^{N-1}_{m=0}\binom{N-1}{m}-\binom{N-1}{n-1}\right)}$
->
-> $=\displaystyle{\dfrac{1}{2^{N-1}}\left(2^{N-1}-\binom{N-1}{n}\right)}$
->
-> $=\displaystyle{1-\binom{N-1}{n}/2^{N-1}}$
+> $$\begin{aligned}
+P(tie)&=\displaystyle{\dfrac{1}{2^{N-1}}\left(\sum^{N-1}_{m=0}\binom{N-1}{m}-\binom{N-1}{n-1}\right)} \\
+&=\displaystyle{\dfrac{1}{2^{N-1}}\left(2^{N-1}-\binom{N-1}{n}\right)} \\
+&=\displaystyle{1-\binom{N-1}{n}/2^{N-1}}
+\end{aligned}$$
 >
 > 易得没出现平局的概率为
-> $\displaystyle{\binom{N-1}{n}/2^{N-1}}$$=\dfrac{(N-1)!}{n!(n-1)!}\times\dfrac{1}{2^{N-1}}$$=\dfrac{N\times(N-1)!}{n!(n-1)!\times2n}\times\dfrac{1}{2^{N-1}}$
 >
-> $\displaystyle{=\dfrac{N!}{n!n!}\dfrac{1}{2^N}=\binom{N}{n}/2^N}$
->
->
+> $$\begin{aligned}
+\displaystyle{\binom{N-1}{n}/2^{N-1}}&=\dfrac{(N-1)!}{n!(n-1)!}\times\dfrac{1}{2^{N-1}} \\
+&=\dfrac{N\times(N-1)!}{n!(n-1)!\times2n}\times\dfrac{1}{2^{N-1}} \\
+&=\dfrac{N!}{n!n!}\dfrac{1}{2^N} \\
+&=\binom{N}{n}/2^N 
+\end{aligned}$$
 >
 > 同理易得 $N=2n+1$ 的情况为
 >
-> $\displaystyle{\binom{N-1}{n}/2^{N-1}}$
+> $$\displaystyle{\binom{N-1}{n}/2^{N-1}}$$
 >
 
 

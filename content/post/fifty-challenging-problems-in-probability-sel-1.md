@@ -7,7 +7,8 @@ highlight = false
 highlight_languages = []
 tags = ["五十六道概率题（Fifty Challenging Problems in Probability）"]
 title = "五十六道概率题（Fifty Challenging Problems in Probability）精选（一）"
-
+math = true
+markup = "mmark"
 +++
 
 ## 4. 不到黄河心不死 Trials until First Success
@@ -16,19 +17,19 @@ On the average, how many times must a die be thrown until one gets a 6?
 
 > 解一：
 >
-> $m=p+2qp+3q^2p+\cdots+nq^{n-1}p+\cdots$
->
-> $qm=qp+2q^2p+3q^3p+\cdots+nq^np+\cdots$
->
-> $m-qm=p+pq+pq^2+\cdots+pq^n+\cdots$$=1$
->
+> 
+$$\begin{aligned}
+m&=p+2qp+3q^2p+\cdots+nq^{n-1}p+\cdots \\ 
+qm&=qp+2q^2p+3q^3p+\cdots+nq^np+\cdots \\
+m-qm&=p+pq+pq^2+\cdots+pq^n+\cdots=1 
+\end{aligned}$$
 >
 > 解二：
 >
-> $m=p+q(m+1)$
+> $$m=p+q(m+1)$$
 >
 > ------
-> Answer: <font color="#f5f7fa">6</font>
+> Answer: <font color="white">6</font>
 
 
 
@@ -51,18 +52,18 @@ The rules are these. Only totals for the two dice count. The player throws the d
 
 > 技巧在于求 “point” 获胜概率时，可以直接根据样本空间进行运算，而无需进行无穷级数的计算
 >
-> 比如，若 4 为 “point”，则有 3 种方式获胜，6 种方式落败，则获胜概率为 `$3/(3+6)=1/3$`
+> 比如，若 4 为 “point”，则有 3 种方式获胜，6 种方式落败，则获胜概率为 $$3/(3+6)=1/3$$
 >
 > 若用无穷级数
 >
-> 设$P$为掷出 “point” 的概率，$Q$ 为掷出7的概率，$R$ 为需要重掷的概率，则
+> 设 $P$ 为掷出 “point” 的概率，$Q$ 为掷出 7 的概率，$R$ 为需要重掷的概率，则
 >
-> $P+PR+PR^2+\cdots$$=P/(1-R)$$=P/(P+Q)$
+> $$P+PR+PR^2+\cdots=P/(1-R)$$=P/(P+Q)$$
 >
 > 和样本空间法一样
 >
 > -----
-> Answer: <font color="#f5f7fa">0.49293</font>
+> Answer: <font color="white">0.49293</font>
 
 
 
@@ -75,7 +76,7 @@ Coupons in cereal boxes are numbered 1 to 5, and a set of one of each is require
 > 开到第二张新优惠券的期望次数为 5/4，开到第三张新优惠券的期望次数为 5/3，依次类推
 >
 > -----
-> Answer: <font color="#f5f7fa">11.42</font>
+> Answer: <font color="white">11.42</font>
 
 
 
@@ -89,18 +90,17 @@ Eight eligible bachelors and seven beautiful models happen randomly to have purc
 >
 > 主要是考察期望的线性性质
 >
-> `$E[X+Y]=\sum\limits_{i,j}(x_i+y_j)p_{ij}$`
->
-> `$=\sum\limits_{i}\sum\limits_{j}x_ip_{ij}+\sum\limits_{j}\sum\limits_{i}y_jp_{ij}$`
->
-> `$=\sum\limits_{i}x_ip_i+\sum\limits_{j}y_jp_j$`
->
-> $=E[X]+E[Y]$
+> $$\begin{aligned}
+E[X+Y]&=\sum\limits_{i,j}(x_i+y_j)p_{ij} \\
+&=\sum\limits_{i}\sum\limits_{j}x_ip_{ij}+\sum\limits_{j}\sum\limits_{i}y_jp_{ij} \\
+&=\sum\limits_{i}x_ip_i+\sum\limits_{j}y_jp_j \\
+&=E[X]+E[Y]
+\end{aligned}$$
 >
 > 无视独立关系
 >
 > -----
-> Answer: $\color{#f5f7fa}{7\frac{7}{15}}$
+> Answer: $$\color{white}{7\frac{7}{15}}$$
 
 
 
@@ -116,16 +116,14 @@ Eight eligible bachelors and seven beautiful models happen randomly to have purc
 >
 > $N=2$ 时，$P(N=2^1)=1$
 >
-> $N=4$ 时，`$P(N=2^2)=1/2$`
+> $N=4$ 时，$P(N=2^2)=1/2$
 >
-> $N=8$ 时，`$P(N=2^3)=1/4$`
+> $N=8$ 时，$P(N=2^3)=1/4$
 >
-> $N=2^n$ 时，
->
-> $P(N=2^n)=\dfrac{2^{n-1}-1}{2^n-1}P(N=2^{n-1})$$+\dfrac{2^n-2^{n-1}}{2^n-1}\times 0.5^{2n-2}$
+> $N=2^n$ 时，$$P(N=2^n)=\dfrac{2^{n-1}-1}{2^n-1}P(N=2^{n-1})+\dfrac{2^n-2^{n-1}}{2^n-1}\times 0.5^{2n-2}$$
 >
 > -----
-> Answer: `$\color{#f5f7fa}{P(N=2^n)=1/2^{n-1}}$`
+> Answer: $$\color{white}{P(N=2^n)=1/2^{n-1}}$$
 
 
 
@@ -139,7 +137,7 @@ A, B, and C are to fight a three-cornered pistol duel. All know that A's chance 
 >
 > 0.3 的可能是击中
 >
-> 　　此时生还概率为 $0.5\times 0.3+0.5^2\times0.7\times0.3$$+0.5^3\times0.7^2\times0.3+\cdots$$=\dfrac{3}{13}$
+> 　　此时生还概率为 $$0.5\times 0.3+0.5^2\times0.7\times0.3+0.5^3\times0.7^2\times0.3+\cdots=\dfrac{3}{13}$$
 >
 > 0.7 的可能是未击中，那么 B 会先干掉 C，然后 A 只有一发机会干掉B
 >
@@ -150,7 +148,7 @@ A, B, and C are to fight a three-cornered pistol duel. All know that A's chance 
 > 所以...
 >
 > -----
-> Answer: <font color="#f5f7fa">先放空枪, 等着与B拼命</font>
+> Answer: <font color="white">先放空枪, 等着与B拼命</font>
 >
 > -----
 > 补充思考
@@ -163,13 +161,13 @@ A, B, and C are to fight a three-cornered pistol duel. All know that A's chance 
 >
 > 0.3 的可能击中
 >
-> 　　此时生还概率为 $0.5\times 0.3+0.5^2\times0.7\times0.3$$+0.5^3\times0.7^2\times0.3+\cdots$$=\dfrac{3}{13}$
+> 　　此时生还概率为 $$0.5\times 0.3+0.5^2\times0.7\times0.3+0.5^3\times0.7^2\times0.3+\cdots=\dfrac{3}{13}$$
 >
 > 0.7 的可能未击中，之后 B 必然选择射击 C，于是
 >
 > 　　0.5 的可能击中神枪手
 >
-> 　　　　此时生还概率为 $0.3+0.7\times0.5\times0.3$$+0.7^2\times0.5^2\times0.3+\cdots$$=\dfrac{6}{13}$
+> 　　　　此时生还概率为 $$0.3+0.7\times0.5\times0.3+0.7^2\times0.5^2\times0.3+\cdots=\dfrac{6}{13}$$
 >
 > 　　0.5 的可能未击中神枪手，神枪手还是会先干掉半吊子，A 只有一次机会干掉神枪手
 >
@@ -186,4 +184,4 @@ Two urns contain red and black balls, all alike except for color. Urn A has 2 re
 > 若第一次抽到红球，之后黑红的抽中率会相等
 >
 > -----
-> Answer: <font color="#f5f7fa">2 reds, black then red->A; otherwise B</font>
+> Answer: <font color="white">2 reds, black then red->A; otherwise B</font>

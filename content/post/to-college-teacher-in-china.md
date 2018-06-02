@@ -4,7 +4,6 @@ title = "致大学教师"
 tags = [ "教育" ]
 categories = ["杂文"]
 toc = false
-mathjax = false
 highlight = false
 +++
 

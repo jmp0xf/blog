@@ -4,7 +4,6 @@ title = "[译]如何选择机器学习算法"
 tags = [ "选型", "朴素贝叶斯 Naive Bayes", "逻辑回归 Logistic Regression", "决策树 Decision Tree", "支持向量机 SVM" ]
 categories = ["机器学习"]
 toc = false
-mathjax = false
 +++
 
 译自 [Choosing a Machine Learning Classifier](http://blog.echen.me/2011/04/27/choosing-a-machine-learning-classifier/)

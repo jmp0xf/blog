@@ -4,7 +4,6 @@ title = "Je Te Veux"
 tags = [ ]
 categories = ["吉他"]
 toc = false
-mathjax = false
 highlight = false
 +++
 

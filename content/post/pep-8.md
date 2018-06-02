@@ -5,7 +5,6 @@ description = ""
 draft = true
 highlight = true
 highlight_languages = ["python"]
-mathjax = false
 tags = ["风格规范"]
 title = "PEP 8 -- Style Guide for Python Code"
 categories = ["Python"]

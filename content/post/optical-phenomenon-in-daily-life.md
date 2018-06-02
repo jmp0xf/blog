@@ -4,7 +4,6 @@ title = "生活光学现象解释 待续"
 tags = [ "光学" ]
 categories = ["物理"]
 toc = false
-mathjax = false
 highlight = false
 +++
 

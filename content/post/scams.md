@@ -4,7 +4,6 @@ date = "2017-12-21T11:43:15+08:00"
 description = ""
 draft = false
 highlight = false
-mathjax = false
 tags = ["骗术"]
 title = "骗术"
 categories = ["套路"]

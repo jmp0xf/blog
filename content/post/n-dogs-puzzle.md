@@ -6,7 +6,8 @@ highlight = false
 tags = ["对数螺线"]
 title = "N 狗追戏"
 toc = false
-
+math = true
+markup = "mmark"
 +++
 
 

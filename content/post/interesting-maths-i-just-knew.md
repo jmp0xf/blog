@@ -4,7 +4,6 @@ title = "最近看的一些有意思的数学"
 tags = [ "传销", "次贷危机" ]
 categories = ["数学"]
 toc = true
-mathjax = false
 highlight = false
 +++
 

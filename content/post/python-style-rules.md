@@ -5,7 +5,6 @@ description = ""
 draft = false
 highlight = true
 highlight_languages = ["python"]
-mathjax = false
 tags = ["风格规范"]
 title = "Python 风格规范"
 categories = ["Python"]
