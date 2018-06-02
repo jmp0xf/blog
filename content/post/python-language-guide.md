@@ -3,11 +3,10 @@ author = ""
 date = "2015-01-24T15:20:26+08:00"
 description = ""
 highlight = true
-highlight_languages = ["python"]
+highlight_languages = []
 tags = ["编码指南"]
 title = "Python 编码指南"
 categories = ["Python"]
-
 +++
 
 ## 模块

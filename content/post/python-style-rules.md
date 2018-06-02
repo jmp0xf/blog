@@ -4,11 +4,10 @@ date = "2015-01-24T22:56:45+08:00"
 description = ""
 draft = false
 highlight = true
-highlight_languages = ["python"]
+highlight_languages = []
 tags = ["风格规范"]
 title = "Python 风格规范"
 categories = ["Python"]
-
 +++
 
 ## 一致性[^a-foolish-consistency-is-the-hobgoblin-of-little-minds]
