@@ -1,6 +1,5 @@
 baseURL = "https://jmp0xf.com"
 title = "JMP0XF"
-description = "JMP0XF's Blog"
 theme = "er"
 
 languageCode = "zh-hans"
@@ -13,7 +12,7 @@ googleAnalytics = "UA-96139490-1"
 disqusShortname = "jmp0xf"
 
 [author]
-  name = "jmp0xf"
+  name = "JMP0XF"
   homepage = "https://jmp0xf.com"
 
 [sitemap]
@@ -23,3 +22,7 @@ disqusShortname = "jmp0xf"
 
 [params]
   showTagCloud = false
+  description = "JMP0XF's Blog"
+  since = "2017"            # Site creation time
+  # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
+  dateFormatToUse = "2006-01-02"
