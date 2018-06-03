@@ -43,7 +43,7 @@ disqusShortname = "jmp0xf"
 
 [params]
   showTagCloud = false
-  description = "JMP0XF's Blog"
+  description = "JMP0XF 的博客，关注一切好玩的东西"
   since = "2017"            # Site creation time
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
   dateFormatToUse = "2006-01-02"
