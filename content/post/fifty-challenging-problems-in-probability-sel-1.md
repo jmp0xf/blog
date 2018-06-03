@@ -58,7 +58,7 @@ The rules are these. Only totals for the two dice count. The player throws the d
 >
 > 设 $P$ 为掷出 “point” 的概率，$Q$ 为掷出 7 的概率，$R$ 为需要重掷的概率，则
 >
-> $$P+PR+PR^2+\cdots=P/(1-R)$$=P/(P+Q)$$
+> $$P+PR+PR^2+\cdots=P/(1-R)=P/(P+Q)$$
 >
 > 和样本空间法一样
 >
