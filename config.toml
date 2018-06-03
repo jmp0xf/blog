@@ -11,6 +11,27 @@ enableEmoji = true
 googleAnalytics = "UA-96139490-1"
 disqusShortname = "jmp0xf"
 
+[[menu.main]]             # config your menu              # 配置目录
+  name = "主页"
+  weight = 10
+  identifier = "home"
+  url = "/"
+[[menu.main]]
+  name = "归档"
+  weight = 20
+  identifier = "archives"
+  url = "/post/"
+[[menu.main]]
+  name = "标签"
+  weight = 30
+  identifier = "tags"
+  url = "/tags/"
+[[menu.main]]
+  name = "分类"
+  weight = 40
+  identifier = "categories"
+  url = "/categories/"
+
 [author]
   name = "JMP0XF"
   homepage = "https://jmp0xf.com"
