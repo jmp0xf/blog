@@ -3,7 +3,7 @@ author = ""
 date = "2018-05-31T23:32:08+08:00"
 description = ""
 tags = ["肉", "寄生虫"]
-title = "科学吃肉概论"
+title = "科学吃肉指北"
 categories = ["烹饪"]
 markup = "mmark"
 +++
