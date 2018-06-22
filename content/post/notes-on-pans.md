@@ -234,6 +234,7 @@ markup = "mmark"
 好看，可以观察食物，缺点是不经摔且容易糊锅。[锅盖](https://www.corningware.com/2.25l-casserole%2C-2.5l-saucepan-%2F-stewpot-glass-lid/1122299.html)要单买，5.6 $。
 
 ## 锅具清洁
+贵重锅具务必参照附赠说明书指引进行清洁工作，壕请随意。
 
 ---
 
