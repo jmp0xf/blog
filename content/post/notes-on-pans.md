@@ -61,7 +61,7 @@ markup = "mmark"
 ### [Tramontina](https://www.tramontina-usa.com/shop/cooking/0product-type/1010-fry-pans-skillets/80116-007ds-tpc-12-in-fry-pan/) 查蒙蒂纳 12 吋三层复合煎锅
 60 $
 ![Tramontina 三层复合煎锅](/img/pans/tramontina-fry-pan.jpg)
-与 All-Clad 三层复合锅表现接近，价格只要其二分之一。适用于电磁炉，可抗 260°C 烤箱。
+与 All-Clad 三层复合锅表现接近，价格只要一半。适用于电磁炉，可抗 260°C 烤箱。
 
 ## 不粘锅（可选）
 12 吋左右，要能抗普通烤箱温度（200°C 以内）。适合煎炸，也便于清洗，一般情况尽量少用，尤其注意不能干烧。由于涂层材料限制，温度不能超过 260°C，否则涂层会被破坏，且可能对人体有危害。
