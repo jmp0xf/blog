@@ -189,10 +189,16 @@ markup = "mmark"
 ### [美的](https://www.midea.cn/detail/index?itemid=1000000000100511168594) MB-WFS4029 4L 电饭锅
 239 CN¥
 
-![美的电饭锅](/img/pans/midea.jpg)
+![美的电饭锅](/img/pans/midea.jpg) 好帮手不锈钢双层复底蒸锅
+
 
 ## 蒸锅（可选）
 中式炒锅和荷兰锅都可以用来进行蒸的操作，后者还可以进行无水蒸，但如果经常需要蒸面点，还是应该配备带蒸屉的蒸锅。蒸锅的选择就比较广泛了，看个人需求，总之最基本的要求就是要避免水回流到食物当中。
+
+### [苏泊尔](http://www.supor.com.cn/product/index/?cid=270&nid=179) 28 cm 好帮手不锈钢双层复底蒸锅
+159 CN¥
+![苏泊尔好帮手不锈钢双层复底蒸锅](/img/pans/supor-steam.jpg)
+全透明锅盖，可观察食物。
 
 ## 高压锅（可选）
 适合快速烹饪，赶时间专用。
@@ -214,8 +220,18 @@ markup = "mmark"
 直径 22 cm，适用于电磁炉。
 
 ## 其他（可选）
-* 柳宗理铸铁小煎锅
-* 康宁锅
+
+### [柳宗理](http://www.yanagi-support.jp/catalog/15.html) 18cm 铸铁煎锅
+4000 JP¥（不含税）
+![柳宗理铸铁煎锅](/img/pans/sori-yanagi.jpg)
+网红锅，好看，特别适合煎一人食
+
+### [CorningWare](https://www.corningware.com/2.25l-casserole%2C-round/1055330.html) 康宁 Visions® 2.25L 晶彩透明锅
+35 $（不含盖）
+
+![康宁晶彩透明锅](/img/pans/corning.jpg)
+
+好看，可以观察食物，缺点是不经摔且容易糊锅。[锅盖](https://www.corningware.com/2.25l-casserole%2C-2.5l-saucepan-%2F-stewpot-glass-lid/1122299.html)要单买，5.6 $。
 
 ## 锅具清洁
 
