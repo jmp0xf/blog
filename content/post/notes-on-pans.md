@@ -145,7 +145,7 @@ markup = "mmark"
 ![Le Creuset 珐琅铸铁圆形锅](/img/pans/le-creuset.jpg)
 白珐琅，26 cm 版本容量 5.3 L，28 cm 版本容量 6.7 L，适用于电磁炉，可抗 260°C 烤箱（含盖）。
 
-### [Staub](https://www.staub-online.com/content/staub/us/en/series/cast_iron/cocottes_dutch_ovens/round_cocotte-40500-281-0.html) 7 夸脱 Round Cocotte 珐琅铸铁圆锅
+### [Staub](https://www.staub-online.com/content/staub/us/en/series/cast_iron/cocottes_dutch_ovens/round_cocotte-40500-281-0.html) 7 夸脱 Round Cocotte 珐琅铸铁圆形锅
 360 $
 ![Staub 珐琅铸铁圆形锅](/img/pans/staub.jpg)
 
