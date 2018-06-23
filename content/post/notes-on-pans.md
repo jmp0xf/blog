@@ -200,7 +200,7 @@ tocCollapseDepth = 2
 全透明锅盖，可观察食物。
 
 ## 高压锅（可选）
-适合快速烹饪，赶时间专用。
+适合快速烹饪，赶时间专用。注意，压力锅的密封胶圈是会老化的，应遵照说明书按时更换。
 
 ### [Fissler](https://www.fissler.com/de/produkte/details/vitavit-sup-reg-sup-premium-schnellkochtopf-22-cm-6-liter/) 菲仕乐 vitavit® premium 味达维皇家高速快锅
 279 € / 6L
