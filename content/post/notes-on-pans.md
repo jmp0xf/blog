@@ -72,7 +72,7 @@ tocCollapseDepth = 2
 ![虎牌电饭锅](/img/pans/tiger.jpg)
 容量 3L。
 
-[^tiger-model]: 很尴尬，绝大部分国行型号在日本其实都已停产，所以如果不在意日文操作界面的话，还是介意选择日行。
+[^tiger-model]: 很尴尬，绝大部分国行型号在日本其实都已停产，所以如果不介意日文操作界面的话，还是建议选择日行。
 
 ### [美的](https://www.midea.cn/detail/index?itemid=1000000000100511168594) MB-WFS4029 4L 电饭锅
 239 CN¥
