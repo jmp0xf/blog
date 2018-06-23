@@ -213,8 +213,10 @@ tocCollapseDepth = 2
 ## 蒸锅（可选）
 中式炒锅和荷兰锅都可以用来进行蒸的操作，后者还可以进行无水蒸，但如果经常需要蒸面点，还是应该配备带蒸屉的蒸锅。蒸锅的选择就比较广泛了，看个人需求，总之最基本的要求就是要避免水回流到食物当中。
 
-### [苏泊尔](http://www.supor.com.cn/product/index/?cid=270&nid=179) 28 cm 好帮手不锈钢双层复底蒸锅
-159 CN¥
+### [苏泊尔](http://www.supor.com.cn/product/index/?cid=270&nid=179) 好帮手不锈钢双层复底蒸锅
+149 CN¥ / 26 cm
+
+199 CN¥ / 28 cm
 ![苏泊尔好帮手不锈钢双层复底蒸锅](/img/pans/supor-steam.jpg)
 全透明锅盖，可观察食物。
 
