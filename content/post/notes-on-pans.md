@@ -32,7 +32,7 @@ tocCollapseDepth = 2
 | 14 吋 | 5~6 人 |
 | >14 吋 | 商用 |
 
-一般家用的炒锅锅身厚 1.2 mm 为佳，更厚的就看个人<ruby>能<rp>(</rp><rt>wàn</rt><rp>)</rp></ruby>力了，因此并不推荐臻三环家的章丘铁锅，除了价格虚高以外，锅身一般都厚 1.5 mm 以上。
+一般家用的单柄炒锅以锅身厚 1.2 mm 为佳，更厚的就看个人<ruby>能<rp>(</rp><rt>wàn</rt><rp>)</rp></ruby>力了，因此并不推荐臻三环家的章丘铁锅，除了价格虚高以外，锅身一般都厚 1.5 mm 以上。
 
 ### [陳枝記](http://www.chanchikee.com/ChineseKitchen.html) 单柄铁炒锅
 80 HK$ 上下（带铲）
