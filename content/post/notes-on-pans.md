@@ -170,7 +170,7 @@ tocCollapseDepth = 2
 不适用于电磁炉，可抗 287°C 烤箱。
 
 ## 荷兰锅（Dutch Oven）
-法郎铸铁（珐琅千万不能空烧）或不锈钢材料，容量至少 5 L 左右，直径至少 9 吋，可作汤锅使用。
+法郎铸铁（珐琅千万不能空烧，同时避免金属划伤）或不锈钢材料，容量至少 5 L 左右，直径至少 9 吋，可作汤锅使用。
 
 ### [Le Creuset](http://www.lecreuset.com.cn/round-french-oven) 酷彩 珐琅铸铁圆形锅
 2580 CN¥ / 26 cm
