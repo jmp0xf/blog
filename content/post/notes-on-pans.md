@@ -6,6 +6,7 @@ tags = ["锅具"]
 title = "厨具选择笔记 - 锅具篇"
 categories = ["厨具", "家居"]
 markup = "mmark"
+tocCollapseDepth = 2
 +++
 
 > 此笔记所列厨具仅作为种子厨具主要目的是用于了解何为优秀厨具以及优秀品牌，从而根据自身需求进行灵活调整，选择最适合自己的厨具
@@ -168,10 +169,8 @@ markup = "mmark"
 ![Cuisinart MultiClad Unlimited 炖锅](/img/pans/cuisinart-sauce-pan.jpg)
 不适用于电磁炉，可抗 287°C 烤箱。
 
-## 荷兰锅（Dutch Oven[^French Oven]）
+## 荷兰锅（Dutch Oven）
 法郎铸铁（珐琅千万不能空烧）或不锈钢材料，容量至少 5 L 左右，直径至少 9 吋，可作汤锅使用。
-
-[^French Oven]: French Oven 是一类 Dutch Oven
 
 ### [Le Creuset](http://www.lecreuset.com.cn/round-french-oven) 酷彩 珐琅铸铁圆形锅
 2580 CN¥ / 26 cm
@@ -180,7 +179,7 @@ markup = "mmark"
 ![Le Creuset 珐琅铸铁圆形锅](/img/pans/le-creuset.jpg)
 白珐琅，26 cm 版本容量 5.3 L，28 cm 版本容量 6.7 L，适用于电磁炉，可抗 260°C 烤箱（含盖）。
 
-### [Staub](https://www.staub-online.com/content/staub/us/en/series/cast_iron/cocottes_dutch_ovens/round_cocotte-40500-281-0.html) 7 夸脱 Round Cocotte 珐琅铸铁圆形锅
+### [Staub](https://www.staub-online.com/content/staub/us/en/series/cast_iron/cocottes_dutch_ovens/round_cocotte-40500-281-0.html) 7 夸脱珐琅铸铁圆形锅
 360 $
 ![Staub 珐琅铸铁圆形锅](/img/pans/staub.jpg)
 
