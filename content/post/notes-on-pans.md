@@ -245,5 +245,4 @@ tocCollapseDepth = 2
 * [请正确看待爆红的雪平锅](https://www.yidianzixun.com/article/0DOIXO69)
 * [有哪些餐具或厨具可以让人幸福感大增？](https://www.zhihu.com/question/22763183)
 * [这是一份由设计达人们推荐的小众厨具清单，看完想哭](https://zhuanlan.zhihu.com/p/20776791)
-* [What's the Difference Between a Dutch Oven and a French Oven?](https://www.thekitchn.com/whats-the-difference-between-a-dutch-oven-and-a-french-oven-word-of-mouth-218572)
 * [百元千元电饭煲究竟差在哪？测试了16款电饭煲，我们找到了答案](https://zhuanlan.zhihu.com/p/27311804)
