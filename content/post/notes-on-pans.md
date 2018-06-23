@@ -38,7 +38,7 @@ tocCollapseDepth = 2
 
 ### [陳枝記](http://www.chanchikee.com/ChineseKitchen.html) 单柄铁炒锅
 80 HK$ 上下（带铲）
-![陳枝記](/img/pans/chanchikee.jpg)
+![陳枝記单柄铁炒锅](/img/pans/chanchikee.jpg)
 物美价廉，某宝有代购，附开锅服务，开完之后会泛略带寒意的蓝光。熟铁材质，要注意保养，用完要洗净再抹层油，不然很容易生锈。
 
 ### [山田工業所](http://yamaya-s.co.jp/nabe/itame/katatenabe/katatenabe.html) 1.2 mm 厚 拓打单手铁锅（附木柄）
@@ -87,7 +87,7 @@ tocCollapseDepth = 2
 
 ### [Tiger](http://www.tiger-corporation.cn/tiger/portal/product_detail.jsp?id=19) 虎牌 JKW-A10C IH 电饭锅
 3088 CN¥
-![虎牌电饭锅](/img/pans/tiger.jpg)
+![虎牌 IH 电饭锅](/img/pans/tiger.jpg)
 容量 3L。[^tiger-model]
 
 [^tiger-model]: 很尴尬，绝大部分国行型号在日本其实都已停产，所以如果不介意日文操作界面的话，还是建议选择日行。
