@@ -239,8 +239,12 @@ tocCollapseDepth = 2
 
 ## 其他（可选）
 
-### [柳宗理](http://www.yanagi-support.jp/catalog/15.html) 18cm 铸铁煎锅
-4000 JP¥（不含税）
+### [柳宗理](http://www.yanagi-support.jp/catalog/15.html) 铸铁煎锅
+4000 JP¥（不含税）/ 18 cm
+
+5000 JP¥（不含税）/ 22 cm
+
+5500 JP¥（不含税）/ 25 cm
 ![柳宗理铸铁煎锅](/img/pans/sori-yanagi.jpg)
 网红锅，好看，特别适合煎一人食
 
