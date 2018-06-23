@@ -242,7 +242,7 @@ tocCollapseDepth = 2
 ![柳宗理铸铁煎锅](/img/pans/sori-yanagi.jpg)
 网红锅，好看，特别适合煎一人食
 
-### [CorningWare](https://www.corningware.com/2.25l-casserole%2C-round/1055330.html) 康宁 Visions® 2.25L 晶彩透明锅
+### [CorningWare](https://www.corningware.com/2.25l-casserole%2C-round/1055330.html) 康宁 Visions® 晶彩 2.25L 透明锅
 35 $（不含盖）
 
 ![康宁晶彩透明锅](/img/pans/corning.jpg)
