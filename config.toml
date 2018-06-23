@@ -1,5 +1,5 @@
-baseURL = "https://jmp0xf.com"
-title = "JMP0XF"
+baseURL = "https://kidding.im"
+title = "有术 - 奇丁"
 theme = "er"
 
 languageCode = "zh-hans"
@@ -33,8 +33,8 @@ disqusShortname = "jmp0xf"
   url = "/categories/"
 
 [author]
-  name = "JMP0XF"
-  homepage = "https://jmp0xf.com"
+  name = "奇丁"
+  homepage = "https://kidding.im"
 
 [sitemap]
   changefreq = "weekly"
@@ -43,7 +43,7 @@ disqusShortname = "jmp0xf"
 
 [params]
   showTagCloud = false
-  description = "JMP0XF 的博客，关注一切好玩的东西"
+  description = "奇丁有术，关注一切好玩的东西"
   since = "2017"            # Site creation time
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
   dateFormatToUse = "2006-01-02"
