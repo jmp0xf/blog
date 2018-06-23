@@ -43,6 +43,41 @@ markup = "mmark"
 ![山田工業所](/img/pans/yamadamokue.jpg)
 日亚有售，山田的锅经常被拿出来和陈枝记的比较，应该说大同小异，山田就是价格更高，做工更细致，在乎外观的选山田。另外，山田还提供更小的介于 10 和 11 吋之间的单身贵族炒锅。
 
+## 电饭锅
+其实米比电饭锅更重要，首推东北的响水石板大米和五常米。对于高端电饭锅，IH 加热已经是基本要求，优秀到差别明显的电饭锅都贵得惊人，烹煮速度也慢得惊人，而我吃过最香的米饭其实就是最便宜的机械电饭锅煮出来的带锅巴的米饭。
+
+| 容量 | 适用范围 |
+| --- | --- |
+| 2 L | 1~3 人 |
+| 3 L | 2~5 人 |
+| 4 L | 3~7 人 |
+| 5 L | 4~10 人 |
+
+### [ZOJIRUSHI](https://www.zojirushi.co.jp/syohin/ricecooker/sp_contents/nwat/) 象印 NW-AT10-BZ 南部铁器 极め羽釜 压力 IH 电饭锅
+80000 JP¥
+![象印南部铁器](/img/pans/zojirushi.jpg)
+
+容量 3L，内胆为南部铁器，模拟柴火锅，听名字就好吃。需要电压转换器。
+
+### [Tiger](https://www.tiger.jp/front/productdetail/confirm?productId=JKX-V2K) 虎牌 JKX-V102-K 土锅压力 IH 电饭锅
+33980 JP¥
+![虎牌土锅 IH 电饭锅](/img/pans/tiger-jkx.jpg)
+
+容量 3L，仿古土锅炊煮，真香警告，需要电压转换器。
+
+
+### [Tiger](http://www.tiger-corporation.cn/tiger/portal/product_detail.jsp?id=19) 虎牌 JKW-A10C[^tiger-model] IH 电饭锅
+3088 CN¥
+![虎牌电饭锅](/img/pans/tiger.jpg)
+容量 3L。
+
+[^tiger-model]: 很尴尬，绝大部分国行型号在日本其实都已停产，所以如果不在意日文操作界面的话，还是介意选择日行。
+
+### [美的](https://www.midea.cn/detail/index?itemid=1000000000100511168594) MB-WFS4029 4L 电饭锅
+239 CN¥
+
+![美的电饭锅](/img/pans/midea.jpg) 好帮手不锈钢双层复底蒸锅
+
 ## 平底锅
 西厨必备，12 吋左右，要能抗烤箱温度
 
@@ -155,41 +190,6 @@ markup = "mmark"
 325 $
 ![All-Clad 不锈汤锅](/img/pans/all-clad-stockpot.jpg)
 直径 28 cm，材质为三层（不锈钢-铝-不锈钢）复合金属，适用于电磁炉，可抗 315°C 烤箱。
-
-## 电饭锅
-其实米比电饭锅更重要，首推东北的响水石板大米和五常米。对于高端电饭锅，IH 加热已经是基本要求，优秀到差别明显的电饭锅都贵得惊人，烹煮速度也慢得惊人，而我吃过最香的米饭其实就是最便宜的机械电饭锅煮出来的带锅巴的米饭。
-
-| 容量 | 适用范围 |
-| --- | --- |
-| 2 L | 1~3 人 |
-| 3 L | 2~5 人 |
-| 4 L | 3~7 人 |
-| 5 L | 4~10 人 |
-
-### [ZOJIRUSHI](https://www.zojirushi.co.jp/syohin/ricecooker/sp_contents/nwat/) 象印 NW-AT10-BZ 南部铁器 极め羽釜 压力 IH 电饭锅
-80000 JP¥
-![象印南部铁器](/img/pans/zojirushi.jpg)
-
-容量 3L，内胆为南部铁器，模拟柴火锅，听名字就好吃。需要电压转换器。
-
-### [Tiger](https://www.tiger.jp/front/productdetail/confirm?productId=JKX-V2K) 虎牌 JKX-V102-K 土锅压力 IH 电饭锅
-33980 JP¥
-![虎牌土锅 IH 电饭锅](/img/pans/tiger-jkx.jpg)
-
-容量 3L，仿古土锅炊煮，真香警告，需要电压转换器。
-
-
-### [Tiger](http://www.tiger-corporation.cn/tiger/portal/product_detail.jsp?id=19) 虎牌 JKW-A10C[^tiger-model] IH 电饭锅
-3088 CN¥
-![虎牌电饭锅](/img/pans/tiger.jpg)
-容量 3L。
-
-[^tiger-model]: 很尴尬，绝大部分国行型号在日本其实都已停产，所以如果不在意日文操作界面的话，还是介意选择日行。
-
-### [美的](https://www.midea.cn/detail/index?itemid=1000000000100511168594) MB-WFS4029 4L 电饭锅
-239 CN¥
-
-![美的电饭锅](/img/pans/midea.jpg) 好帮手不锈钢双层复底蒸锅
 
 
 ## 蒸锅（可选）
