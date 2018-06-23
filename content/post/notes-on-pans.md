@@ -76,13 +76,13 @@ tocCollapseDepth = 2
 80000 JP¥
 ![象印南部铁器](/img/pans/zojirushi.jpg)
 
-容量 3L，内胆为南部铁器，模拟柴火锅，听名字就好吃。需要电压转换器。
+容量 3L，南部铁器铸铁内胆，模拟柴火锅，可以煮出好吃的酥脆锅巴饭（区别于干硬锅巴），听名字就好吃。需要电压转换器。
 
 ### [Tiger](https://www.tiger.jp/front/productdetail/confirm?productId=JKX-V2K) 虎牌 JKX-V102-K 土锅压力 IH 电饭锅
 33980 JP¥
 ![虎牌土锅 IH 电饭锅](/img/pans/tiger-jkx.jpg)
 
-容量 3L，仿古土锅炊煮，真香警告，需要电压转换器。
+容量 3L，土锅内胆，仿古土锅炊煮，真香警告，需要电压转换器。
 
 
 ### [Tiger](http://www.tiger-corporation.cn/tiger/portal/product_detail.jsp?id=19) 虎牌 JKW-A10C IH 电饭锅
@@ -125,7 +125,7 @@ tocCollapseDepth = 2
 #### [T-Fal](https://www.t-falusa.com/Cookware-%26-Kitchenware/Pots-%26-Pans/Professional/p/r-p-professional) 12.5 吋专业不粘锅
 28 $
 ![T-Fal 专业不粘锅](/img/pans/t-fal-professional.png)
-适用于电磁炉，可抗 200°C 烤箱，带温度指示红点。
+不锈钢加不沾涂层，适用于电磁炉，可抗 204°C 烤箱，带温度指示红点。
 
 ## 单柄深锅
 ### 奶锅
@@ -186,7 +186,7 @@ tocCollapseDepth = 2
 #### [Cuisinart](https://www.cuisinart.com/products/cookware/multiclad_unlimited/mcu_saucepans/mcu194-20n/) 美膳雅 4 夸脱 MultiClad Unlimited 炖锅
 70 $
 ![Cuisinart MultiClad Unlimited 炖锅](/img/pans/cuisinart-sauce-pan.jpg)
-不适用于电磁炉，可抗 287°C 烤箱。
+外层为阳极氧化铝，接触食物的内层为不锈钢。不适用于电磁炉，可抗 287°C 烤箱。
 
 ## 荷兰锅（Dutch Oven）
 法郎铸铁（珐琅千万不能空烧，同时避免金属划伤）或不锈钢材料，容量至少 5 L 左右，直径至少 9 吋，可作汤锅使用。
