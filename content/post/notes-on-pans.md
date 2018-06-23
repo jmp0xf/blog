@@ -139,7 +139,7 @@ tocCollapseDepth = 2
 材质为阳极氧化铝加不沾涂层，不适用于电磁炉，可抗 230°C 烤箱。
 
 #### 雪平锅
-主要是好看（但其实用上一阵就没那么好看了）。正宗的雪平锅主要为铝制。
+主要是好看（但其实用上一阵就很容易破相了）。正宗的雪平锅主要为铝制。
 
 ##### [姫野作](https://takumiya-xsrvjp.ssl-xserver.jp/shop/products/detail.php?product_id=2) 雪平锅
 7344 JP¥ / 16.5 cm
