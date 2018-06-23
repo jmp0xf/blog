@@ -35,14 +35,30 @@ tocCollapseDepth = 2
 一般家用的炒锅锅身厚 1.2 mm 为佳，更厚的就看个人<ruby>能<rp>(</rp><rt>wàn</rt><rp>)</rp></ruby>力了，因此并不推荐臻三环家的章丘铁锅，除了价格虚高以外，锅身一般都厚 1.5 mm 以上。
 
 ### [陳枝記](http://www.chanchikee.com/ChineseKitchen.html) 单柄铁炒锅
-80 HK$ 左右（带铲）
+80 HK$ 上下（带铲）
 ![陳枝記](/img/pans/chanchikee.jpg)
 物美价廉，某宝有代购，附开锅服务，开完之后会泛略带寒意的蓝光。熟铁材质，要注意保养，用完要洗净再抹层油，不然很容易生锈。
 
-### [山田工業所](http://yamaya-s.co.jp/nabe/itame/katatenabe/katatenabe.html) 锻打熟铁单手锅
-5000 JP¥ 上下
-![山田工業所](/img/pans/yamadamokue.jpg)
-日亚有售，山田的锅经常被拿出来和陈枝记的比较，应该说大同小异，山田就是价格更高，做工更细致，在乎外观的选山田。另外，山田还提供更小的介于 10 和 11 吋之间的单身贵族炒锅。
+### [山田工業所](http://yamaya-s.co.jp/nabe/itame/katatenabe/katatenabe.html) 1.2 mm 厚 拓打单手铁锅（附木柄）
+4730 JP¥ / 30 cm
+
+5616 JP¥ / 33 cm
+
+6372 JP¥ / 36 cm
+![山田工業所拓打单手铁锅](/img/pans/yamadamokue.jpg)
+日亚有售，山田的锅经常被拿出来和陈枝记的比较，应该说大同小异，山田就是价格更高，做工更细致，在乎外观的选山田。另外，山田还提供更小的介于 10 和 11 吋之间的单身贵族炒锅。熟铁材质，要注意保养，用完要洗净再抹层油，不然很容易生锈。
+
+### [池永鉄工](http://www.ikenaga-iw.co.jp/product/ironware/domestic/yakimono.html) 新中华锅（附木盖）
+20000 JP¥ / 30 cm
+
+30000 JP¥ / 33 cm
+
+40000 JP¥ / 36 cm
+![池永鉄工新中华锅](/img/pans/ikenaga.jpg)
+铸铁材质，很有气质的锅，死沉，基本上就告别颠勺翻锅了，更适合闷炖煮。[^iwachu]
+
+[^iwachu]: 其实[岩鋳](http://iwachu.co.jp/products/kitchenware/)的铸铁炒锅也不错，更便宜些，但是官网已经没有这个产品名录了，而国内还在代购，有点奇怪所以就没有列出。
+
 
 ## 电饭锅
 其实米比电饭锅更重要，首推东北的响水石板大米和五常米。对于高端电饭锅，IH 加热已经是基本要求，优秀到差别明显的电饭锅都贵得惊人，烹煮速度也慢得惊人，而我吃过最香的米饭其实就是最便宜的机械电饭锅煮出来的带锅巴的米饭。
@@ -67,17 +83,18 @@ tocCollapseDepth = 2
 容量 3L，仿古土锅炊煮，真香警告，需要电压转换器。
 
 
-### [Tiger](http://www.tiger-corporation.cn/tiger/portal/product_detail.jsp?id=19) 虎牌 JKW-A10C[^tiger-model] IH 电饭锅
+### [Tiger](http://www.tiger-corporation.cn/tiger/portal/product_detail.jsp?id=19) 虎牌 JKW-A10C IH 电饭锅
 3088 CN¥
 ![虎牌电饭锅](/img/pans/tiger.jpg)
-容量 3L。
+容量 3L。[^tiger-model]
 
 [^tiger-model]: 很尴尬，绝大部分国行型号在日本其实都已停产，所以如果不介意日文操作界面的话，还是建议选择日行。
 
 ### [美的](https://www.midea.cn/detail/index?itemid=1000000000100511168594) MB-WFS4029 4L 电饭锅
 239 CN¥
 
-![美的电饭锅](/img/pans/midea.jpg) 好帮手不锈钢双层复底蒸锅
+![美的电饭锅](/img/pans/midea.jpg)
+价廉物美。
 
 ## 平底锅
 西厨必备，12 吋左右，要能抗烤箱温度
@@ -99,11 +116,11 @@ tocCollapseDepth = 2
 ![Tramontina 三层复合煎锅](/img/pans/tramontina-fry-pan.jpg)
 与 All-Clad 三层复合锅表现接近，价格只要一半。适用于电磁炉，可抗 260°C 烤箱。
 
-## 不粘锅（可选）
+### 不粘平底锅（可选）
 12 吋左右，要能抗普通烤箱温度（200°C 以内）。适合煎炸，也便于清洗，一般情况尽量少用，尤其注意不能干烧。由于涂层材料限制，温度不能超过 260°C，否则涂层会被破坏，且可能对人体有危害。
 消耗品，不要投入太多费用。
 
-### [T-Fal](https://www.t-falusa.com/Cookware-%26-Kitchenware/Pots-%26-Pans/Professional/p/r-p-professional) 12.5 吋专业不粘锅
+#### [T-Fal](https://www.t-falusa.com/Cookware-%26-Kitchenware/Pots-%26-Pans/Professional/p/r-p-professional) 12.5 吋专业不粘锅
 28 $
 ![T-Fal 专业不粘锅](/img/pans/t-fal-professional.png)
 适用于电磁炉，可抗 200°C 烤箱，带温度指示红点。
@@ -232,14 +249,15 @@ tocCollapseDepth = 2
 
 好看，可以观察食物，缺点是不经摔且容易糊锅。[锅盖](https://www.corningware.com/2.25l-casserole%2C-2.5l-saucepan-%2F-stewpot-glass-lid/1122299.html)要单买，5.6 $。
 
-## 锅具清洁
-贵重锅具务必参照附赠说明书指引进行清洁工作，壕请随意。
+## 锅具保养
+贵重锅具务必参照附赠说明书指引进行清洁及保养工作，壕请随意。
 
 ---
 
 ## 参考
 * 《料理的科學》
 * 《料理實驗室》
+* [铸铁锅还是精铁锅？](https://zhuanlan.zhihu.com/p/24664362)
 * [家里需要几口锅，不用急，一口一口买齐好了](https://daily.zhihu.com/story/1317272)
 * [家里买几口锅够用？德国不锈钢锅、日本铝锅、美国玻璃锅、还有法国铸铁锅](https://zhuanlan.zhihu.com/p/20711281)
 * [请正确看待爆红的雪平锅](https://www.yidianzixun.com/article/0DOIXO69)
