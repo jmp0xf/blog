@@ -141,19 +141,26 @@ CROMOVA 18 材质冲压，[Cooking For Engineers](http://www.cookingforengineers
 材质不明，仅说明为瑞典钢材，硬度为 HRC59~60。
 
 ## 去皮刀
-刀刃长 3~3.5 吋，短小灵活，能深入缝隙并能快速去除表皮。
+刀刃长 3~4 吋，短小灵活，能深入缝隙并能快速去除表皮。
 
 ### [Victorinox](https://www.amazon.com/Victorinox-Paring-Knife-Straight-Handle/dp/B008M5U1UE) 维氏 Fibrox 3.25吋去皮刀
 9 $
 ![维氏去皮刀](/img/knives/fibrox-paring.jpg)
+X50CrMoV15 钢材冲压制造，硬度为 HRC55~56[^fibrox]，价廉物美。
 
-### [Wüsthof](http://www.wusthof.com/products/classic/3-1-2-paring-knife) 三叉 4066-7/09 Classic 3.5 吋去皮刀
-50 $
-![三叉去皮刀](/img/knives/4066-7-09.jpg)
+
+### [Wüsthof](http://www.wusthof.com/products/knives/3-straight-paring-knife-hollow-edge) 三叉 4001-7 Classic 3 吋带孔去皮刀
+60 $
+![三叉去皮刀](/img/knives/4001-7.jpg)
+专为法国蓝带厨师学院设计，材质为 X50CrMoV15，经过良好的热处理，硬度可达 HRC58。终极削皮刀。
+
+## 剔骨刀（可选）
+用于骨肉分离。
+
+### [Wüsthof](http://www.wusthof.com/products/knives/6-flexible-boning-knife) 三叉 4603-7 Classic 6 吋弹性剔骨刀
+100 $
+![三叉剔骨刀](/img/knives/4603-7.jpg)
 专为法国蓝带厨师学院设计，材质为 X50CrMoV15，经过良好的热处理，硬度可达 HRC58。
-
-
-
 
 ## 水果刀
 * CERAMIC LIFE 水果刀
