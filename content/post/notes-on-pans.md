@@ -20,6 +20,7 @@ tocCollapseDepth = 2
 | 熟铁  | 较生铁/铸铁锅轻，导热性更好，更经久耐用 | 容易生锈、**需要保养**、不适合过酸食材 |
 | 不锈钢 | 便宜、耐操 | 导热能力差，加热不均匀 |
 | 复合金属 | 综合各金属层优点 | - | 
+Table: 锅具常见材料一览表
 
 [^cast-iron]: 铸铁与生铁的区别在于前者还含有除碳以外的其他元素，且其含量不可忽略
 [^silver]: 如果你真的在寻找银质锅具，可以看看[这里](https://soy-turkiye.myshopify.com/products/soy-gnt-series-pure-solid-silver-frying-pans)，另外，我们做朋友吧！
@@ -34,6 +35,7 @@ tocCollapseDepth = 2
 | 13 吋 | 3~4 人 |
 | 14 吋 | 5~6 人 |
 | >14 吋 | 商用 |
+Table: 炒锅尺寸建议表
 
 一般家用的单手炒锅以锅身厚 1.2 mm 为佳，更厚的就看个人<ruby>能<rp>(</rp><rt>wàn</rt><rp>)</rp></ruby>力了，因此并不推荐臻三环家的章丘铁锅，除了价格虚高以外，锅身一般都厚 1.5 mm 以上。
 
@@ -72,6 +74,7 @@ tocCollapseDepth = 2
 | 3 L | 2~5 人 |
 | 4 L | 3~7 人 |
 | 5 L | 4~10 人 |
+Table: 电饭锅尺寸建议表
 
 ### [ZOJIRUSHI](https://www.zojirushi.co.jp/syohin/ricecooker/sp_contents/nwat/) 象印 NW-AT10-BZ 南部铁器 极め羽釜 压力 IH 电饭锅
 80000 JP¥
