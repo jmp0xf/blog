@@ -2,9 +2,9 @@
 author = ""
 date = "2018-06-23T20:36:42+08:00"
 description = ""
-tags = ["厨刀"]
+tags = ["厨具"]
 title = "厨具选择笔记 - 厨刀篇"
-categories = ["厨具", "家居"]
+categories = ["烹饪", "家居"]
 markup = "mmark"
 tocCollapseDepth = 3
 +++

@@ -2,10 +2,10 @@
 author = ""
 date = "2018-06-25T00:00:00+08:00"
 description = ""
-tags = []
+tags = ["厨具"]
 draft = true
 title = "厨具选择笔记 - 实用工具篇"
-categories = ["厨具", "家居"]
+categories = ["烹饪", "家居"]
 markup = "mmark"
 +++
 

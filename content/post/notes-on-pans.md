@@ -2,9 +2,9 @@
 author = ""
 date = "2018-06-20T21:27:31+08:00"
 description = ""
-tags = ["锅具"]
+tags = ["厨具"]
 title = "厨具选择笔记 - 锅具篇"
-categories = ["厨具", "家居"]
+categories = ["烹饪", "家居"]
 markup = "mmark"
 tocCollapseDepth = 2
 +++
