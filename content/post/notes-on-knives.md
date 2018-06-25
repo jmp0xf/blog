@@ -162,7 +162,7 @@ X50CrMoV15 钢材冲压制造，硬度为 HRC55~56[^fibrox]，价廉物美。
 ### [Wüsthof](http://www.wusthof.com/products/knives/3-straight-paring-knife-hollow-edge) 三叉 4001-7 Classic 3 吋带孔去皮刀
 60 $
 ![三叉去皮刀](/img/knives/4001-7.jpg)
-专为法国蓝带厨师学院设计，材质为 X50CrMoV15，经过良好的热处理，硬度可达 HRC58。终极削皮刀。
+专为法国蓝带厨师学院设计，材质为 X50CrMoV15，经过良好的热处理，硬度可达 HRC58。终极去皮刀。
 
 ## 剔骨刀（可选）
 用于骨肉分离。
@@ -214,11 +214,26 @@ X50CrMoV15 钢材冲压制造，硬度为 HRC55~56[^fibrox]，价廉物美。
 可拆卸式，便于清洗。材质 VG-10，异常强壮。刀口带锯齿，可轻易 “抓住” 湿滑食材。多功能，可开瓶盖和罐头。缺点是手柄太小。
 
 ## 面包刀（可选）
-10~12 吋，就是用于切面包不掉渣。如果不是经常吃面包就没必要啦。
-* Wüsthof Classic 10-Inch Bread Knife
-* Victorinox Fibrox 10 1/4-Inch Bread Knife
+10~12 吋，就是用于切面包蛋糕不掉渣，而且主要是针对长硬面包。如果不是经常吃这类面包或是做烘焙就毫无必要。
 
-* 贝印面包刀
+### [藤次郎](http://www.tojiro.shop/shopdetail/000000000261) F-737 面包刀
+2160 JP¥
+
+![藤次郎面包刀](/img/knives/f-737.jpg) 
+
+23.5 公分长，据说[^tojiro-bread-knife]比贝印的好用。
+
+[^tojiro-bread-knife]: [KAI 贝印 & TOJIRO 藤次郎 面包刀 使用对比评测](https://post.smzdm.com/p/633544/)
+
+### [Victorinox](https://www.swissarmy.com/us/en/Products/Cutlery/Bread-and-Baking-Knives/Fibrox-Pastry-Knife/p/5.2933.26) 维氏 Fibrox 10.25 吋 面包刀
+55 $
+![维氏面包刀](/img/knives/fibrox-pastry.jpg)
+材质为 X50CrMoV15。
+
+### [Wüsthof](http://www.wusthof.com/products/knives/10-bread-knife) 三叉 4151-7 Classic 10 吋面包刀
+93 $
+![三叉面包刀](/img/knives/4151-7.jpg)
+材质为 X50CrMoV15，经过良好的热处理，硬度可达 HRC58。
 
 ## 切片刀
 * Victorinox Fibrox 12-Inch Granton Edge Slicing Knife
