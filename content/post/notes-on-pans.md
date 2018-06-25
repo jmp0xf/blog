@@ -235,7 +235,7 @@ Table: 电饭锅尺寸建议表
 
 直径 22 cm，可不使用加压功能当作炖锅使用，适用于电磁炉。
 
-### [WMF](https://www.wmf.com/de/toepfe-pfannen/schnellkochtoepfe/schnellkochtopf-6-5l-perfect-pro.html) 完美福 Perfect Pro® 快易锅
+### [WMF](https://www.wmf.com/de/toepfe-pfannen/schnellkochtoepfe/schnellkochtopf-6-5l-perfect-pro.html) 福腾宝 Perfect Pro® 快易锅
 219 € / 6.5L
 
 199 € / 4.5L
