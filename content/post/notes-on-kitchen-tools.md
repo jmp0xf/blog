@@ -29,14 +29,6 @@ markup = "mmark"
 ### 食物夹
 * OXO Good Grips 12-Inch Locking Tongs
 
-### 蔬果削皮刀
-* Kuhn Rikon Original 4-Inch Swiss Peeler（两本书推荐）
-* Rex 削皮刀
-* 贝印T型削皮刀
-
-### 切菜器
-* Muskel 六合一多功能切菜器
-
 ### 隔热手套
 * Kool-Tek 15-Inch Oven Mitt by KatchAll
 
