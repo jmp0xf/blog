@@ -42,11 +42,13 @@ Table: 厨刀常见材料型号一览表[^steel-data]
 [^ceramic-knife-fragile]: 现在也有新的工艺使得陶瓷刀更抗摔
 
 ## 选刀
-一个常见的选刀误区就是只看刀的锋利程度。其实只要好生打磨，刃角足够小，基本上都能达到削纸如丝或者横切番茄的程度（当然，由于大部分用户几乎不会磨刀，因此刀的出厂锋利度也很重要），所以一般更应关注的是刀具锋利度的可保持性。较软的刀刃很容易在切削中发生卷曲和磨损，也就是钝化，需要经常打磨；较硬的刀刃不容易钝化，但是一般也会更脆，更容易崩出缺口；而且特别硬的刀保持性虽然很好，然而也被认为一旦钝化，会发生极难打磨的情况[^sharpen]。<u>钢材越硬，价格也越高，但同时也会更易生锈，需要细心打理</u>。因此权衡说来，通常也无需追求材质的极端坚硬。
+一个常见的选刀误区就是只看刀的锋利程度。其实只要好生打磨，刃角足够小，基本上都能达到削纸如丝或者横切番茄的程度（当然，由于大部分用户几乎不会磨刀，因此刀的出厂锋利度也很重要），所以一般更应关注的是刀具锋利度的可**保持性**。较软的刀刃很容易在切削中发生卷曲和磨损，也就是钝化，需要经常打磨；较硬的刀刃不容易钝化，但是一般也会更脆，更容易崩出缺口；而且特别硬的刀保持性虽然很好，然而也被认为一旦钝化，会发生极难打磨的情况[^sharpen]。<u>钢材越硬，价格也越高，但同时也会更易生锈，需要细心打理</u>。因此权衡说来，通常也无需追求材质的极端坚硬。
 
 [^sharpen]: [Zknives](http://www.zknives.com/knives/articles/hardvssoftedgesp4.shtml) 这一点持不同看法，因为更硬的刀具本身钝化的损伤程度要更小且打磨需要磨损的材料也更少。
 
 虽说不必追求刀具的极端坚硬，但是一般说来，硬度是首要考虑的因素[^hardness]，虽然更硬的刀具也会有相应的缺点，但是 [Zknives](http://www.zknives.com) 的这篇[文章](http://www.zknives.com/knives/articles/hardvssoftedgesp4.shtml)指出：1. 虽然硬刀容易崩口，但不见得软刀就能在相同情况下不损坏。2. 硬刀也不见得更难磨。至于抗锈性，我猜任何有心思挑选一把好厨刀的人应该都不介意在使用完刀具之后多一个简单的擦干步骤吧，更何况所谓的不锈钢本来也不是绝对不锈。当然韧性同样也需要考虑，就像中厨常用菜刀拍蒜一样，西厨中也会使用厨刀完成类似操作，如果厨刀太脆，则不适合进行如此操作，只能进行切削。
+
+从制造工艺来看，一般认为冲压的刀不如锻造的刀好，的确，很多垃圾刀都是冲压的，但是也有厂商认为冲压会让某些品质更好控制，某些中高级刀也是冲压的，因此这只是一个相当粗糙的指导原则。
 
 [^hardness]: 更极端的说法是，如果你够懒，那么就在预算内选择最硬的刀
 
@@ -80,7 +82,7 @@ Table: 厨刀常见材料型号一览表[^steel-data]
 21600 JP¥
 
 ![藤次郎](/img/knives/f-921.jpg)
-材质为 VG-10。
+材质为夹层钢，刀芯为 VG-10。
 
 
 ### 斩骨刀（可选）
@@ -107,7 +109,7 @@ X50CrMoV15 钢材冲压制造，硬度为 HRC55~56[^fibrox]，价廉物美，入
 #### [藤次郎](http://www.tojiro.shop/shopdetail/000000000288/) F-808 DP 21 公分钴合金牛刀
 9504 JP¥
 ![藤次郎牛刀](/img/knives/f-808.jpg)
-材质为 VG-10，硬度为 HRC60[^f-808]，两段刃，1996 年 Good Design 获奖，[Cooking For Engineers](http://www.cookingforengineers.com/article/129/Chefs-Knives-Rated) 网站评测高性能最佳性价比。
+材质为夹层钢，刀芯为 VG-10，硬度为 HRC60[^f-808]，两段刃，1996 年 Good Design 获奖，[Cooking For Engineers](http://www.cookingforengineers.com/article/129/Chefs-Knives-Rated) 网站评测高性能最佳性价比。
 
 [^f-808]: [Tojiro DP Chef's Knives](https://www.cutleryandmore.com/tojiro-dp/chefs-knife-p113709)
 
@@ -145,7 +147,7 @@ CROMOVA 18 材质冲压，[Cooking For Engineers](http://www.cookingforengineers
 材质不明，仅说明为瑞典钢材，硬度为 HRC59~60。
 
 ## 去皮刀
-刀刃长 3~4 吋，短小灵活，能深入缝隙并能快速去除表皮。
+刀刃长 3~4 吋，短小灵活，能深入缝隙并能快速去除表皮。也不要被它的名字迷惑了，当作一把小刀去用就好了。
 
 ### [Victorinox](https://www.amazon.com/Victorinox-Paring-Knife-Straight-Handle/dp/B008M5U1UE) 维氏 Fibrox 3.25吋去皮刀
 9 $
@@ -188,18 +190,31 @@ X50CrMoV15 钢材冲压制造，硬度为 HRC55~56[^fibrox]，价廉物美。
 
 带土豆芽眼去除器，设计感极强，把手整片铝制，手感舒适。
 
-### [貝印](http://www.kai-group.com/store/products/detail/994) SELECT100 T 型削皮刀
+### [貝印](http://www.kai-group.com/store/products/detail/994) DH3000 SELECT100 T 型削皮刀
 1296 JP¥
-![贝印削皮刀](/img/knives/select100.jpg)
+![贝印削皮刀](/img/knives/dh3000.jpg)
 带土豆芽眼去除器，整体感觉跟 REX 很像，但是刀刃并不垂直握把，而是是倾斜 10 度，据说这样会更加顺手。
 
 ## 厨房剪
-* 藤次郎 料理剪
-* MAGLIO NERO 厨房剪
-* 鸟部制作所厨房剪刀
+
+### [貝印](http://www.kai-group.com/store/products/detail/999) DH3005 SELECT100 厨房剪刀
+2700 JP¥
+![贝印厨房剪刀](/img/knives/dh3005.jpg)
+两种刀刃，一薄一厚，适合不同场景。
+
+### [鳥部製作所](http://toribeseisakusho.hp.gogo.jp/pc/free3.html) KS-203 厨房剪
+4374 JP¥
+![鸟部制作所厨房剪](/img/knives/ks-203.jpg)
+极简风格，可拆卸，便于清洗。刀口带锯齿，可轻易 “抓住” 湿滑食材。材质为 SUS303，硬度较差。
+
+### [藤次郎](http://www.tojiro.shop/shopdetail/000000000545/) FK-843 专业厨房剪（可拆式）
+6264 JP¥
+![藤次郎厨房剪](/img/knives/fk-843.jpg)
+
+可拆卸式，便于清洗。材质 VG-10，异常强壮。刀口带锯齿，可轻易 “抓住” 湿滑食材。多功能，可开瓶盖和罐头。缺点是手柄太小。
 
 ## 面包刀（可选）
-10~12 吋
+10~12 吋，就是用于切面包不掉渣。如果不是经常吃面包就没必要啦。
 * Wüsthof Classic 10-Inch Bread Knife
 * Victorinox Fibrox 10 1/4-Inch Bread Knife
 
