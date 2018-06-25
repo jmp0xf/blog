@@ -6,7 +6,7 @@ tags = ["厨具"]
 title = "厨具选择笔记 - 厨刀篇"
 categories = ["烹饪", "家居"]
 markup = "mmark"
-tocCollapseDepth = 3
+tocCollapseDepth = 2
 +++
 
 > 此笔记所列厨具仅作为种子厨具，主要用于了解何为优秀厨具以及优秀品牌，从而根据自身需求进行灵活调整，选择最适合自己的厨具
