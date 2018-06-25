@@ -71,13 +71,6 @@ Table: 厨刀常见材料型号一览表[^steel-data]
 
 67 层叠锻，刀芯材质为 VG-10，硬度可达 HRC60±2，名字虽然有点儿无厘头，刀是好刀。
 
-#### [十八子](https://detail.tmall.com/item.htm?id=544575787763) 斩切刀
-178 CN¥
-
-![十八子文武刀](/img/knives/shibazi.jpg)
-
-材质为三合钢，刃口中间夹层为 8Cr13MoV，两侧为 1Cr17，前切后斩，据说新东方烹饪学院学员用刀即为十八子文武刀。
-
 #### [藤次郎](http://www.tojiro.shop/shopdetail/000000000345/) F-921 DP 钴合金中式菜刀（薄口）
 21600 JP¥
 
@@ -94,10 +87,17 @@ Table: 厨刀常见材料型号一览表[^steel-data]
 ![邓家刀家用斩骨刀](/img/knives/chopper.png)
 锻打夹层，刃口 9Cr15MoV，硬度为 HRC58~60，刃外部 1Cr13，刀身 2Cr13，设置合理，好钢用在刀刃上，百元以下斩骨利器。
 
+#### [十八子](https://detail.tmall.com/item.htm?id=544575787763) 斩切刀
+178 CN¥
+
+![十八子文武刀](/img/knives/shibazi.jpg)
+
+材质为三合钢，刃口中间夹层为 8Cr13MoV，两侧为 1Cr17，前切后斩，据说新东方烹饪学院学员用刀即为十八子文武刀。
+
 ## 西式/日式厨刀
 8 吋左右，西厨必备
 
-### 主厨刀/牛刀
+### 主厨刀/牛刀（Chef's Knife）
 #### [Victorinox](https://www.swissarmy.com/us/en/Products/Cutlery/Chefs-Knives/Fibrox-Pro-8-Inch-Chefs-Knife/p/5.2063.20) 维氏 Fibrox® 8 吋专业主厨刀
 45 $
 
@@ -126,8 +126,8 @@ X50CrMoV15 钢材冲压制造，硬度为 HRC55~56[^fibrox]，价廉物美，入
 ![具良治牛刀](/img/knives/g-2.png)
 CROMOVA 18 材质冲压，[Cooking For Engineers](http://www.cookingforengineers.com/article/129/Chefs-Knives-Rated) 网站评测不考虑价格之最佳性能。更适合手较小的用户。
 
-### 三德刀
-三德刀为日厨对西式主厨刀的改良，最适合用来处理蔬菜水果，处理肉类一般认为不如主厨刀/牛刀。
+### 三德刀（Santoku）
+三德刀为日厨对西式主厨刀的改良，最适合用来处理蔬菜水果，处理肉类一般认为不如主厨刀/牛刀。由于尺寸较小，通常认为会比主厨刀/牛刀更适合妹纸。
 
 #### [MAC](https://www.macknife.com/collections/superior-series/products/superior-series-6-1-2-santoku-sk-65) 真久作 SK-65 Superior 6.5 吋三德刀
 90 $
@@ -146,8 +146,8 @@ CROMOVA 18 材质冲压，[Cooking For Engineers](http://www.cookingforengineers
 ![Misono 三德刀](/img/knives/misono.jpg)
 材质不明，仅说明为瑞典钢材，硬度为 HRC59~60。
 
-## 去皮刀
-刀刃长 3~4 吋，短小灵活，能深入缝隙并能快速去除表皮。也不要被它的名字迷惑了，当作一把小刀去用就好了。
+## 去皮刀（Paring Knife）
+刀刃长 3~4 吋，短小灵活，能深入缝隙并能快速去除表皮。也不要被它的名字迷惑了，当作辅助小刀使用就好了。
 
 ### [Victorinox](https://www.amazon.com/Victorinox-Paring-Knife-Straight-Handle/dp/B008M5U1UE) 维氏 Fibrox 3.25吋去皮刀
 9 $
@@ -173,7 +173,7 @@ X50CrMoV15 钢材冲压制造，硬度为 HRC55~56[^fibrox]，价廉物美。
 专为法国蓝带厨师学院设计，材质为 X50CrMoV15，经过良好的热处理，硬度可达 HRC58。
 
 
-## 蔬果削皮刀
+## 蔬果削皮刀（Peeler）
 最好是带土豆芽眼去除器的。
 
 ### [Kuhn Rikon](https://www.amazon.com/Kuhn-Rikon-Original-4-Inch-Peeler/dp/B000H7O3QS) 瑞士力康 Original 4 吋削皮刀
@@ -196,6 +196,11 @@ X50CrMoV15 钢材冲压制造，硬度为 HRC55~56[^fibrox]，价廉物美。
 带土豆芽眼去除器，整体感觉跟 REX 很像，但是刀刃并不垂直握把，而是倾斜 10 度，据说这样会更加顺手。
 
 ## 厨房剪
+
+### [OXO](https://www.oxo.com/products/preparing/knives-scissors-cutting-boards/kitchen-and-herb-scissors) Good Grips 好握厨房香草剪
+18 $
+![OXO 厨房剪](/img/knives/oxo.jpg)
+握感舒适，可拆卸清洗，刀刃带锯齿，可轻易 “抓住” 湿滑食材。可分离香草的茎和叶。
 
 ### [貝印](http://www.kai-group.com/store/products/detail/999) DH3005 SELECT100 厨房剪刀
 2700 JP¥
@@ -235,27 +240,37 @@ X50CrMoV15 钢材冲压制造，硬度为 HRC55~56[^fibrox]，价廉物美。
 ![三叉面包刀](/img/knives/4151-7.jpg)
 材质为 X50CrMoV15，经过良好的热处理，硬度可达 HRC58。
 
-## 切片刀
-* Victorinox Fibrox 12-Inch Granton Edge Slicing Knife
-
 ## 砧板
-尽可能大而稳
+切感舒适，不伤刀，尽可能大而稳，操作面积最好在 30 cm x 60 cm 以上，虽然市面上很难直接买到…… 厚度尽可能厚一些，3 cm 以上为佳。生熟要分开，备好生案和熟案，更进一步的话再备个水果专用砧板避免和熟食串味。
 
-### 原木
-天然材料竹子太硬，而铁木水太深，也很不好保养，推荐桧木、银杏木、柚木。
+### 天然材料
+中国传统烹饪推荐银杏木、柳木、榉木等软木，日厨常用桧木，而西厨也推荐柚木，因为柚木很好打理並且耐久度高，但是也更坚硬。竹子太硬，而铁木蚬木有味道且不好保养，还可能因为太硬伤刀。
+橄榄木、枫木、胡桃木等硬木制成的西式网红菜板并不适合上刀，更适合装面包牛排上菜。另外要选择端面纹理（End Grain）而非断面纹理（Edge Grain）避免伤刀。天然材料的缺点是潮湿容易发霉，干燥容易开裂，需要较多的保养。
+
+##### [Katajiya](https://www.amazon.co.jp/katajiya-無垢一枚物】-270×450-ハンドメイド品-※削り直しサービス付※/dp/B07CRS2D1C/) 银杏稀有部位砧板 27 x 45 x 2.93 cm
+7500 $
+
+![Katajiya 银杏砧板](/img/knives/katajiya.jpg)
+其实国内的银杏砧板也有不错的，可是市面上琳琅满目、良莠不齐，不敢入坑，只听说泰兴产的很有名。日本九州产的银杏砧板我实在是在网上找不到，只能在日亚上找到这款。还有一块[台湾店卖的](https://aiculife.qdm.com.tw/product/product&product_id=286)，看上去也不错，但是暂时缺货。
+
+##### [MIYABI](https://jp.zwilling-shop.com/jp/Kitchen-World/Knives/Knife-accessories/Cutting-Boards/Cutting-board-Hinoki-extra-large-MIYABI-34535-400-0.html) 桧木菜板 27 x 45 x 3 cm
+14040 $
+![MIYABI 桧木菜板](/img/knives/katajiya.jpg)
+这款加大尺寸经常缺货。
+
 
 * Proteak Edge Grain Teak Cutting Board
-* OXO Good Grips Carving and Cutting Board
-* miyabi 雅/旬/越后/贝印关孙六 桧木菜板
 
 ### 合成材料
-合成材料软硬适中，耐用抗菌，寿司之神也在用。
+合成材料软硬适中，耐用抗菌，卫生好打理，寿司之神小野二郎也在用。
 
-* 长谷川
+
 * 朝日 Ashahi 合成菜板
 
+* 长谷川
+木芯
+
 ### 面包板
-橄榄木、枫木、胡桃木
 
 * 东屋的芝士板
 
@@ -300,6 +315,7 @@ X50CrMoV15 钢材冲压制造，硬度为 HRC55~56[^fibrox]，价廉物美。
 * [推荐一把优点和缺点同样明显、比较适合初学者的厨刀](https://daily.zhihu.com/story/3912580)
 * [All About The Knife Steels - ZKnives.com](http://zknives.com/knives/steels/)
 * [厨刀知识及选购](http://forum.knifriend.com//forum.php?mod=viewthread&tid=210358&extra=page%3D2)
+* [全世界最推荐、最不推荐的砧板都在这里了，挑不对砧板是对厨房不负责](https://zhuanlan.zhihu.com/p/20826782)
 * [铸铁锅之后，菜板是第二个中国人亟需升级的厨房用品，比刀和瓷器都急](https://zhuanlan.zhihu.com/p/24397782)
 * [你见过哪些相见恨晚，特别好用的厨房用具？](https://www.zhihu.com/question/21660743)
 * [11 款厨刀横向评测，不要迷信在国内品牌名气很大的刀](https://daily.zhihu.com/story/3582861)
