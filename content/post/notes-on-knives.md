@@ -171,24 +171,24 @@ X50CrMoV15 钢材冲压制造，硬度为 HRC55~56[^fibrox]，价廉物美。
 专为法国蓝带厨师学院设计，材质为 X50CrMoV15，经过良好的热处理，硬度可达 HRC58。
 
 
-### 蔬果削皮刀
+## 蔬果削皮刀
 最好是带土豆芽眼去除器的。
 
-#### [Kuhn Rikon](https://www.amazon.com/Kuhn-Rikon-Original-4-Inch-Peeler/dp/B000H7O3QS) 瑞士力康 Original 4 吋削皮刀
+### [Kuhn Rikon](https://www.amazon.com/Kuhn-Rikon-Original-4-Inch-Peeler/dp/B000H7O3QS) 瑞士力康 Original 4 吋削皮刀
 4.5 $
 ![瑞士力康削皮刀](/img/knives/kuhn-rikon.jpg)
 
 
 带土豆芽眼去除器，多方推荐，价廉物美。
 
-#### [Zena Swiss](http://www.zena.swiss/en/products/rex) REX 削皮器
+### [Zena Swiss](http://www.zena.swiss/en/products/rex) REX 削皮器
 5.5 $
 
 ![Zena Swiss REX 削皮刀](/img/knives/rex.jpg)
 
 带土豆芽眼去除器，设计感极强，把手整片铝制，手感舒适。
 
-#### [貝印](http://www.kai-group.com/store/products/detail/994) SELECT100 T 型削皮刀
+### [貝印](http://www.kai-group.com/store/products/detail/994) SELECT100 T 型削皮刀
 1296 JP¥
 ![贝印削皮刀](/img/knives/select100.jpg)
 带土豆芽眼去除器，整体感觉跟 REX 很像，但是刀刃并不垂直握把，而是是倾斜 10 度，据说这样会更加顺手。
