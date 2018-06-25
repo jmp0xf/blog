@@ -241,7 +241,7 @@ X50CrMoV15 钢材冲压制造，硬度为 HRC55~56[^fibrox]，价廉物美。
 材质为 X50CrMoV15，经过良好的热处理，硬度可达 HRC58。
 
 ## 砧板
-切感舒适，不伤刀，尽可能大而稳，操作面积最好在 30 cm x 60 cm 以上，虽然市面上很难直接买到…… 厚度尽可能大一些，3 cm 以上为佳。生熟要分开，备好生案和熟案，更进一步的话再备个水果专用砧板避免和熟食串味。
+切感舒适，不伤刀，尽可能大而稳，操作面积最好在 30 cm x 60 cm 以上，虽然市面上很难直接买到…… 厚度尽可能大一些，3 cm 以上为佳。生熟要分开，备好生案和熟案，更进一步的话再备个沙拉水果专用砧板避免和熟食串味。
 
 ### 天然材料
 中国传统烹饪推荐银杏木、柳木、榉木等软木，日厨常用桧木，而西厨也推荐柚木，因为柚木很好打理並且耐久度高，但是也更坚硬。竹子太硬，而铁木蚬木有味道且不好保养，还可能因为太硬伤刀。
@@ -258,28 +258,35 @@ X50CrMoV15 钢材冲压制造，硬度为 HRC55~56[^fibrox]，价廉物美。
 ![MIYABI 桧木菜板](/img/knives/miyabi.jpg)
 尺寸为 27 x 45 x 3 cm，这款加大尺寸经常缺货。
 
-#### [Proteak](https://www.amazon.com/Rectangle-grain-juice-Kitchen-Furniture/dp/B017JY21YM/) 端面柚木砧板（带握把和水槽）
+#### [Proteak](https://www.amazon.com/Rectangle-grain-juice-Kitchen-Furniture/dp/B017JY21YM/) 端面柚木砧板
 210 $
 ![Proteak 柚木砧板](/img/knives/proteak.jpg)
-尺寸为 45 x 61 x 3.8 cm。虽然是拼接而成，但是为端面，并且面积够大。
+尺寸为 45 x 61 x 3.8 cm。带握把和水槽。虽然是拼接而成，但是为端面，并且面积够大。
+
+#### [東屋](https://www.azmaya.co.jp/item/cheese) 芝士板
+3600 JP￥ / 小
+4000 JP￥ / 大
+![东屋芝士板](/img/knives/cheese.jpg)
+
+材质为山樱木。适合盛熟食上桌。
 
 ### 合成材料
-合成材料软硬适中，耐用抗菌，卫生好打理，寿司之神小野二郎也在用。
+合成材料软硬适中，防污抗菌，耐用好打理，寿司之神小野二郎也在用。
 
 #### [HASEGAWA](http://www.hasegawakagaku.co.jp/products/cookinggoods/business/rubber/) 长谷川抗菌橡胶砧板
 9650 JP¥
 ![长谷川抗菌砧板](/img/knives/hasegawa.jpg)
-尺寸为 30 x 60 x 2 cm，木芯。
+尺寸为 30 x 60 x 2 cm，木芯，抗菌防水。
 
-#### [アサヒゴム](https://www.amazon.co.jp/アサヒゴム-ゴム爼板-103号-厚さ30mm/dp/B0763N8415/) 朝日 103 号橡胶砧板
-18029 JP¥
+#### [アサヒゴム](http://www.parker-asahi.co.jp/pdf/Elastic_Rubber_Chop_Board.pdf) 朝日 103 号橡胶砧板
+21300 JP¥
 ![朝日橡胶砧板](/img/knives/ashahi.jpg)
+尺寸为 30 x 60 x 3 cm，抑菌防水，家用理想的砧板。
 
-尺寸为 30 x 60 x 3 cm，家用理想的砧板。
-
-### 面包板
-
-* 东屋的芝士板
+#### [Joseph Joseph](https://www.josephjoseph.com/en-rw/chop-draintm) 滤网切菜板
+91 CN￥
+![Joseph Joseph 滤网切菜板](/img/knives/joseph-joseph.jpg)
+塑料材质。适合切水果蔬菜专用。
 
 ## 磨刀器具
 个人认为刀具最合适的打理方式还是遵循官方指导，当然不可能为每把厨刀配备原装磨刀用具，但是可以看看官方设定这把刀适合何种类型及何种参数的磨刀器具，从而可以选择更加通用的磨刀器具。
