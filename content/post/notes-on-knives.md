@@ -241,34 +241,41 @@ X50CrMoV15 钢材冲压制造，硬度为 HRC55~56[^fibrox]，价廉物美。
 材质为 X50CrMoV15，经过良好的热处理，硬度可达 HRC58。
 
 ## 砧板
-切感舒适，不伤刀，尽可能大而稳，操作面积最好在 30 cm x 60 cm 以上，虽然市面上很难直接买到…… 厚度尽可能厚一些，3 cm 以上为佳。生熟要分开，备好生案和熟案，更进一步的话再备个水果专用砧板避免和熟食串味。
+切感舒适，不伤刀，尽可能大而稳，操作面积最好在 30 cm x 60 cm 以上，虽然市面上很难直接买到…… 厚度尽可能大一些，3 cm 以上为佳。生熟要分开，备好生案和熟案，更进一步的话再备个水果专用砧板避免和熟食串味。
 
 ### 天然材料
 中国传统烹饪推荐银杏木、柳木、榉木等软木，日厨常用桧木，而西厨也推荐柚木，因为柚木很好打理並且耐久度高，但是也更坚硬。竹子太硬，而铁木蚬木有味道且不好保养，还可能因为太硬伤刀。
-橄榄木、枫木、胡桃木等硬木制成的西式网红菜板并不适合上刀，更适合装面包牛排上菜。另外要选择端面纹理（End Grain）而非断面纹理（Edge Grain）避免伤刀。天然材料的缺点是潮湿容易发霉，干燥容易开裂，需要较多的保养。
+橄榄木、枫木、胡桃木等硬木制成的西式网红菜板并不适合上刀，更适合装面包牛排上菜。另外最好选择端面纹理（End Grain）而非断面纹理（Edge Grain），因为如果刀刃垂直木纤维则容易伤刀，这也是为什么大木桩子作砧板最好。天然材料的缺点是潮湿容易发霉，干燥容易开裂，需要较多的保养。
 
-##### [Katajiya](https://www.amazon.co.jp/katajiya-無垢一枚物】-270×450-ハンドメイド品-※削り直しサービス付※/dp/B07CRS2D1C/) 银杏稀有部位砧板 27 x 45 x 2.93 cm
-7500 $
+#### [Katajiya](https://www.amazon.co.jp/katajiya-無垢一枚物】-270×450-ハンドメイド品-※削り直しサービス付※/dp/B07CRS2D1C/) 银杏稀有部位砧板
+7500 JP¥
 
 ![Katajiya 银杏砧板](/img/knives/katajiya.jpg)
-其实国内的银杏砧板也有不错的，可是市面上琳琅满目、良莠不齐，不敢入坑，只听说泰兴产的很有名。日本九州产的银杏砧板我实在是在网上找不到，只能在日亚上找到这款。还有一块[台湾店卖的](https://aiculife.qdm.com.tw/product/product&product_id=286)，看上去也不错，但是暂时缺货。
+尺寸为 27 x 45 x 2.93 cm。其实国内的银杏砧板也有不错的，可是市面上琳琅满目、良莠不齐，不敢入坑，只听说泰兴产的很有名。日本九州产的银杏砧板我实在是在网上找不到，只能在日亚上找到这款。还有一块[台湾店卖的](https://aiculife.qdm.com.tw/product/product&product_id=286)，看上去也不错，但是暂时缺货。
 
-##### [MIYABI](https://jp.zwilling-shop.com/jp/Kitchen-World/Knives/Knife-accessories/Cutting-Boards/Cutting-board-Hinoki-extra-large-MIYABI-34535-400-0.html) 桧木菜板 27 x 45 x 3 cm
-14040 $
-![MIYABI 桧木菜板](/img/knives/katajiya.jpg)
-这款加大尺寸经常缺货。
+#### [MIYABI](https://jp.zwilling-shop.com/jp/Kitchen-World/Knives/Knife-accessories/Cutting-Boards/Cutting-board-Hinoki-extra-large-MIYABI-34535-400-0.html) 桧木菜板
+14040 JP¥
+![MIYABI 桧木菜板](/img/knives/miyabi.jpg)
+尺寸为 27 x 45 x 3 cm，这款加大尺寸经常缺货。
 
-
-* Proteak Edge Grain Teak Cutting Board
+#### [Proteak](https://www.amazon.com/Rectangle-grain-juice-Kitchen-Furniture/dp/B017JY21YM/) 端面柚木砧板（带握把和水槽）
+210 $
+![Proteak 柚木砧板](/img/knives/proteak.jpg)
+尺寸为 45 x 61 x 3.8 cm。虽然是拼接而成，但是为端面，并且面积够大。
 
 ### 合成材料
 合成材料软硬适中，耐用抗菌，卫生好打理，寿司之神小野二郎也在用。
 
+#### [HASEGAWA](http://www.hasegawakagaku.co.jp/products/cookinggoods/business/rubber/) 长谷川抗菌橡胶砧板
+9650 JP¥
+![长谷川抗菌砧板](/img/knives/hasegawa.jpg)
+尺寸为 30 x 60 x 2 cm，木芯。
 
-* 朝日 Ashahi 合成菜板
+#### [アサヒゴム](https://www.amazon.co.jp/アサヒゴム-ゴム爼板-103号-厚さ30mm/dp/B0763N8415/) 朝日 103 号橡胶砧板
+18029 JP¥
+![朝日橡胶砧板](/img/knives/ashahi.jpg)
 
-* 长谷川
-木芯
+尺寸为 30 x 60 x 3 cm，家用理想的砧板。
 
 ### 面包板
 
