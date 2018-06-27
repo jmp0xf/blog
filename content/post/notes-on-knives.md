@@ -60,13 +60,13 @@ Table: 厨刀常见材料型号一览表[^steel-data]
 ### 切片刀
 中厨必备
 
-#### [邓家刀](https://item.jd.com/1586702203.html) 黑旋风家用切片刀
+#### [邓家刀](https://item.jd.com/1586702203.html) TM-9050 黑旋风家用切片刀
 89 CN¥
 ![邓家刀黑旋风家用切片刀](/img/knives/deng.jpg)
 
 锻打夹层，刃口 9Cr15MoV，硬度为 HRC58~60，刃外部 1Cr13，刀身 2Cr13，设置合理，好钢用在刀刃上，百元以下切菜神器。
 
-#### [南方兄弟](https://item.jd.com/12435890857.html) 银锋切片刀
+#### [南方兄弟](https://item.taobao.com/item.htm?id=537983766552) 银锋切片刀
 200 CN¥
 ![南方兄弟银锋切片刀](/img/knives/nanfang.jpg)
 
@@ -83,9 +83,9 @@ Table: 厨刀常见材料型号一览表[^steel-data]
 斩骨刀理论上本来应该是必选，但现代肉业已经发展到超市可以直接买到分解好的带骨肉，在肉铺也可以叫老板帮你斩好，所以除非特别需要亲自斩骨，否则完全可以不备斩骨刀。
 斩骨刀刃角会比切片刀开得大，以降低崩刃的风险。
 
-#### [邓家刀](https://item.jd.com/1748819532.html) 家用斩骨刀
-56 CN¥
-![邓家刀家用斩骨刀](/img/knives/chopper.png)
+#### [邓家刀](https://item.jd.com/10149102632.html) JB-704 家用斩骨刀
+89 CN¥
+![邓家刀家用斩骨刀](/img/knives/jb-704.jpg)
 锻打夹层，刃口 9Cr15MoV，硬度为 HRC58~60，刃外部 1Cr13，刀身 2Cr13，设置合理，好钢用在刀刃上，百元以下斩骨利器。
 
 #### [十八子](https://detail.tmall.com/item.htm?id=544575787763) 斩切刀
@@ -144,7 +144,7 @@ CROMOVA 18 材质冲压，[Cooking For Engineers](http://www.cookingforengineers
 
 #### [Misono](http://www.korin.com/HMI-UXSA-180) UX10 7 吋三德刀
 179.5 $
-![Misono 三德刀](/img/knives/misono.jpg)
+![Misono 三德刀](/img/knives/ux10.jpg)
 材质不明，仅说明为瑞典钢材，硬度为 HRC59~60。
 
 ## 去皮刀（Paring Knife）
@@ -350,7 +350,7 @@ X50CrMoV15 钢材冲压制造，硬度为 HRC55~56[^fibrox]，价廉物美。
 人造砾石。通常入门的选择是 1000 目搭配 5000 目使用。
 
 ## 保养
-永远记住，即使是不锈钢也并非绝对不锈。要延长刀具寿命，原则就是用完及时擦干，不要长时间泡水，南方过于潮湿的环境可以考虑上油防锈。
+永远记住，即使是不锈钢也并非绝对不锈。要延长刀具寿命，原则就是用完及时清洗并擦干，不要长时间泡水，南方过于潮湿的环境可以考虑上油防锈。
 
 ---
 
