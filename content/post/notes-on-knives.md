@@ -54,6 +54,7 @@ Table: 厨刀常见材料型号一览表[^steel-data]
 
 手感则是主观上最为重要的考虑因素，即使刀本身再好，如果用起来不顺手，也不会用得开心。因此，只要有条件，一定要亲自试用厨刀。
 
+极其贵重的刀除了钢材极其优质以外，还会使用特殊工艺在刀身上制造出复杂炫丽的花纹，同时刀柄也会力求奢华，已经完全超出了实用的需要，进入了工艺品的范畴，供壕把玩。
 
 ## 中式菜刀
 ### 切片刀
@@ -95,7 +96,7 @@ Table: 厨刀常见材料型号一览表[^steel-data]
 材质为三合钢，刃口中间夹层为 8Cr13MoV，两侧为 1Cr17，前切后斩，据说新东方烹饪学院学员用刀即为十八子文武刀。
 
 ## 西式/日式厨刀
-8 吋左右，西厨必备
+8 吋左右，西厨必备。
 
 ### 主厨刀/牛刀（Chef's Knife）
 #### [Victorinox](https://www.swissarmy.com/us/en/Products/Cutlery/Chefs-Knives/Fibrox-Pro-8-Inch-Chefs-Knife/p/5.2063.20) 维氏 Fibrox® 8 吋专业主厨刀
@@ -289,34 +290,78 @@ X50CrMoV15 钢材冲压制造，硬度为 HRC55~56[^fibrox]，价廉物美。
 ![Joseph Joseph 滤网切菜板](/img/knives/joseph-joseph.jpg)
 “JoJo” 牌，塑料材质。适合切水果蔬菜专用。
 
-## 磨刀器具
-个人认为刀具最合适的打理方式还是遵循官方指导，当然不可能为每把厨刀配备原装磨刀用具，但是可以看看官方设定这把刀适合何种类型及何种参数的磨刀器具，从而可以选择更加通用的磨刀器具。
-
-电动的虽然方便，但容易磨掉刀身大部分材料
-
-### 磨刀棒
-磨刀棒是用来日常恢复卷曲，只适合延展性较强的刀刃
-一般不能用于 VG-10 硬度以上的，否则反而可能崩刃
-据说金刚石磨刀棒可以
-
-* 英国原产taylor's eye witness不锈钢磨刀棒
-
-
-### 磨刀器
-* Chef's Choice Model 130 Professional Sharpening
-* AccuSharpKnife and Tool Sharpener
-
-### 磨刀石
-* 刃之黑幕磨刀石  1000/5000
-
-
-## 刀架
-
 ## 其他（可选）
 * CERAMIC LIFE 水果刀
 好看？
 * Muskel 六合一多功能切菜器
 
+## 放置
+
+### 刀架
+### 刀带
+
+
+## 磨刀
+个人认为刀具最合适的打理方式还是遵循官方指导，当然不可能为每把厨刀配备原装磨刀用具，但是可以看看官方设定这把刀适合何种类型及何种参数的磨刀器具，从而可以选择更加通用的磨刀器具。可能与直觉相反，在正确的使用过程中，刀越锋利越安全。
+
+### <ruby>珩<rp>(</rp><rt>háng</rt><rp>)</rp></ruby>磨（ Honing）
+软刀刀刃在日常使用中很容易发生轻微弯曲或卷曲形变，从而钝化，但此时不是说没有刀锋了，只是刀刃不直。磨刀棒主要就是用来日常捋直刀刃，恢复锋利，这种磨刀方式叫做珩磨[^honing]，只适合延展性较强的刀，如 X50CrMoV15 材质的大部分德系刀具。
+一般认为不宜用于 HRC60 硬度以上的刀，如大部分日系刀，否则反而只可能崩刃。陶瓷或金刚石材质的磨刀棒因为硬度够大，具有锐磨功效，可适用于硬刀，但捋直功效就大大弱化了。
+
+[^honing]: 其实这个任务更适合叫矫正，珩磨也只是借用的词，也并不准确，参见 [Honing steel](https://en.wikipedia.org/wiki/Honing_steel)。
+
+磨刀棒一般建议 10 吋左右（也就是比刀长 1~2 吋），通常在用刀前后使用。
+
+#### [Taylor's Eye Witness](http://taylors-eye-witness.co.uk/wp-content/uploads/2017/03/taylors-eye-witness-2017-catalogue.pdf) TD9002 10 吋磨刀棒
+12 £
+![Taylor's Eye Witness 磨刀棒](/img/knives/td9002.png)
+不锈钢材质。
+
+#### [Wüsthof](http://www.wusthof.com/products/sharpening/10-steel-with-loop) 三叉 4473 10 吋磨刀棒
+25 $
+![三叉磨刀棒](/img/knives/4473.jpg)
+不锈钢材质。另可根据需求选择它家的陶瓷或金刚石磨刀棒。
+
+### 锐磨（Sharpening）
+如果刀刃变得圆滑，锐利刃角不再，一般使用磨刀石磨去部分材料，重建尖锐刃角。也正因为会磨损材料，所以锐磨会让刀具寿命缩短。
+
+需要注意的参数是磨刀石的目数，目数越高，粒度越细，一般都是用低目数粗磨，再用高目数精磨。
+
+#### 磨刀器
+磨刀器上装配有磨刀石，会比单纯使用磨刀石方便的多，缺点是不够灵活，有很多局限性，还会磨损更多材料。
+而电动磨刀器虽然更方便，但也更容易磨掉刀身大部分材料，更加缩短刀具寿命。
+
+##### [AccuSharp](https://accusharp.com/product/001/) 001C Knife & Tool Sharpener
+7 $
+![AccuSharp Knife & Tool Sharpener](/img/knives/001C.jpg)
+手持磨刀器。适用于西式厨刀，也有适用于日式厨刀 15 度固定刃角的型号。
+
+##### [Chef’s Choice](https://chefschoice.com/product/chefschoice-diamond-hone-angleselect-sharpener-model-1520/) Diamond Hone® AngleSelect® Sharpener Model 1520
+170 $
+![Chef’s Choice Diamond Hone® AngleSelect® Sharpener Model 1520](/img/knives/model1520.jpg)
+电动金刚石磨刀器，同时适用于日式 15 度刃角和西式 20 度刃角，但如果刀的出厂刃角不是 15 或 20 度，则可能不适合。不适用于剪刀和陶瓷刀。
+
+##### [Work Sharp](http://www.worksharptools.com/ken-onion-edition-knife-tool-sharpener.html) Ken Onion Edition 肯洋葱 Knife & Tool Sharpener
+130 $
+![Work Sharp Ken Onion Edition Knife & Tool Sharpener](/img/knives/ken-onion.jpg)
+电动砂带磨刀器。15 到 30 度刃角可调，手动大神也可以选择拆除定角器实现无极角度调节。看上去很工业，实际上是磨刀玩家的究极磨刀神器，开出的刃角带有弧度，比一般的的刃角更加坚固且更具保持性。
+
+#### 磨刀石
+手动使用磨刀石一般是用于拯救损伤严重的刀刃或者进行自由发挥，灵活度极高，仅适合专业人士，新手请选配角度导向器或者定角磨刀器，并预先使用便宜刀练手。
+
+
+##### [刃の黒幕](http://www.hamonokougu.com/page043.html) 磨刀石
+3150 JP￥ / 1000 目
+
+![刃之黒幕磨刀石 # 1000](/img/knives/1000.jpg)
+
+4200 JP￥ / 5000 目
+![刃之黒幕磨刀石 # 5000](/img/knives/5000.jpg)
+
+人造砾石。通常入门的选择是 1000 目搭配 5000 目使用。
+
+## 保养
+永远记住，即使是不锈钢也并非绝对不锈。要延长刀具寿命，原则就是用完及时擦干，不要长时间泡水，南方过于潮湿的环境可以考虑上油防锈。
 
 ---
 
@@ -338,6 +383,7 @@ X50CrMoV15 钢材冲压制造，硬度为 HRC55~56[^fibrox]，价廉物美。
 * [有什么厨房神器推荐的吗？](https://www.zhihu.com/question/24305856)
 * [有哪些餐具或厨具可以让人幸福感大增？](https://www.zhihu.com/question/22763183)
 * [陶瓷刀具的使用性如何，究竟有没有使用的价值？](https://www.zhihu.com/question/20423054)
+* [從原理了解如何正確有效率磨刀](https://medium.com/daily-life-productivity/how-to-sharpen-chef-knives-85a5a8d377cd)
 
 
 
