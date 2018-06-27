@@ -369,7 +369,6 @@ X50CrMoV15 钢材冲压制造，硬度为 HRC55~56[^fibrox]，价廉物美。
 * [你见过哪些相见恨晚，特别好用的厨房用具？](https://www.zhihu.com/question/21660743)
 * [11 款厨刀横向评测，不要迷信在国内品牌名气很大的刀](https://daily.zhihu.com/story/3582861)
 * [有哪些贵而且物有所值的厨房用品值得推荐？](https://www.zhihu.com/question/27511507)
-* [有什么厨房神器推荐的吗？](https://www.zhihu.com/question/24305856)
 * [有哪些餐具或厨具可以让人幸福感大增？](https://www.zhihu.com/question/22763183)
 * [陶瓷刀具的使用性如何，究竟有没有使用的价值？](https://www.zhihu.com/question/20423054)
 * [從原理了解如何正確有效率磨刀](https://medium.com/daily-life-productivity/how-to-sharpen-chef-knives-85a5a8d377cd)
