@@ -33,7 +33,7 @@ tocCollapseDepth = 2
 | 9Cr15MoV  | 58~61 | 0.9%C + 15%Cr + Mo + V | 高级刀具用钢，俗称 9 铬钢
 | VG-10  | 60~62 | 1%C + 15%Cr +  Mo + V + Co + ……| 日系，旬、堺孝行、藤次郎都在用
 | SG2 | 63~65 | 1.35%C + 15%Cr + 2.8%Mo + 2%V + …… | 日系粉末钢，变态硬，高端刀用
-| 陶瓷刀[^ceramic-knife] | 80+ | 二氧化锆 | 耐久性极佳，不会生锈，且不会与食物发生反应残留气味，缺点是难以打磨，容易崩，千万别碰骨头等硬材料，容易碎，特别怕摔[^ceramic-knife-fragile]，以及过于轻盈可能手感不佳。
+| 陶瓷[^ceramic-knife] | 80+ | 二氧化锆 | 耐久性极佳，不会生锈，且不会与食物发生反应残留气味，缺点是难以打磨，容易崩，千万别碰骨头等硬材料，容易碎，特别怕摔[^ceramic-knife-fragile]，以及过于轻盈可能手感不佳。
 Table: 厨刀常见材料型号一览表[^steel-data]
 
 [^steel-data]: 数据主要来自 [All About The Knife Steels](http://zknives.com/knives/steels/)，有些钢材成分保密，则数据来自估计。
