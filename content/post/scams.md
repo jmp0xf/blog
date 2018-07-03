@@ -6,7 +6,7 @@ draft = false
 highlight = false
 tags = ["骗术"]
 title = "骗术"
-categories = ["套路"]
+categories = ["套路", "安全"]
 
 +++
 
