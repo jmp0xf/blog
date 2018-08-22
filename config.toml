@@ -9,7 +9,14 @@ enableRobotsTXT = true
 enableEmoji = true
 
 googleAnalytics = "UA-96139490-1"
-disqusShortname = "jmp0xf"
+
+[params]
+  showTagCloud = false
+  description = "奇丁有术，关注一切好玩的东西"
+  since = "2003"            # Site creation time
+  # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
+  dateFormatToUse = "2006-01-02"
+  livereUID = "MTAyMC8zOTE0MS8xNTY2OA=="
 
 [[menu.main]]             # config your menu              # 配置目录
   name = "主页"
@@ -40,10 +47,3 @@ disqusShortname = "jmp0xf"
   changefreq = "weekly"
   priority = 0.5
   filename = "sitemap.xml"
-
-[params]
-  showTagCloud = false
-  description = "奇丁有术，关注一切好玩的东西"
-  since = "2003"            # Site creation time
-  # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
-  dateFormatToUse = "2006-01-02"
