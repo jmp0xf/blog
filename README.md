@@ -1,6 +1,6 @@
 ## Prerequisites
 * [Go](https://golang.org/dl/) 1.10+
-* [Hugo](https://github.com/gohugoio/hugo#choose-how-to-install) 0.42
+* [Hugo](https://github.com/gohugoio/hugo#choose-how-to-install) 0.59+
 
 ## Running under development
 ```bash

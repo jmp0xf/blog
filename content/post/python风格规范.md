@@ -4,7 +4,7 @@ date = "2015-01-24T22:56:45+08:00"
 description = ""
 draft = false
 highlight = true
-highlight_languages = []
+highlight_languages = ["python"]
 tags = ["风格规范"]
 title = "Python 风格规范"
 categories = ["Python"]
@@ -19,7 +19,7 @@ categories = ["Python"]
 通常每条语句独占一行
 
 正例：
-```
+```python
 if foo == 'blah':
     do_blah_thing()
 do_one()
@@ -28,7 +28,7 @@ do_three()
 ```    
 
 反例：
-```
+```python
 if foo == 'blah': do_blah_thing()
 do_one(); do_two(); do_three()
 ```
@@ -46,7 +46,7 @@ do_one(); do_two(); do_three()
     * 垂直对齐换行元素，或者使用 4 空格的悬挂缩进（第一行无参数）：
 
         正例：
-        ```
+        ```python
         # Aligned with opening delimiter.
         foo = long_function_name(var_one, var_two,
                                  var_three, var_four)
@@ -64,7 +64,7 @@ do_one(); do_two(); do_three()
         ```
         
         反例：
-        ```
+        ```python
         # Arguments on first line forbidden when not using vertical alignment.
         foo = long_function_name(var_one, var_two,
             var_three, var_four)
@@ -79,7 +79,7 @@ do_one(); do_two(); do_three()
     * 行连接时可不使用 4 空格缩进
     
         可选:
-        ```
+        ```python
         # Hanging indents *may* be indented to other than 4 spaces.
         foo = long_function_name(
           var_one, var_two,
@@ -87,7 +87,7 @@ do_one(); do_two(); do_three()
         ```
     
     * `if` 语句换行包括但不限于以下三种风格：
-        ```
+        ```python
         # No extra indentation.
         if (this_is_one_thing and
             that_is_another_thing):
@@ -108,7 +108,7 @@ do_one(); do_two(); do_three()
     
     * 多行数据构建中，右括号可
         * 与尾行数据的首个非空字符对齐：
-            ```
+            ```python
             my_list = [
                 1, 2, 3,
                 4, 5, 6,
@@ -120,7 +120,7 @@ do_one(); do_two(); do_three()
                 )
             ```
         * 也可与首行的首字符对齐：
-            ```
+            ```python
             my_list = [
                 1, 2, 3,
                 4, 5, 6,
@@ -135,7 +135,7 @@ do_one(); do_two(); do_three()
     * 推荐在二元运算符之后换行[^should-a-line-break-before-or-after-a-binary-operator]
 
         正例：
-        ```
+        ```python
         # Yes: easy to match operators with operands
         income = (gross_wages
                   + taxable_interest
@@ -144,7 +144,7 @@ do_one(); do_two(); do_three()
                   - student_loan_interest)
         ```
         反例：
-        ```
+        ```python
         # No: operators sit far away from their operands
         income = (gross_wages +
                   taxable_interest +
@@ -155,7 +155,7 @@ do_one(); do_two(); do_three()
         
     
     * 对过长字符串使用圆括号进行隐式行连接[^Line_length]：
-    ```
+    ```python
     x = ('This will build a very long long '
          'long long long long long long string')
     ```
@@ -163,14 +163,14 @@ do_one(); do_two(); do_three()
     * 更多技巧参考 [Splitting tricky lines](https://github.com/Khan/style-guides/blob/master/style/python.md)
 
 * 若无法使用隐式行连接，使用反斜杠 `\` 显式换行。比如：
-    ```
+    ```python
     with open('/path/to/some/file/you/want/to/read') as file_1, \
          open('/path/to/some/file/being/written', 'w') as file_2:
         file_2.write(file_1.read())
     ```
     可以的话，每行与上行 `.` 或 `=` 进行对齐，或进行 4 空格缩进[^general-layout]：
 
-    ```
+    ```python
     MyModel.query.filter(MyModel.scalar > 120) \
                  .order_by(MyModel.name.desc()) \
                  .limit(10)
@@ -181,13 +181,13 @@ do_one(); do_two(); do_three()
         * 注释中 URL 过长[^Line_length]
     
             正例：
-            ```
+            ```python
             # See details at
             # https://www.example.com/us/developer/documentation/api/content/v2.0/csv_file_name_extension_full_specification.html
             ```
             
             反例：
-            ```
+            ```python
             # See details at
             # https://www.example.com/us/developer/documentation/api/content/\
             # v2.0/csv_file_name_extension_full_specification.html
@@ -202,7 +202,7 @@ do_one(); do_two(); do_three()
 * 推荐使用圆括号包裹元组。
 
 正例：
-```
+```python
 if foo:
     bar()
 while x:
@@ -215,7 +215,7 @@ return foo
 for (x, y) in dict.items(): ...
 ```
 反例：
-```
+```python
 if (x):
     bar()
 if not(x):
@@ -227,17 +227,17 @@ return (foo)
 * 创建单元素元组时必须使用拖尾逗号，同时推荐使用圆括号包裹。
 
     正例：
-    ```
+    ```python
     FILES = ('setup.cfg',)
     ```
     反例：
-    ```
+    ```python
     FILES = 'setup.cfg',
     ```
 * 使用冗余拖尾逗号方便未来对列表值、参数值或导入项目进行扩展，而单行情况使用拖尾逗号毫无意义。
 
     正例：
-    ```
+    ```python
     FILES = [
         'setup.cfg',
         'tox.ini',
@@ -247,7 +247,7 @@ return (foo)
                )
     ```
     反例：
-    ```
+    ```python
     FILES = ['setup.cfg', 'tox.ini',]
     initialize(FILES, error=True,)
     ```
@@ -265,37 +265,37 @@ return (foo)
 * 括号内端无空格
 
     正例：
-    ```
+    ```python
     spam(ham[1], {eggs: 2})
     ```
     反例：
-    ```
+    ```python
     spam( ham[ 1 ], { eggs: 2 } )
     ```
 * 右括号和拖尾逗号（trailing comma）之间无空格
 
     正例：
-    ```
+    ```python
     foo = (0,)
     ```
     反例：
-    ```
+    ```python
     bar = (0, )
     ``` 
 * 逗号、分号、冒号前无空格，其后应有空格（除非在行尾）
 
     正例：
-    ```
+    ```python
     if x == 4: print x, y; x, y = y, x
     ```
     反例：
-    ```
+    ```python
     if x == 4 : print x , y ; x , y = y , x
     ```
     * 然而，若冒号作用类似二元操作符，其两侧应使用相同数量空格，除非某侧参数可省略，则对应空格同时省略。
 
         正例：
-        ```
+        ```python
         ham[1:9], ham[1:9:3], ham[:9:3], ham[1::3], ham[1:9:]
         ham[lower:upper], ham[lower:upper:], ham[lower::step]
         ham[lower+offset : upper+offset]
@@ -305,7 +305,7 @@ return (foo)
     
         反例：
     
-        ```
+        ```python
         ham[lower + offset:upper + offset]
         ham[1: 9], ham[1 :9], ham[1:9 :3]
         ham[lower : : upper]
@@ -314,13 +314,13 @@ return (foo)
 * 参数列表、索引或切片的左括号前无空格
 
     正例：
-    ```
+    ```python
     spam(1)
     
     dct['key'] = lst[index]
     ```
     反例：
-    ```
+    ```python
     spam (1)
     
     dct ['key'] = lst [index]
@@ -328,7 +328,7 @@ return (foo)
 * 勿用行间空格垂直对齐多行标记（如 `:` `#` `=` 等）
 
     正例：
-    ```
+    ```python
     x = 1
     y = 2
     long_variable = 3
@@ -339,7 +339,7 @@ return (foo)
      }
     ```    
     反例：
-    ```
+    ```python
     x             = 1
     y             = 2
     long_variable = 3
@@ -353,13 +353,13 @@ return (foo)
 * 用于指定关键字参数或默认参数值的 `=` 两边无空格
 
     正例：
-    ```
+    ```python
     def complex(real, imag=0.0):
         return magic(r=real, i=imag)
     ```    
 
     反例：
-    ```
+    ```python
     def complex(real, imag = 0.0):
         return magic(r = real, i = imag)
     ``` 
@@ -367,20 +367,20 @@ return (foo)
     * 当函数默认值与函数注解（Function annotations）一起使用时，`=` 两边有空格。
 
         正例：
-        ```
+        ```python
         def munge(sep: AnyStr = None): ...
         def munge(input: AnyStr, sep: AnyStr = None, limit=1000): ...
         ```    
 
         反例：
-        ```
+        ```python
         def munge(input: AnyStr=None): ...
         def munge(input: AnyStr, limit = 1000): ...
         ```    
 * 最低优先级的二元操作符两边有且仅有一个空格，两侧务必保持一致。
 
     正例：
-    ```
+    ```python
     i = i + 1
     submitted += 1
     x = x*2 - 1
@@ -389,7 +389,7 @@ return (foo)
     ```    
 
     反例：
-    ```
+    ```python
     i=i+1
     submitted +=1
     x = x * 2 - 1
@@ -399,13 +399,13 @@ return (foo)
 *   函数注解（Function annotations）遵循一般冒号样式规则，同时用于注解返回值的 `->` 两边有空格。
 
     正例：
-    ```
+    ```python
     def munge(input: AnyStr): ...
     def munge() -> AnyStr: ...
     ```    
 
     反例：
-    ```
+    ```python
     def munge(input:AnyStr): ...
     def munge()->PosInt: ...
     ```    
@@ -428,13 +428,13 @@ return (foo)
 * 每个导入独占一行
 
     正例： 
-    ```
+    ```python
     import os
     import sys
     ```
 
     反例：
-    ```
+    ```python
     import sys, os
     ```
 
@@ -460,7 +460,7 @@ return (foo)
 * Python要求 `from __future__ import` 导入必须放置在除文档字符串以外的所有代码之前。
 
 比如：
-```
+```python
 """This is the example module.
 
 This module does stuff.
@@ -497,7 +497,7 @@ import sys
 * 对于复杂的操作，应在其操作开始前写上若干行注释
 * 对于非一目了然的代码，应在其行尾添加注释
 
-```
+```python
 # We use a weighted dictionary search to find out where i is in
 # the array.  We extrapolate position based on the largest num
 # in the array and the array size and then do binary search to
@@ -520,12 +520,12 @@ if i & (i-1) == 0:        # true iff i is a power of 2
 * 行内注释应以 `#` 和一个空格开始
 
 * 若语意明确，则行内注释是不必要的，不要这样做：
-    ```
+    ```python
     x = x + 1                 # Increment x
     ```
     
     但有时这样是有效的：
-    ```
+    ```python
     x = x + 1                 # Compensate for border
     ```
 
@@ -534,7 +534,7 @@ if i & (i-1) == 0:        # true iff i is a power of 2
 * TODO 注释开头为全大写 “TODO” 字符串，紧跟着是用括号括起来的你的名字、Email 地址或其它标识符。 随后是一个可选的冒号。接着必须有一行注释，解释要做什么。
     例如：
 
-    ```
+    ```python
     # TODO(kl@gmail.com): Use a "*" here for string repetition.
     # TODO(Zeke) Change this to use relations.
     ```
@@ -550,7 +550,7 @@ if i & (i-1) == 0:        # true iff i is a power of 2
     * 接着是一个空行。
     * 最后是文档字符串剩下的部分，它应该与首行第一个引号对齐。
 
-    ```
+    ```python
     """Return a foobang
     
     Optional plotz says to frobnicate the bizbaz first.
@@ -580,7 +580,7 @@ if i & (i-1) == 0:        # true iff i is a power of 2
     列出与接口有关的所有异常。
 
 例如：
-```
+```python
 def fetch_bigtable_rows(big_table, keys, other_silly_variable=None):
     """Fetches rows from a Bigtable.
 
@@ -617,7 +617,7 @@ def fetch_bigtable_rows(big_table, keys, other_silly_variable=None):
 类应该在其定义下有一段描述该类的文档字符串。 如果类有公共属性，那么文档中应该有一个描述属性的小节，并且遵循函数参数文档的格式。
 
 例如：
-```
+```python
 class SampleClass(object):
     """Summary of class here.
 
@@ -639,7 +639,7 @@ class SampleClass(object):
 ```
 
 如果使用注释编写类属性的文档，在 `#` 符号后添加一个冒号 `:`[^comments-pocoo]:
-```
+```python
 class User(object):
     #: the name of the user as unicode string
     name = Column(String)
@@ -681,7 +681,7 @@ class User(object):
 ### Type variable names[^type-variable-names]
 
 Names of type variables introduced in [PEP 484](https://www.python.org/dev/peps/pep-0484/) should normally use CapWords preferring short names: `T` , `AnyStr` , `Num` . It is recommended to add suffixes `_co` or `_contra` to the variables used to declare covariant or contravariant behavior correspondingly. Examples:
-```
+```python
 from typing import TypeVar
 
 VT_co = TypeVar('VT_co', covariant=True)

@@ -1,6 +1,6 @@
 baseURL = "https://kidding.im"
 title = "奇丁有术"
-theme = "er"
+theme = "diary"
 
 languageCode = "zh-hans"
 defaultContentLanguage = "zh-hans"
@@ -16,13 +16,12 @@ googleAnalytics = "UA-96139490-1"
   since = "2003"            # Site creation time
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
   dateFormatToUse = "2006-01-02"
-  livereUID = "MTAyMC8zOTE0MS8xNTY2OA=="
+  livereId = "MTAyMC8zOTE0MS8xNTY2OA=="
 
-[[menu.main]]             # config your menu              # 配置目录
-  name = "主页"
-  weight = 10
-  identifier = "home"
-  url = "/"
+[taxonomies]
+   tag = "tags"
+   category = "categories"
+
 [[menu.main]]
   name = "归档"
   weight = 20
@@ -47,3 +46,34 @@ googleAnalytics = "UA-96139490-1"
   changefreq = "weekly"
   priority = 0.5
   filename = "sitemap.xml"
+
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+      [markup.goldmark.extensions]
+        definitionList = true
+        footnote = true
+        linkify = true
+        strikethrough = true
+        table = true
+        taskList = true
+        typographer = true
+      [markup.goldmark.parser]
+        attribute = true
+        autoHeadingID = true
+        autoHeadingIDType = "github"
+      [markup.goldmark.renderer]
+        hardWraps = false
+        unsafe = true
+        xhtml = false
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4

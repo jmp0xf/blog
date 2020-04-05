@@ -1,3 +1,3 @@
-[submodule "themes/er"]
-	path = themes/er
-	url = https://github.com/jmp0xf/er.git
+[submodule "themes/diary"]
+	path = themes/diary
+	url = https://github.com/jmp0xf/hugo-theme-diary.git

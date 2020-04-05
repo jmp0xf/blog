@@ -3,7 +3,7 @@ author = ""
 date = "2015-01-24T15:20:26+08:00"
 description = ""
 highlight = true
-highlight_languages = []
+highlight_languages = ["python"]
 tags = ["编码指南"]
 title = "Python 编码指南"
 categories = ["Python"]
@@ -16,14 +16,14 @@ categories = ["Python"]
 * 仅对包和模块使用导入[^imports-google]
 * 推荐使用绝对路径进行导入
 
-    ```
+    ```python
     import mypkg.sibling
     from mypkg import sibling
     from mypkg.sibling import example
     ```
     * 然而对于复杂包结构，显式相对导入也是可以接受的：
 
-        ```
+        ```python
         from . import sibling
         from .sibling import example
         ```
@@ -32,7 +32,7 @@ categories = ["Python"]
 
 * 即使是脚本文件也应该可以导入。代码应该总在执行主程序前检查 `if __name__ == '__main__'`，这样当模块被导入时主程序就不会被执行[^Main]。
 
-    ```
+    ```python
     def main():
           ...
     
@@ -42,14 +42,14 @@ categories = ["Python"]
 
 * 从模块导入类时，通常可以这样导入：
 
-    ```
+    ```python
     from MyClass import MyClass
     from foo.bar.YourClass import YourClass
     ```
 
     如果导致了本地命名冲突，则这样导入：
 
-    ```
+    ```python
     import MyClass
     import foo.bar.YourClass
     ```
@@ -77,7 +77,7 @@ categories = ["Python"]
 
 
 正例：
-```
+```python
 result = []
 for x in range(10):
   for y in range(5):
@@ -102,7 +102,7 @@ eat(jelly_bean for jelly_bean in jelly_beans
 ```
 
 反例：
-```
+```python
 result = [(x, y) for x in range(10) for y in range(5) if x * y > 10]
 
 return ((x, y, z)
@@ -128,14 +128,14 @@ return ((x, y, z)
 不使用可变对象作为函数或方法的参数默认值。
 
 正例：
-```
+```python
 def foo(a, b=None):
     if b is None:
         b = []
 ```
 
 反例：
-```
+```python
 def foo(a, b=[]):
     ...
 def foo(a, b=time.time()):  # The time the module was loaded???
@@ -148,7 +148,7 @@ def foo(a, b=FLAGS.my_thing):  # sys.argv has not yet been parsed...
 在函数或方法中，返回语句要么都返回某表达式，要么都不返回。
 
 正例：
-```
+```python
 def foo(x):
     if x >= 0:
         return math.sqrt(x)
@@ -162,7 +162,7 @@ def bar(x):
 ```
 
 反例：
-```
+```python
 def foo(x):
     if x >= 0:
         return math.sqrt(x)
@@ -192,7 +192,7 @@ def bar(x):
     * 如果子类没有覆盖属性，那么属性继承可能看上去不明显。 因此使用者必须确保访问方法被间接调用，以保证子类中的重载方法被属性调用（使用模板方法设计模式）[^Properties]。
     像这样：
 
-        ```
+        ```python
         import math
         
         class Square(object):
@@ -244,11 +244,11 @@ def bar(x):
 对象的类型比较应始终使用 `isinstance()` 而非直接比较类型。
 
 正例：
-```
+```python
 if isinstance(obj, int):
 ```
 反例：
-```
+```python
 if type(obj) is type(1):
 ```
 
@@ -264,7 +264,7 @@ To minimize the effort involved, the `functools.total_ordering()` decorator prov
 
 * 模块或包应定义自己的特定域的异常基类，此基类应从内建的 `Exception` 类继承，而不是 `BaseException`。模块的异常基类应命名为 “Error”[^Exceptions]。
  
-    ```
+    ```python
     class Error(Exception):
     pass
     ```
@@ -276,7 +276,7 @@ To minimize the effort involved, the `functools.total_ordering()` decorator prov
 * 当捕获异常到一个变量时，使用 `as` 而非逗号。
 
     例如：
-    ```
+    ```python
     try:
         raise Error
     except Error as error:
@@ -295,15 +295,15 @@ To minimize the effort involved, the `functools.total_ordering()` decorator prov
 * 不要用 `==` 将一个布尔量与 `true`/`false` 比较[^programming-recommendations]。
 
     正例：
-    ```
+    ```python
     if greeting:
     ```
     反例：
-    ```
+    ```python
     if greeting == True:
     ```
     更糟糕：
-    ```
+    ```python
     if greeting is True:
     ``` 
 
@@ -313,12 +313,12 @@ To minimize the effort involved, the `functools.total_ordering()` decorator prov
 * 对于序列（字符串、列表、元组），利用空序列是隐式 `false` 的表达[^programming-recommendations]。
 
     正例：
-    ```
+    ```python
     if not seq:
     if seq:
     ```
     反例：
-    ```
+    ```python
     if len(seq):
     if not len(seq):
     ```
@@ -326,7 +326,7 @@ To minimize the effort involved, the `functools.total_ordering()` decorator prov
 * 处理整数时，使用隐式 `false` 可能会得不偿失（即不小心将 `None` 当做 0 来处理），可将已知为整型（且不是 `len()` 的返回结果）的值与 0 比较[^True_False_evaluations]。
 
     正例：
-    ```
+    ```python
     if not users:
         print 'no users'
     
@@ -337,7 +337,7 @@ To minimize the effort involved, the `functools.total_ordering()` decorator prov
         self.handle_multiple_of_ten()
     ```
     反例：
-    ```
+    ```python
     if len(users) == 0:
         print 'no users'
     
@@ -370,19 +370,19 @@ To minimize the effort involved, the `functools.total_ordering()` decorator prov
     * 无论何时获取或释放资源，上下文管理器应该经由函数或方法进行调用[^programming-recommendations]。
 
         正例：
-        ```
+        ```python
         with conn.begin_transaction():
             do_stuff_in_transaction(conn)
         ```
         反例：
-        ```
+        ```python
         with conn:
             do_stuff_in_transaction(conn)
         ```
 
     * 对于不支持 `with` 的类似文件的对象，使用 `contextlib.closing()`：
 
-        ```
+        ```python
         import contextlib
         
         with contextlib.closing(urllib.urlopen("http://www.python.org/")) as front_page:
@@ -394,7 +394,7 @@ To minimize the effort involved, the `functools.total_ordering()` decorator prov
 * 不要使用 `+` 或 `+=` 循环累积连接字符串，使用 `"".join()` 方法。
 
     正例：
-    ```
+    ```python
     items = ['<table>']
     for last_name, first_name in employee_list:
         items.append('<tr><td>%s, %s</td></tr>' % (last_name, first_name))
@@ -402,7 +402,7 @@ To minimize the effort involved, the `functools.total_ordering()` decorator prov
     employee_table = ''.join(items)
     ```
     反例：
-    ```
+    ```python
     employee_table = '<table>'
     for last_name, first_name in employee_list:
         employee_table += '<tr><td>%s, %s</td></tr>' % (last_name, first_name)
@@ -412,7 +412,7 @@ To minimize the effort involved, the `functools.total_ordering()` decorator prov
 * 使用 `%` 操作符或者 `"".format()` 方法格式化字符串。不过也不能完全一概而论，需要在 `+` 和格式化方式之间好好权衡。
 
     正例：
-    ```
+    ```python
     x = a + b
     x = '%s, %s!' % (imperative, expletive)
     x = '{}, {}!'.format(imperative, expletive)
@@ -420,7 +420,7 @@ To minimize the effort involved, the `functools.total_ordering()` decorator prov
     x = 'name: {}; score: {}'.format(name, n)
     ```
     反例：
-    ```
+    ```python
     x = '%s%s' % (a, b)  # use + in this case
     x = '{}{}'.format(a, b)  # use + in this case
     x = imperative + ', ' + expletive + '!'
